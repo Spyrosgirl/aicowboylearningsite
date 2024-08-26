@@ -5,29 +5,25 @@ export const Auth0Features = () => {
   const featuresList = [
     {
       title: "NVIDIA Data Science Course",
-      description:
-        "Insert Intro Blurb",
+      description: "Insert Intro Blurb",
       resourceUrl: "https://auth0.com/docs/connections",
       icon: "https://cdn.auth0.com/blog/hello-auth0/identity-providers-logo.svg",
     },
     {
       title: "NVIDIA Deep Learning Course",
-      description:
-        "Insert Intro Blurb",
+      description: "Insert Intro Blurb",
       resourceUrl: "https://auth0.com/docs/multifactor-authentication",
       icon: "https://cdn.auth0.com/blog/hello-auth0/mfa-logo.svg",
     },
     {
       title: "Edge AI and Robotics Course",
-      description:
-        "Insert Intro Blurb",
+      description: "Insert Intro Blurb",
       resourceUrl: "https://auth0.com/docs/attack-protection",
       icon: "https://cdn.auth0.com/blog/hello-auth0/advanced-protection-logo.svg",
     },
     {
       title: "Accelerated Computing Course",
-      description:
-        "Insert Intro Blurb",
+      description: "Insert Intro Blurb",
       resourceUrl: "https://auth0.com/docs/actions",
       icon: "https://cdn.auth0.com/blog/hello-auth0/private-cloud-logo.svg",
     },
