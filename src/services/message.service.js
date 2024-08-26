@@ -1,7 +1,7 @@
 export const getPublicResource = async () => {
   return {
     data: {
-      text: "This is going to be a course.",
+      text: "deep learning for science and engineering",
     },
   };
 };
