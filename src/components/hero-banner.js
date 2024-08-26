@@ -11,7 +11,7 @@ export const HeroBanner = () => {
       <h1 className="hero-banner__headline">Hello, React World!</h1>
       <p className="hero-banner__description">
         This is a sample application that demonstrates the authentication flow
-        for React apps using <strong>Auth0</strong>.
+        for React apps HI ROBIN <strong>Auth0</strong>.
       </p>
       <a
         id="code-sample-link"
