@@ -5,7 +5,7 @@
   flex-shrink: 0;
   width: 100%;
 
-  box-shadow: rgb(90 95 102) 0-1.5px 0 inset;
+  box-shadow: rgb(19 199 199) 0-1.5px 0 inset;
 
   z-index: 300;
   background-color: rgb(0 255 255);
@@ -83,7 +83,7 @@
 }
 
 .nav-bar__tab:hover {
-  color: var(--white);
+  color: var(--black);
 }
 
 .nav-bar__icon {
@@ -97,11 +97,11 @@
 
 @media only screen and (max-width: 640px) and (hover: none) {
   .mobile-nav-bar__tab:hover {
-    color: var(--white);
+    color: var(--black);
   }
 
   .mobile-nav-bar__tab--active:hover {
-    color: var(--white);
+    color: var(--black);
   }
 }
 
