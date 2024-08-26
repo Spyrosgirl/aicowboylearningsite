@@ -5,7 +5,6 @@ import { getPublicResource } from "../services/message.service";
 
 export const PublicPage = () => {
   const [message, setMessage] = useState("");
-  
   useEffect(() => {
     let isMounted = true;
 
