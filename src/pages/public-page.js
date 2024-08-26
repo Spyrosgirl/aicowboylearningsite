@@ -39,16 +39,8 @@ export const PublicPage = () => {
           Courses
         </h1>
         <div className="content__body">
-          <p id="page-description">
-            <span>
-              This page will retrieve all courses from the list of courses
-            </span>
-            <span>
-              <strong>Any visitor can access this page </strong>
-              but only registered users can purchase and see their courses
-            </span>
-          </p>
           <CodeSnippet title="Courses" code={message} />
+          <button> deep learning for science and engineering </button>
         </div>
       </div>
     </PageLayout>
