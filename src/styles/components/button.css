@@ -96,7 +96,7 @@
 .button__sign-up {
   min-width: 8.4rem;
 
-  border: 0.1rem solid var(--white);
+  border: 0.1rem solid var(--black);
   color: var(--white);
   background-color: var(--black);
   width: 50%;
