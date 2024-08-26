@@ -7,8 +7,8 @@ export const NavBarBrand = () => {
       <NavLink to="/">
         <img
           className="nav-bar__logo"
-          src="https://github.com/Spyrosgirl/aicowboylearningsite/blob/main/src/styles/components/logoSmall.png"
-          alt="Auth0 shield logo"
+          src="https://raw.githubusercontent.com/Spyrosgirl/aicowboylearningsite/main/src/styles/components/logoSmall.png?token=GHSAT0AAAAAACWSGUA2HNX5IOBQGFOIZZTCZWLZEJQ"
+          alt="aicowboyslogo"
           width="122"
           height="36"
         />
