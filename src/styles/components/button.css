@@ -30,11 +30,11 @@
 }
 
 .button--primary {
-  background-color: rgb(221,54,138);
+  background-color: rgb(221 54 138);
 }
 
 .button--primary:hover {
-  background: rgba(99, 93, 255, 0.85);
+  background: rgb(221 54 138);
 }
 
 .button--secondary {
