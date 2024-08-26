@@ -30,7 +30,7 @@
 }
 
 .button--primary {
-  background-color: var(--indigo);
+  background-color: rgb(221,54,138);
 }
 
 .button--primary:hover {
