@@ -4,7 +4,7 @@ import { PageLayout } from "../components/page-layout";
 import { getPublicResource } from "../services/message.service";
 
 export const PublicPage = () => {
-  const [message, setMessage] = useState();
+  const [message, setMessage] = useState("");
   console.log(typeof message);
 
   useEffect(() => {
