@@ -71,9 +71,9 @@
 .button__logout {
   min-width: 8.4rem;
 
-  border: 0.1rem solid var(--indigo);
+  border: 0.1rem solid  rgb(221 54 138);
   color: var(--white);
-  background: var(--indigo);
+  background: rgb(221 54 138);
   width: 50%;
   font-size: 1.6rem;
 
