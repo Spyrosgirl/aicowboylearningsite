@@ -4,14 +4,14 @@ import { Auth0Feature } from "./auth0-feature";
 export const Auth0Features = () => {
   const featuresList = [
     {
-      title: "NVIDIA Data Science Course",
+      title: "cuOpt Programming Course",
       description:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper eleifend. Donec vitae dui eget dolor sollicitudin auctor. Mauris in erat nec arcu gravida auctor. Integer nec venenatis ligula. Vestibulum consequat odio non ex dictum, in fermentum turpis fermentum.",
       resourceUrl: "https://auth0.com/docs/connections",
       icon: "https://cdn.auth0.com/blog/hello-auth0/identity-providers-logo.svg",
     },
     {
-      title: "NVIDIA Deep Learning Course",
+      title: "CUDA - Quantum Course",
       description:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper eleifend. Donec vitae dui eget dolor sollicitudin auctor. Mauris in erat nec arcu gravida auctor. Integer nec venenatis ligula. Vestibulum consequat odio non ex dictum, in fermentum turpis fermentum.",
       resourceUrl: "https://auth0.com/docs/multifactor-authentication",
