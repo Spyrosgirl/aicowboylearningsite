@@ -98,7 +98,7 @@
 
   border: 0.1rem solid var(--white);
   color: var(--white);
-  background-color: transparent;
+  background-color: var(--black);
   width: 50%;
   font-size: 1.6rem;
 
