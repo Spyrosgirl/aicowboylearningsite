@@ -41,14 +41,14 @@ export const PublicPage = () => {
         <div className="content__body">
           <p id="page-description">
             <span>
-              This page retrieves a <strong>public message</strong> from an
-              external API.
+              This page will retrieve all courses from the list of courses
             </span>
             <span>
-              <strong>Any visitor can access this page.</strong>
+              <strong>Any visitor can access this page </strong>
+              but only registered users can purchase and see their courses
             </span>
           </p>
-          <CodeSnippet title="Public Message" code={message} />
+          <CodeSnippet title="Courses" code={message} />
         </div>
       </div>
     </PageLayout>
