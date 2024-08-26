@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from "react";
-import { CodeSnippet } from "../components/code-snippet";
 import { PageLayout } from "../components/page-layout";
 import { getPublicResource } from "../services/message.service";
 
@@ -39,7 +38,6 @@ export const PublicPage = () => {
           Courses
         </h1>
         <div className="content__body">
-          <CodeSnippet title="Courses" code={message} />
           <button> deep learning for science and engineering </button>
         </div>
       </div>
