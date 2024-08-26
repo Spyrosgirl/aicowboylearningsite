@@ -39,7 +39,6 @@ export const PublicPage = () => {
         </h1>
         <div className="content__body">
           <CodeSnippet title="Courses" code={message} />
-          <button> deep learning for science and engineering </button>
         </div>
       </div>
     </PageLayout>
