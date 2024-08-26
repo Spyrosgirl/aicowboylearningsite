@@ -9,8 +9,8 @@ export const NavBarBrand = () => {
           className="nav-bar__logo"
           src="https://raw.githubusercontent.com/Spyrosgirl/aicowboylearningsite/main/src/styles/components/logoSmall.png?token=GHSAT0AAAAAACWSGUA2HNX5IOBQGFOIZZTCZWLZEJQ"
           alt="aicowboyslogo"
-          width="500"
-          height="168"
+          width="122"
+          height="36"
         />
       </NavLink>
     </div>
