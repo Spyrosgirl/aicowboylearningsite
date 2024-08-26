@@ -40,9 +40,7 @@ export const PublicPage = () => {
         </h1>
         <div className="content__body">
           <p id="page-description">
-            <span>
-              This page will hold the courses
-            </span>
+            <span> This page will hold the courses </span>
             <span>
               <strong >Any visitor can access this page.</strong>
             </span>
