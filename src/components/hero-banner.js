@@ -16,10 +16,10 @@ export const HeroBanner = () => {
         id="code-sample-link"
         target="_blank"
         rel="noopener noreferrer"
-        href="https://auth0.com/developers/hub/code-samples/spa/react-javascript/basic-authentication-with-react-router-6"
+        href="https://theaicowboys.com/about-us"
         className="button button--secondary"
       >
-        Check out the React code sample →
+        Check out the AI Cowboys Team →
       </a>
     </div>
   );
