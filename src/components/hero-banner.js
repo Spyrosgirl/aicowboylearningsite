@@ -10,7 +10,7 @@ export const HeroBanner = () => {
       </div>
       <h1 className="hero-banner__headline">Howdy!</h1>
       <p className="hero-banner__description">
-        Welcome to the <strong>AI Cowboys</strong> Deep Learning hub. 
+        Welcome to the <strong>AI Cowboys</strong> Deep Learning hub 
       </p>
       <a
         id="code-sample-link"
