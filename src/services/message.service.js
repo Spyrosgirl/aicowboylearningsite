@@ -1,7 +1,7 @@
 export const getPublicResource = async () => {
   return {
     data: {
-      text: "This is a public message.",
+      text: "This is going to be a course.",
     },
   };
 };
