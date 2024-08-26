@@ -40,9 +40,12 @@ export const PublicPage = () => {
         </h1>
         <div className="content__body">
           <p id="page-description">
-            <span> This page will hold the courses </span>
             <span>
-              <strong>Any visitor can access this page </strong>
+              This page retrieves a <strong>public message</strong> from an
+              external API.
+            </span>
+            <span>
+              <strong>Any visitor can access this page.</strong>
             </span>
           </p>
           <CodeSnippet title="Public Message" code={message} />
