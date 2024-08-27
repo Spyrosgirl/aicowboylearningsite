@@ -2,7 +2,7 @@ import React from "react";
 
 export const CourseCodeSnippet = ({ title, desc, price, link }) => {
   const handleClick = () => {
-    window.open(link, '_blank');
+    window.open(link, "_blank");
   };
 
   return (
