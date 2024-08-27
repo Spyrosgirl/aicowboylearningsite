@@ -32,7 +32,7 @@ export const PublicPage = () => {
         </h1>
         <div className="content__body">
           {courses.map((course) => (
-           <CourseCodeSnippet 
+            <CourseCodeSnippet
               key={course.courseID}
               title={course.title}
               desc={course.price}
