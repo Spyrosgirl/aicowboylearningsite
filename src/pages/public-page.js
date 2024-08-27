@@ -1,6 +1,6 @@
 import React from "react";
 import { PageLayout } from "../components/page-layout";
-import { CodeSnippet } from "../components/CourseCodeSnippet";
+import { CourseCodeSnippet } from "../components/CourseCodeSnippet";
 export const PublicPage = () => {
   return (
     <PageLayout>
@@ -9,7 +9,7 @@ export const PublicPage = () => {
           Courses
         </h1>
         <div className="content__body">
-          <CodeSnippet title="Courses" desc="This is a course desc" />
+          <CourseCodeSnippet title="Courses" desc="This is a course desc" />
         </div>
       </div>
     </PageLayout>
