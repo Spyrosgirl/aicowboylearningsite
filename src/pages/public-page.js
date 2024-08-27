@@ -6,7 +6,7 @@ const courses = [
   {
     courseID: 1,
     title: "deep learning for science and engineering",
-    link: "https://drive.google.com/drive/folders/1gYCRlacUzgVr71hGGw51b5UwaItF0V5b?usp=drive_link".
+    link: "https://drive.google.com/drive/folders/1gYCRlacUzgVr71hGGw51b5UwaItF0V5b?usp=drive_link",
     desc: "Course One Desc",
     price: "$2.00",
     owned: false,
