@@ -1,6 +1,6 @@
 import React from "react";
 import { PageLayout } from "../components/page-layout";
-import { CodeSnippet } from "../components/courseCodeSnippet";
+import { CodeSnippet } from "../components/CourseCodeSnippet";
 export const PublicPage = () => {
   return (
     <PageLayout>
