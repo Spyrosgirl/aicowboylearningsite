@@ -41,7 +41,7 @@ export const PublicPage = () => {
             ) : null
           )}
         </div>
-        <h2>More courses we think you would like</h2
+        <h2>More courses we think you would like</h2>
         <div className="content__body">
           {courses.map((course) =>
             !course.owned ? (
