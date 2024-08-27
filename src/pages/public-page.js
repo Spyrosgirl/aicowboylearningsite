@@ -41,7 +41,7 @@ export const PublicPage = () => {
             ) : null
           )}
         </div>
-      <div className="content__body">
+        <div className="content__body">
           {courses.map((course) =>
             !course.owned ? (
               <CourseCodeSnippet
