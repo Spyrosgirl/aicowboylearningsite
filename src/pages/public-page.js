@@ -42,6 +42,18 @@ export const PublicPage = () => {
           )}
         </div>
       </div>
+      <div className="content__body">
+          {courses.map((course) =>
+            !course.owned ? (
+              <CourseCodeSnippet
+                key={course.courseID}
+                title={course.title}
+                desc={course.price}
+              />
+            ) : null
+          )}
+        </div>
+      </div>
     </PageLayout>
   );
 };
