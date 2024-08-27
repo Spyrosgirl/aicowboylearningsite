@@ -1,7 +1,7 @@
 import React from "react";
 
 export const CourseCodeSnippet = ({ title, desc, price }) => (
-  <div className="code-snippet">
+  <button className="code-snippet">
     <span className="code-snippet__title">{title}</span>
     <span className="code-snippet__title">{price}</span>
     <div className="code-snippet__container">
@@ -9,5 +9,5 @@ export const CourseCodeSnippet = ({ title, desc, price }) => (
         <button className="code-snippet__body">{desc}</button>
       </div>
     </div>
-  </div>
+  </button>
 );
