@@ -2,11 +2,24 @@ import React from "react";
 import { PageLayout } from "../components/page-layout";
 
 const courses = [
-  {courseID: 1, title: "deep learning for science and engineering", price: "$2.00", owned: false},
-  {courseID: 2, title: "nvidia dli data science", price: "$5.00", owned: true},
-  {courseID: 3, title: "nvidia dli deep", price: "$3.00", owned: false}
+  {
+    courseID: 1,
+    title: "deep learning for science and engineering",
+    price: "$2.00",
+    owned: false
+  },
+  {
+    courseID: 2,
+    title: "nvidia dli data science",
+    price: "$5.00",
+    owned: true},
+  {
+    courseID: 3,
+    title: "nvidia dli deep",
+    price: "$3.00",
+    owned: false}
 ]
-
+console.log(courses)
 export const PublicPage = () => {
   return (
     <PageLayout>
