@@ -32,11 +32,13 @@ export const PublicPage = () => {
         </h1>
         <div className="content__body">
           {courses.map((course) => (
-            <CourseCodeSnippet
-              key={course.courseID}
-              title={course.title}
-              desc={course.price}
-            />
+            course.owned ? ( 
+              <CourseCodeSnippet
+                key={course.courseID}
+                title={course.title}
+                desc={course.price}
+              />
+            ) : null
           ))}
         </div>
       </div>
