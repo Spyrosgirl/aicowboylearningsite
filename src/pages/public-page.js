@@ -6,6 +6,7 @@ const courses = [
   {
     courseID: 1,
     title: "deep learning for science and engineering",
+    link: "https://drive.google.com/drive/folders/1gYCRlacUzgVr71hGGw51b5UwaItF0V5b?usp=drive_link".
     desc: "Course One Desc",
     price: "$2.00",
     owned: false,
@@ -13,6 +14,7 @@ const courses = [
   {
     courseID: 2,
     title: "nvidia dli data science",
+    link: "https://drive.google.com/drive/folders/1bIQISTier9NlpXNSHlgm10TxCs8msA9n?usp=drive_link",
     desc: "Course Two Desc",
     price: "$5.00",
     owned: true,
@@ -20,6 +22,7 @@ const courses = [
   {
     courseID: 3,
     title: "nvidia dli deep",
+    link: "https://drive.google.com/drive/folders/1dgGK5ABHKBH9foCXDjnHW5dnICmCmYsM?usp=drive_link",
     desc: "Course Three Desc",
     price: "$3.00",
     owned: false,
