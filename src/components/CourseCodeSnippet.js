@@ -1,7 +1,11 @@
 import React from "react";
 
 export const CourseCodeSnippet = ({ title, desc, price, link }) => (
-  <a href={link} className="code-snippet">
+  const handleClick = () => {
+    window.location.href = link;
+  };
+  
+  <div onclick={handleClick} className="code-snippet">
     <span className="code-snippet__title">{title}</span>
     <span className="code-snippet__title">{price}</span>
     <div className="code-snippet__container">
@@ -9,5 +13,5 @@ export const CourseCodeSnippet = ({ title, desc, price, link }) => (
         <button className="code-snippet__body">{desc}</button>
       </div>
     </div>
-  </a>
+  </div>
 );
