@@ -57,6 +57,7 @@ export const PublicPage = () => {
                 title={course.title}
                 desc={course.desc}
                 price={course.price}
+                link={course.link}
               />
             ) : null
           )}
