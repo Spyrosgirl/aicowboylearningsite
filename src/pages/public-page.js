@@ -19,9 +19,9 @@ const courses = [
     title: "nvidia dli deep",
     price: "$3.00",
     owned: false,
-  }
-]
-console.log(courses)
+  },
+];
+console.log(courses);
 export const PublicPage = () => {
   return (
     <PageLayout>
