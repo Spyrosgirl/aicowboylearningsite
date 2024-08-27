@@ -31,9 +31,7 @@ export const PublicPage = () => {
           Courses
         </h1>
         <div className="content__body">
-            {courses.map((course) => (
-              <CourseCodeSnippet title={course.title} desc={course.price} />
-            ))}
+            {courses.map((course) => (<CourseCodeSnippet title={course.title} desc={course.price} />))}
         </div>
       </div>
     </PageLayout>
