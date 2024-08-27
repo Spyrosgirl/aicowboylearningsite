@@ -6,18 +6,21 @@ const courses = [
   {
     courseID: 1,
     title: "deep learning for science and engineering",
+    desc: "Course One Desc",
     price: "$2.00",
     owned: false,
   },
   {
     courseID: 2,
     title: "nvidia dli data science",
+    desc: "Course Two Desc",
     price: "$5.00",
     owned: true,
   },
   {
     courseID: 3,
     title: "nvidia dli deep",
+    desc: "Course Three Desc",
     price: "$3.00",
     owned: false,
   },
@@ -28,7 +31,7 @@ export const PublicPage = () => {
     <PageLayout>
       <div className="content-layout">
         <h1 id="page-title" className="content__title">
-          Courses
+          Your Courses
         </h1>
         <div className="content__body">
           {courses.map((course) =>
@@ -36,7 +39,8 @@ export const PublicPage = () => {
               <CourseCodeSnippet
                 key={course.courseID}
                 title={course.title}
-                desc={course.price}
+                desc={course.desc}
+                price={course.price}
               />
             ) : null
           )}
@@ -48,7 +52,8 @@ export const PublicPage = () => {
               <CourseCodeSnippet
                 key={course.courseID}
                 title={course.title}
-                desc={course.price}
+                desc={course.desc}
+                price={course.price}
               />
             ) : null
           )}
