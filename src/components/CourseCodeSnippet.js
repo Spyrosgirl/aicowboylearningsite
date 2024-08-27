@@ -9,5 +9,5 @@ export const CourseCodeSnippet = ({ title, desc, price, link }) => (
         <button className="code-snippet__body">{desc}</button>
       </div>
     </div>
-  </button>
+  </a>
 );
