@@ -41,7 +41,6 @@ export const PublicPage = () => {
             ) : null
           )}
         </div>
-      </div>
       <div className="content__body">
           {courses.map((course) =>
             !course.owned ? (
