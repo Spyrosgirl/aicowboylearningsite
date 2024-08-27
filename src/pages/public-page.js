@@ -31,15 +31,15 @@ export const PublicPage = () => {
           Courses
         </h1>
         <div className="content__body">
-          {courses.map((course) => (
-            course.owned ? ( 
+          {courses.map((course) => 
+            course.owned ?( 
               <CourseCodeSnippet
                 key={course.courseID}
                 title={course.title}
                 desc={course.price}
               />
             ) : null
-          ))}
+          )}
         </div>
       </div>
     </PageLayout>
