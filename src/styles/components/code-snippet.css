@@ -35,11 +35,6 @@
   overflow-x: auto;
 }
 
-.code-snippet__wrapper {
-  display: inline-block;
-  padding: 32px;
-}
-
 .code-snippet__body {
   margin: 0;
   color: var(--white);
@@ -47,6 +42,7 @@
   line-height: 32px;
   word-wrap: break-word;
   white-space: pre-wrap;
+  padding: 32px;
 }
 
 @media only screen and (max-width: 480px) {
@@ -60,12 +56,9 @@
     padding: 1.2rem 1.6rem;
   }
 
-  .code-snippet__wrapper {
-    padding: 1.6rem;
-  }
-
   .code-snippet__body {
     font-size: 1.4rem;
     line-height: 2.4rem;
+    padding: 1.6rem;
   }
 }
