@@ -12,9 +12,7 @@ export const CourseCodeSnippet = ({ title, desc, price, link }) => {
         <span>{price}</span>
       </div>
       <div className="code-snippet__container">
-        <div className="code-snippet__wrapper">
           <div className="code-snippet__body">{desc}</div>
-        </div>
       </div>
     </div>
   );
