@@ -35,6 +35,14 @@ const courses = [
     price: "$4.00",
     owned: false,
   },
+  {
+    courseID: 5,
+    title: "nvidia dli deep 3",
+    link: "https://drive.google.com/drive/folders/1dgGK5ABHKBH9foCXDjnHW5dnICmCmYsM?usp=drive_link",
+    desc: "This is another description",
+    price: "$4.00",
+    owned: false,
+  },
 ];
 
 export const PublicPage = () => {
