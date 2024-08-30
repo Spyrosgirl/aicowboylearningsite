@@ -4,19 +4,19 @@ import { Dropdown } from "../components/buttons/dropdown";
 import { Prereq } from "../components/courses/DLSE/prereq";
 
 export const CoursePage = () => {
-
   return (
     <PageLayout>
-    // Pull ID from Prev Page
-    <h1 className="CourseTitle">
-      Deep Learning for Science and Engineering Teaching Kit
-    </h1>
-    // Course PreReqs
-    <Dropdown title="Course Prerequisites">
-      <Prereq>
-      </Prereq>
-    </Dropdown>
-    // Drop Downs for files
+      {/* Pull ID from Prev Page */}
+      <h1 className="CourseTitle">
+        Deep Learning for Science and Engineering Teaching Kit
+      </h1>
+      
+      {/* Course PreReqs */}
+      <Dropdown title="Course Prerequisites">
+        <Prereq />
+      </Dropdown>
+      
+      {/* Drop Downs for files */}
     </PageLayout>
   );
 };
