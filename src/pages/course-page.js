@@ -1,6 +1,6 @@
 import React from "react";
 import { PageLayout } from "../components/page-layout";
-import { Dropdown } from "../components/dropdown";
+import { Dropdown } from "../buttons/dropdown";
 import { Prereq } from "../DLSE/prereq";
 
 export const CoursePage = () => {
