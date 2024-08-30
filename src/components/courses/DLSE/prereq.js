@@ -199,10 +199,11 @@ export const Prereq = () => {
         solutions for the Deep Learning for Science and Engineering Teaching
         Kit. More information, links to communities and documentation about
         Jupyter notebooks can be found at{" "}
-        <a 
-          href="https://jupyter.org/" 
-          target="_blank" 
-          rel="noopener noreferrer">
+        <a
+          href="https://jupyter.org/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           jupyter.org
         </a>
         .
@@ -223,8 +224,8 @@ export const Prereq = () => {
 
       <h2>Cloning and Accessing the Repo Content</h2>
       <p>
-          To clone the labs solutions on your machine and, for example, access 
-          Module 2:
+        To clone the labs solutions on your machine and, for example, access 
+        Module 2:
       </p>
       <pre>
         <code>
