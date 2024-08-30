@@ -13,9 +13,7 @@ export const Dropdown = ({ title, children }) => {
         {title}
       </button>
       {isOpen && (
-        <div className="dropdown__content">
-          {children}
-        </div>
+        <div className="dropdown__content">{children}</div>
       )}
     </div>
   );
