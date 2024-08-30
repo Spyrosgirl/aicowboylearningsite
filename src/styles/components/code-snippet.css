@@ -10,14 +10,15 @@
 .code-snippet__title {
   height: 4.8rem;
   width: 100%;
-  display: inline;
-
   background-color: var(--aluminium);
   color: var(--black);
 
   font-family: "Fira Code", source-code-pro, Menlo, Monaco, Consolas,
     "Courier New", monospace;
   font-weight: 600;
+  
+  display: flex;
+  justify-content: space-between;
 
   /*  responsive */
 
