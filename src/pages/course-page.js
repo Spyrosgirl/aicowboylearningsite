@@ -12,7 +12,7 @@ export const CoursePage = () => {
       Deep Learning for Science and Engineering Teaching Kit
     </h1>
     // Course PreReqs
-    <Dropdown title="Course Prerequisites>
+    <Dropdown title="Course Prerequisites">
       <Prereq>
       </Prereq>
     </Dropdown>
