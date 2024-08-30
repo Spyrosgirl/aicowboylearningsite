@@ -48,7 +48,7 @@ const courses = [
 export const PublicPage = () => {
   return (
     <PageLayout>
-      <div className="content-layout-horizon">
+      <div className="content-layout">
         <h1 id="page-title" className="content__title">
           Your Courses
         </h1>
@@ -65,8 +65,6 @@ export const PublicPage = () => {
             ) : null
           )}
         </div>
-      </div>
-      <div className="content-layout-horizon">
         <h2>More courses we think you would like</h2>
         <div className="content__body">
           {courses.map((course) =>
