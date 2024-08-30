@@ -40,8 +40,7 @@
 
 .code-snippet__body {
   margin: 0;
-  color: var(--dark-aluminium);
-  text-color: var(--white);
+  text-color: white;
   font-size: 16px;
   line-height: 32px;
   word-wrap: break-word;
