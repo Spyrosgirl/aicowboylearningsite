@@ -7,10 +7,10 @@ export const CourseCodeSnippet = ({ title, desc, price, link }) => {
 
   return (
     <div onClick={handleClick} className="code-snippet">
-      <span className="code-snippet__title">
-        {title}
-        {price}
-      </span>
+      <div className="code-snippet__title">
+        <span>{title}</span>
+        <span>{price}</span>
+      </div>
       <div className="code-snippet__container">
         <div className="code-snippet__wrapper">
           <button className="code-snippet__body">{desc}</button>
