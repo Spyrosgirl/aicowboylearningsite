@@ -2,6 +2,7 @@ import React from "react";
 
 export const Prereq = () => {
   return (
+    <>
       <h1>
         Welcome to the Deep Learning for Science and Engineering Teaching Kit
         labs, homework and project solutions
