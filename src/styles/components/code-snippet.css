@@ -1,7 +1,7 @@
 .code-snippet {
   display: flex;
   flex-direction: column;
-  width: 100%;
+  width: 50%;
   border-radius: 0.8rem;
   margin-top: 3.2rem;
   overflow: hidden;
@@ -9,7 +9,7 @@
 
 .code-snippet__title {
   height: 4.8rem;
-  width: 50%;
+  width: 100%;
 
   background-color: var(--aluminium);
   color: var(--black);
