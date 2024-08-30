@@ -13,7 +13,7 @@ export const CourseCodeSnippet = ({ title, desc, price, link }) => {
       </div>
       <div className="code-snippet__container">
         <div className="code-snippet__wrapper">
-          <button className="code-snippet__body">{desc}</button>
+          <div className="code-snippet__body">{desc}</div>
         </div>
       </div>
     </div>
