@@ -10,12 +10,10 @@ export const CoursePage = () => {
       <h1 className="CourseTitle">
         Deep Learning for Science and Engineering Teaching Kit
       </h1>
-      
       {/* Course PreReqs */}
       <Dropdown title="Course Prerequisites">
         <Prereq />
       </Dropdown>
-      
       {/* Drop Downs for files */}
     </PageLayout>
   );
