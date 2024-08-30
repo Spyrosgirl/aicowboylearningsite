@@ -49,35 +49,39 @@ export const PublicPage = () => {
   return (
     <PageLayout>
       <div className="content-layout">
-        <h1 id="page-title" className="content__title">
-          Your Courses
-        </h1>
-        <div className="content__body">
-          {courses.map((course) =>
-            course.owned ? (
-              <CourseCodeSnippet
-                key={course.courseID}
-                title={course.title}
-                desc={course.desc}
-                price={course.price}
-                link={course.link}
-              />
-            ) : null
-          )}
+        <div className="horizon">
+          <h1 id="page-title" className="content__title">
+            Your Courses
+          </h1>
+          <div className="content__body">
+            {courses.map((course) =>
+              course.owned ? (
+                <CourseCodeSnippet
+                  key={course.courseID}
+                  title={course.title}
+                  desc={course.desc}
+                  price={course.price}
+                  link={course.link}
+                />
+              ) : null
+            )}
+          </div>
         </div>
         <h2>More courses we think you would like</h2>
-        <div className="content__body">
-          {courses.map((course) =>
-            !course.owned ? (
-              <CourseCodeSnippet
-                key={course.courseID}
-                title={course.title}
-                desc={course.desc}
-                price={course.price}
-                link={course.link}
-              />
-            ) : null
-          )}
+        <div className="horizon">
+          <div className="content__body">
+            {courses.map((course) =>
+              !course.owned ? (
+                <CourseCodeSnippet
+                  key={course.courseID}
+                  title={course.title}
+                  desc={course.desc}
+                  price={course.price}
+                  link={course.link}
+                />
+              ) : null
+            )}
+          </div>
         </div>
       </div>
     </PageLayout>
