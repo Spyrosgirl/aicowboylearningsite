@@ -7,7 +7,7 @@ export const NavBarBrand = () => {
       <NavLink to="/">
         <img
           className="nav-bar__logo"
-          src="https://raw.githubusercontent.com/Spyrosgirl/aicowboylearningsite/main/src/styles/components/Artboard%205-100.jpg?token=GHSAT0AAAAAACWSGUA2KARLT5PCTMPYOR72ZWL4XKA"
+          src="https://github.com/Spyrosgirl/aicowboylearningsite/blob/main/src/styles/components/Artboard%205-100.jpg"
           alt="aicowboyslogo"
         />
       </NavLink>
