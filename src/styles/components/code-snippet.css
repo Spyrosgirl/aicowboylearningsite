@@ -11,7 +11,7 @@
 .code-snippet__title {
   height: 4.8rem;
   width: 100%;
-  background-color: var(--pink-indigo-gradient);
+  background: var(--yellow-mandarine-gradient);
   color: var(--black);
 
   font-family: "Fira Code", source-code-pro, Menlo, Monaco, Consolas,
