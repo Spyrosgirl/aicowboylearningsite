@@ -12,15 +12,6 @@
   padding: 48px;
 }
 
-.horizon {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-
-  font-size: 1.6rem;
-  line-height: 2.4rem;
-}
-
 .content__title {
   margin-top: 0;
 
