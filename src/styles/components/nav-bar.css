@@ -58,6 +58,7 @@
 .nav-bar__brandtitle {
   display: flex;
   align-items: center;
+  margin-top: 1.6rem;
 
   /* responsive */
   color: var(--brandnavy);
