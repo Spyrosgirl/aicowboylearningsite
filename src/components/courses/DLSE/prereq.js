@@ -230,35 +230,33 @@ export const Prereq = () => {
       <pre>
         <code>
           git clone git@bitbucket.org:nvidia-dli/deep-learning-for-science-
-          and-engineering-teaching-kit-labs.git
-          cd Module 2 - Neural Differential Equations
+          and-engineering-teaching-kit-labs.git cd Module 2 - Neural
+          Differential Equations
         </code>
       </pre>
 
       <h2>NVIDIA DLI Online Courses and Certificate Opportunities</h2>
       <p>
-        The NVIDIA Deep Learning Institute (DLI) Teaching Kit includes access to free
-        online DLI courses – 
-        <strong>
-          a value of up to $90 per person per course
-        </strong>
+        The NVIDIA Deep Learning Institute (DLI) Teaching Kit includes access to
+        free online DLI courses – 
+        <strong>a value of up to $90 per person per course</strong>
         .DLI training reinforces deep learning concepts presented in the
         Teaching Kits and teaches students how to apply those concepts to
         end-to-end projects. Through built-in assessments, students can earn
         certifications that prove subject matter competencyand can be leveraged
-        for professional career growth. Each course presents a self-paced learning
-        environment with access to a GPU-accelerated workstation in the
-        cloud. All your students need is a web browser and Internet connection to get
-        started.
+        for professional career growth. Each course presents a self-paced 
+        learning environment with access to a GPU-accelerated workstation in the
+        cloud. All your students need is a web browser and Internet connection
+        to get started.
         <strong>
-          Although these courses are designed to be taken online, you are free to
-          administer them to your students in a live setting as well.
+          Although these courses are designed to be taken online, you are free
+          to administer them to your students in a live setting as well.
         </strong>
       </p>
 
       <p>
-        The primary recommended DLI course for students learning through 
-         the Deep Learning for Science and Engineering Teaching Kit is{" "}
+        The primary recommended DLI course for students learning through the
+        Deep Learning for Science and Engineering Teaching Kit is{" "}
         <a
           href="https://courses.nvidia.com/courses/course-v1:DLI+S-OV-04+V1/"
           target="_blank"
@@ -285,8 +283,8 @@ export const Prereq = () => {
       <p>
         <em>
           To enable these or any other courses for your students, please send an
-          email to{" "}<a href="mailto:NVDLI@nvidia.com">NVDLI@nvidia.com</a> with
-           the subject line “S&E Teaching Kit DLI Online Course Access”. You will
+          email to <a href="mailto:NVDLI@nvidia.com">NVDLI@nvidia.com</a> with
+          the subject line “S&E Teaching Kit DLI Online Course Access”. You will
           then receive information about how to give free access to your
           students.
         </em>
