@@ -97,7 +97,6 @@
   border: 0.1rem solid  rgb(221 54 138);
   color: var(--white);
   background: rgb(221 54 138);
-  width: 50%;
   font-size: 1.6rem;
 
   margin-right: 1.6rem;
@@ -108,7 +107,7 @@
   line-height: 3.2rem;
   padding: 0.8rem 0;
   border-radius: 0.8rem;
-  text-align: center;
+  text-align: left;
 
   cursor: pointer;
   user-select: none;
@@ -119,7 +118,6 @@
   border: 0.1rem solid  rgb(221 54 138);
   color: var(--white);
   background: rgb(247 221 225);
-  width: 50%;
   font-size: 1.2rem;
   
   font-family: var(--font-primary);
@@ -128,7 +126,7 @@
   line-height: 3.2rem;
   padding: 0.8rem 0;
   border-radius: 0.8rem;
-  text-align: center;
+  text-align: left;
 }
 
 .button__sign-up {
