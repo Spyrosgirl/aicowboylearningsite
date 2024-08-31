@@ -72,8 +72,8 @@ export const PageFooter = () => {
               width="20"
               height="22.22"
             />
-            <PageFooterHyperlink path="https://auth0.com/">
-              Auth0 Inc
+            <PageFooterHyperlink path="https://theaicowboys.com/about-us">
+              AI Cowboy
             </PageFooterHyperlink>
           </div>
         </div>
