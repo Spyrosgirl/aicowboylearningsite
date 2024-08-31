@@ -186,9 +186,7 @@ export const Prereq = () => {
         </li>
       </ul>
 
-      <h2 style="text-decoration: underline;">
-        Labs
-      </h2>
+      <h2 style="text-decoration: underline;">Labs</h2>
       <p>
         The labs are designed as hands-on programming exercises and
         demonstrations for students tied to the lecture slides. The{" "}
@@ -213,18 +211,14 @@ export const Prereq = () => {
         .
       </p>
 
-      <h2 style="text-decoration: underline;">
-        Homework Solutions
-      </h2>
+      <h2 style="text-decoration: underline;">Homework Solutions</h2>
       <p>
         The homework solutions are provided here as source files in the{" "}
         <code>Homework/solutions</code> directory of Module 1. Homework and
         associated solutions are currently only available for Module 1.
       </p>
 
-      <h2 style="text-decoration: underline;">
-        Course Projects Solutions
-      </h2>
+      <h2 style="text-decoration: underline;">Course Projects Solutions</h2>
       <p>
         Complete course project sample solutions are provided as source files
         here in the <code>Course Projects</code> directory.
