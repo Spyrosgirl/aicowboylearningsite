@@ -2,6 +2,7 @@ import React from "react";
 import { PageLayout } from "../components/page-layout";
 import { Dropdown } from "../components/buttons/dropdown";
 import { Prereq } from "../components/courses/DLSE/prereq";
+import { Mod1 } from "../components/courses/DLSE/module1";
 
 export const CoursePage = () => {
   return (
@@ -13,6 +14,9 @@ export const CoursePage = () => {
       {/* Course PreReqs */}
       <Dropdown title="Course Prerequisites">
         <Prereq />
+      </Dropdown>
+      <Dropdown title="Module 1 - Basics">
+        <Mod1 />
       </Dropdown>
       {/* Drop Downs for files */}
     </PageLayout>
