@@ -52,20 +52,18 @@ export const PublicPage = () => {
         <h1 id="page-title" className="content__title">
           Your Courses
         </h1>
-        <div className="horizon">
-          <div className="content__body">
-            {courses.map((course) =>
-              course.owned ? (
-                <CourseCodeSnippet
-                  key={course.courseID}
-                  title={course.title}
-                  desc={course.desc}
-                  price={course.price}
-                  link={course.link}
-                />
-              ) : null
-            )}
-          </div>
+        <div className="content__body">
+          {courses.map((course) =>
+            course.owned ? (
+              <CourseCodeSnippet
+                key={course.courseID}
+                title={course.title}
+                desc={course.desc}
+                price={course.price}
+                link={course.link}
+              />
+            ) : null
+          )}
         </div>
         <h2>More courses we think you would like</h2>
         <div className="horizon">
