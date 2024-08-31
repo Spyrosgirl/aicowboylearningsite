@@ -93,6 +93,46 @@
   transition: background 0.3s ease-out, color 0.3s ease-out;
 }
 
+.button__dropdown {
+  min-width: 8.4rem;
+
+  border: 0.1rem solid  rgb(221 54 138);
+  color: var(--white);
+  background: rgb(221 54 138);
+  width: 50%;
+  font-size: 1.6rem;
+
+  margin-right: 1.6rem;
+
+  font-family: var(--font-primary);
+  font-style: normal;
+  font-weight: 600;
+  line-height: 3.2rem;
+  padding: 0.8rem 0;
+  border-radius: 0.8rem;
+  text-align: center;
+
+  cursor: pointer;
+  user-select: none;
+
+  transition: background 0.3s ease-out, color 0.3s ease-out;  
+}
+.button__dropdown__content {
+  border: 0.1rem solid  rgb(221 54 138);
+  color: var(--white);
+  background: rgb(247 221 225);
+  width: 50%;
+  font-size: 1.2rem;
+  
+  font-family: var(--font-primary);
+  font-style: normal;
+  font-weight: 600;
+  line-height: 3.2rem;
+  padding: 0.8rem 0;
+  border-radius: 0.8rem;
+  text-align: center;
+}
+
 .button__sign-up {
   min-width: 8.4rem;
 
