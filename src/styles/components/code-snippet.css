@@ -30,7 +30,7 @@
 
 .code-snippet__container {
   min-height: 10rem;
-  background-color: var(--dark-aluminium);
+  border-color: var(--dark-aluminium);
   overflow-x: auto;
 }
 
