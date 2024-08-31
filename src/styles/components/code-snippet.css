@@ -30,9 +30,9 @@
 
 .code-snippet__container {
   min-height: 10rem;
-  border-color: var(--dark-aluminium);
-  border-style: solid;
-  border-size: 0.8rem;
+  background-color: var(--dark-aluminium);
+  /* border-style: solid; */
+  /* border-size: 0.8rem; */
   overflow-x: auto;
 }
 
