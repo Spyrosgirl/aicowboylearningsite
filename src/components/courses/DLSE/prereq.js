@@ -20,7 +20,9 @@ export const Prereq = () => {
         .
       </p>
 
-      <h2 style="border-bottom: 2px solid black; display: inline-block;">System Requirements and Environment Setup</h2>
+      <h2 style="border-bottom: 2px solid black; display: inline-block;">
+        System Requirements and Environment Setup
+      </h2>
 
       <h3>NVIDIA GPUs and Modulus</h3>
       <p>
@@ -184,7 +186,9 @@ export const Prereq = () => {
         </li>
       </ul>
 
-      <h2 style="border-bottom: 2px solid black; display: inline-block;">Labs</h2>
+      <h2 style="border-bottom: 2px solid black; display: inline-block;">
+        Labs
+      </h2>
       <p>
         The labs are designed as hands-on programming exercises and
         demonstrations for students tied to the lecture slides. The{" "}
@@ -209,20 +213,26 @@ export const Prereq = () => {
         .
       </p>
 
-      <h2 style="border-bottom: 2px solid black; display: inline-block;">Homework Solutions</h2>
+      <h2 style="border-bottom: 2px solid black; display: inline-block;">
+        Homework Solutions
+      </h2>
       <p>
         The homework solutions are provided here as source files in the{" "}
         <code>Homework/solutions</code> directory of Module 1. Homework and
         associated solutions are currently only available for Module 1.
       </p>
 
-      <h2>Course Projects Solutions</h2>
+      <h2 style="border-bottom: 2px solid black; display: inline-block;">
+        Course Projects Solutions
+      </h2>
       <p>
         Complete course project sample solutions are provided as source files
         here in the <code>Course Projects</code> directory.
       </p>
 
-      <h2 style="border-bottom: 2px solid black; display: inline-block;">Cloning and Accessing the Repo Content</h2>
+      <h2 style="border-bottom: 2px solid black; display: inline-block;">
+        Cloning and Accessing the Repo Content
+      </h2>
       <p>
         To clone the labs solutions on your machine and, for example, access
         Module 2:
@@ -235,7 +245,9 @@ export const Prereq = () => {
         </code>
       </pre>
 
-      <h2 style="border-bottom: 2px solid black; display: inline-block;">NVIDIA DLI Online Courses and Certificate Opportunities</h2>
+      <h2 style="border-bottom: 2px solid black; display: inline-block;">
+        NVIDIA DLI Online Courses and Certificate Opportunities
+      </h2>
       <p>
         The NVIDIA Deep Learning Institute (DLI) Teaching Kit includes access to
         free online DLI courses –
@@ -302,7 +314,9 @@ export const Prereq = () => {
         .
       </p>
 
-      <h2 style="border-bottom: 2px solid black; display: inline-block;">About the NVIDIA Deep Learning Institute (DLI)</h2>
+      <h2 style="border-bottom: 2px solid black; display: inline-block;">
+        About the NVIDIA Deep Learning Institute (DLI)
+      </h2>
       <p>
         The NVIDIA Deep Learning Institute (DLI) offers hands-on training for
         developers, data scientists, and researchers looking to solve
