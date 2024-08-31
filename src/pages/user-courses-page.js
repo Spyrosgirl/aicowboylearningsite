@@ -9,7 +9,7 @@ const courses = [
     link: "https://drive.google.com/drive/folders/1gYCRlacUzgVr71hGGw51b5UwaItF0V5b?usp=drive_link",
     desc: "This is a long description to test how the CSS reacts. This is temporary and should be removed at a later date. Do not leave this there. This is not a real description.",
     price: "$2.00",
-    owned: false,
+    owned: true,
   },
   {
     courseID: 2,
@@ -17,7 +17,7 @@ const courses = [
     link: "https://drive.google.com/drive/folders/1bIQISTier9NlpXNSHlgm10TxCs8msA9n?usp=drive_link",
     desc: "Course Two Desc",
     price: "$5.00",
-    owned: true,
+    owned: false,
   },
   {
     courseID: 3,
@@ -33,7 +33,7 @@ const courses = [
     link: "https://drive.google.com/drive/folders/1dgGK5ABHKBH9foCXDjnHW5dnICmCmYsM?usp=drive_link",
     desc: "This is another long description just in case. I like testing things. I like to be thorough.",
     price: "$4.00",
-    owned: false,
+    owned: true,
   },
   {
     courseID: 5,
