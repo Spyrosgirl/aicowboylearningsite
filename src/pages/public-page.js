@@ -49,10 +49,10 @@ export const PublicPage = () => {
   return (
     <PageLayout>
       <div className="content-layout">
+        <h1 id="page-title" className="content__title">
+          Your Courses
+        </h1>
         <div className="horizon">
-          <h1 id="page-title" className="content__title">
-            Your Courses
-          </h1>
           <div className="content__body">
             {courses.map((course) =>
               course.owned ? (
