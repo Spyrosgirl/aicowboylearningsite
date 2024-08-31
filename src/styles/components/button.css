@@ -94,8 +94,6 @@
 }
 
 .dropdown__button {
-  min-width: 8.4rem;
-
   border: 0.1rem solid  rgb(221 54 138);
   color: var(--white);
   background: rgb(221 54 138);
