@@ -59,11 +59,9 @@
   display: flex;
   align-items: center;
 
-  height: 100%;
-
   /* responsive */
-
-  margin-right: 64px;
+  color: var(--brandnavy);
+  margin-right: 20px;
 }
 
 .nav-bar__tab {
