@@ -1,5 +1,5 @@
 import React from "react";
-import { Dropdown } from "../components/buttons/dropdown";
+import { Dropdown } from "../buttons/dropdown";
 
 export const Mod1 = () => {
   return (
