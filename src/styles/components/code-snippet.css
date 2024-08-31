@@ -38,7 +38,7 @@
 
 .code-snippet__body {
   margin: 0;
-  color: var(--dark-aluminium);
+  color: var(--white);
   font-size: 16px;
   line-height: 32px;
   word-wrap: break-word;
