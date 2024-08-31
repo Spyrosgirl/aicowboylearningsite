@@ -114,9 +114,8 @@
   transition: background 0.3s ease-out, color 0.3s ease-out;  
 }
 .dropdown__content {
-  border: 0.1rem solid var(--dark-aluminium);
-  color: var(--white);
-  background-color: var(--dark-aluminium);
+  border: solid var(--dark-aluminium);
+  color: var(--black);
   font-size: 1.2rem;
   width: 100%;
   
