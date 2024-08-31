@@ -30,7 +30,7 @@ export const App = () => {
         path="/profile"
         element={<AuthenticationGuard component={ProfilePage} />}
       />
-      <Route path="/public" element={<PublicPage />} />
+      <Route path="/course" element={<PublicPage />} />
       <Route
         path="/protected"
         element={<AuthenticationGuard component={ProtectedPage} />}
