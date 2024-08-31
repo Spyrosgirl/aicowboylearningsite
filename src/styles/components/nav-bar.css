@@ -55,6 +55,17 @@
   justify-content: flex-end;
 }
 
+.nav-bar__brandtitle {
+  display: flex;
+  align-items: center;
+
+  height: 100%;
+
+  /* responsive */
+
+  margin-right: 64px;
+}
+
 .nav-bar__tab {
   display: flex;
   flex-direction: row;
