@@ -5,10 +5,10 @@
   flex-shrink: 0;
   width: 100%;
 
-  box-shadow: var(--brandyellow) 0-1.5px 0 inset;
+  box-shadow: var(--brandaqua) 0-1.5px 0 inset;
 
   z-index: 300;
-  background-color: var(--brandyellow);
+  background-color: var(--brandaqua);
 }
 
 .nav-bar {
