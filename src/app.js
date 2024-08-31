@@ -9,7 +9,7 @@ import { HomePage } from "./pages/home-page";
 import { NotFoundPage } from "./pages/not-found-page";
 import { ProfilePage } from "./pages/profile-page";
 import { ProtectedPage } from "./pages/protected-page";
-import { UserCoursesPage } from "./pages/public-page";
+import { UserCoursesPage } from "./pages/user-courses-page";
 import { CoursePage } from "./pages/course-page";
 
 export const App = () => {
