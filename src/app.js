@@ -28,9 +28,9 @@ export const App = () => {
       <Route path="/" element={<HomePage />} />
       <Route
         path="/profile"
-        element={<AuthenticationGuard component={UserCoursesPage} />}
+        element={<AuthenticationGuard component={ProfilePage} />}
       />
-      <Route path="/courses" element={<PublicPage />} />
+      <Route path="/courses" element={<UserCoursesPage />} />
       <Route
         path="/protected"
         element={<AuthenticationGuard component={ProtectedPage} />}
