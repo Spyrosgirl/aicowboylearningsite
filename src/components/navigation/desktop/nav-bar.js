@@ -8,6 +8,9 @@ export const NavBar = () => {
     <div className="nav-bar__container">
       <nav className="nav-bar">
         <NavBarBrand />
+        <h1 className="nav-bar__brandtitle">
+          The Quantum Cowboys
+        </h1>
         <NavBarTabs />
         <NavBarButtons />
       </nav>
