@@ -45,7 +45,7 @@ const courses = [
   },
 ];
 
-export const PublicPage = () => {
+export const UserCoursesPage = () => {
   return (
     <PageLayout>
       <div className="content-layout">
