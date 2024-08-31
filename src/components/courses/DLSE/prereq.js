@@ -224,12 +224,13 @@ export const Prereq = () => {
 
       <h2>Cloning and Accessing the Repo Content</h2>
       <p>
-        To clone the labs solutions on your machine and, for example, access 
+        To clone the labs solutions on your machine and, for example, access
         Module 2:
       </p>
       <pre>
         <code>
-          git clone git@bitbucket.org:nvidia-dli/deep-learning-for-science-and-engineering-teaching-kit-labs.git
+          git clone git@bitbucket.org:nvidia-dli/deep-learning-for-science-
+          and-engineering-teaching-kit-labs.git
           cd Module 2 - Neural Differential Equations
         </code>
       </pre>
@@ -263,7 +264,7 @@ export const Prereq = () => {
       </p>
 
       <p>
-          The Teaching Kit's{" "}
+          The Teaching Kits{" "}
         <a
           href="https://developer.nvidia.com/teaching-kits/science-and-engineering-syllabus"
           target="_blank"
