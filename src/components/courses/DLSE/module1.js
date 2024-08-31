@@ -6,7 +6,9 @@ export const Mod1 = () => {
     <>
       <h2>Labs</h2>
       <Dropdown title="1.2 Primer Python">
-        <a href="https://colab.research.google.com/drive/158mKtWkbrdZwxNoot1cta2d0Kr-eOjbt"> Lab 1.2 </a>
+        <a href="https://colab.research.google.com/drive/158mKtWkbrdZwxNoot1cta2d0Kr-eOjbt">
+          Lab 1.2
+        </a>
       </Dropdown>
       <Dropdown title="1.3 Deep Learning Networks">
         <p>Test</p>
