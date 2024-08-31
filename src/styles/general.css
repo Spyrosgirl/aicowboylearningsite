@@ -120,7 +120,7 @@ textarea {
 }
 
 a {
-  color: var(--aqua);
+  color: var(--brandnavy);
   text-decoration: none;
 }
 
@@ -139,7 +139,7 @@ pre {
 }
 
 code {
-  color: var(--emerald);
+  color: var(--brandpink);
 }
 
 #root {
