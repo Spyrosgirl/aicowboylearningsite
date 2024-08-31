@@ -21,7 +21,7 @@ export const Prereq = () => {
       </p>
 
       <h2>System Requirements and Environment Setup</h2>
-            
+      
       <h3>NVIDIA GPUs and Modulus</h3>
       <p>
         Thanks to the development of NVIDIA GPUs and the{" "}
