@@ -52,7 +52,7 @@ export const PublicPage = () => {
         <h1 id="page-title" className="content__title">
           Your Courses
         </h1>
-        <div className="content__body">
+        <div className="horizon">
           {courses.map((course) =>
             course.owned ? (
               <CourseCodeSnippet
@@ -66,7 +66,7 @@ export const PublicPage = () => {
           )}
         </div>
         <h2>More courses we think you would like</h2>
-        <div className="content__body">
+        <div className="horizon">
           {courses.map((course) =>
             !course.owned ? (
               <CourseCodeSnippet
