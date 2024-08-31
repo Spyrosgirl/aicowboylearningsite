@@ -39,17 +39,6 @@ export const PageFooter = () => {
               </PageFooterHyperlink>
             </p>
           </div>
-          <div className="page-footer-info__button">
-            <a
-              id="create-account-button"
-              className="button button--secondary"
-              href="https://auth0.com/signup"
-              target="_blank"
-              rel="noreferrer noopener"
-            >
-              Create Free Auth0 Account
-            </a>
-          </div>
           <div className="page-footer-info__resource-list">
             {resourceList.map((resource) => (
               <div
