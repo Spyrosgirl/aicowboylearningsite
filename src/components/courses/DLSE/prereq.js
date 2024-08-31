@@ -238,13 +238,13 @@ export const Prereq = () => {
       <h2>NVIDIA DLI Online Courses and Certificate Opportunities</h2>
       <p>
         The NVIDIA Deep Learning Institute (DLI) Teaching Kit includes access to
-        free online DLI courses – 
+        free online DLI courses –
         <strong>a value of up to $90 per person per course</strong>
         .DLI training reinforces deep learning concepts presented in the
         Teaching Kits and teaches students how to apply those concepts to
         end-to-end projects. Through built-in assessments, students can earn
         certifications that prove subject matter competencyand can be leveraged
-        for professional career growth. Each course presents a self-paced 
+        for professional career growth. Each course presents a self-paced
         learning environment with access to a GPU-accelerated workstation in the
         cloud. All your students need is a web browser and Internet connection
         to get started.
