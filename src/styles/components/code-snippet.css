@@ -31,12 +31,13 @@
 .code-snippet__container {
   min-height: 10rem;
   border-color: var(--dark-aluminium);
+  border-size: 0.8rem;
   overflow-x: auto;
 }
 
 .code-snippet__body {
   margin: 0;
-  color: var(--white);
+  color: var(--dark-aluminium);
   font-size: 16px;
   line-height: 32px;
   word-wrap: break-word;
