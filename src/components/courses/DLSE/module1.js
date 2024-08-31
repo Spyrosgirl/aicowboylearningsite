@@ -21,7 +21,7 @@ export const Mod1 = () => {
         <p>Test</p>
       </Dropdown>
       <h2>Homeworks</h2>
-          <Dropdown title="1.2 Primer Python">
+      <Dropdown title="1.2 Primer Python">
         <p>Test</p>
       </Dropdown>
       <Dropdown title="1.3 Deep Learning Networks">
