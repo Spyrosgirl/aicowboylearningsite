@@ -10,6 +10,7 @@ export const Mod1 = () => {
           href="https://colab.research.google.com/drive/158mKtWkbrdZwxNoot1cta2d0Kr-eOjbt"
           target="_blank"
           rel="noreferrer"
+          class="lab_links"
         >
           A primer on Python and NumPy, SciPy and Matplotlib
         </a>
@@ -19,6 +20,7 @@ export const Mod1 = () => {
           href="https://colab.research.google.com/drive/1ZN7hePGouCijeWvwdpFFmPuuOKYEPbh7"
           target="_blank"
           rel="noreferrer"
+          class="lab_links"
         >
           Deep Neural Networks
         </a>
@@ -28,6 +30,7 @@ export const Mod1 = () => {
           href="https://colab.research.google.com/drive/1Bwrz13cEgYINzBo8XA8bq_ivx_fbG22d"
           target="_blank"
           rel="noreferrer"
+          class="lab_links"
         >
           Pytorch Primer
         </a>
@@ -35,6 +38,7 @@ export const Mod1 = () => {
           href="https://colab.research.google.com/drive/1uZzfCDal6tpBMAzb9rZ3WTn-0VOukQ3S"
           target="_blank"
           rel="noreferrer"
+          class="lab_links"
         >
           Tensorflow Primer
         </a>
@@ -42,6 +46,7 @@ export const Mod1 = () => {
           href="https://colab.research.google.com/drive/1MgfKGcUQmnkSaLqi_zepDVp4_HfkwWwl"
           target="_blank"
           rel="noreferrer"
+          class="lab_links"
         >
           PyTorch vs TensorFlow
         </a>
@@ -49,6 +54,7 @@ export const Mod1 = () => {
           href="https://colab.research.google.com/drive/1kE8a1awRagvrVEllJr2wVYxip8mL-UHI"
           target="_blank"
           rel="noreferrer"
+          class="lab_links"
         >
           JAX Primer
         </a>
@@ -56,6 +62,7 @@ export const Mod1 = () => {
           href="https://colab.research.google.com/drive/1v4pEo3a8OIhKaEok3PW-JQiMHeKpDtmm"
           target="_blank"
           rel="noreferrer"
+          class="lab_links"
         >
           Saving and restoring model in TensorFlow
         </a>
