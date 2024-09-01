@@ -15,10 +15,50 @@ export const Mod1 = () => {
         </a>
       </Dropdown>
       <Dropdown title="1.3 Deep Learning Networks">
-        <p>test</p>
+        <a
+          href="https://colab.research.google.com/drive/1ZN7hePGouCijeWvwdpFFmPuuOKYEPbh7"
+          target="_blank"
+          rel="noreferrer"
+        >
+          Lab 1.3
+        </a>
       </Dropdown>
       <Dropdown title="1.4 Primer PFT Jax">
-        <p>Test</p>
+        <a
+          href="https://colab.research.google.com/drive/1Bwrz13cEgYINzBo8XA8bq_ivx_fbG22d"
+          target="_blank"
+          rel="noreferrer"
+        >
+          Pytorch Primer
+        </a>
+        <a
+          href="https://colab.research.google.com/drive/1uZzfCDal6tpBMAzb9rZ3WTn-0VOukQ3S"
+          target="_blank"
+          rel="noreferrer"
+        >
+          Tensorflow Primer
+        </a>
+        <a
+          href="https://colab.research.google.com/drive/1MgfKGcUQmnkSaLqi_zepDVp4_HfkwWwl"
+          target="_blank"
+          rel="noreferrer"
+        >
+          PyTorch vs TensorFlow
+        </a>
+        <a
+          href="https://colab.research.google.com/drive/1kE8a1awRagvrVEllJr2wVYxip8mL-UHI"
+          target="_blank"
+          rel="noreferrer"
+        >
+          JAX Primer
+        </a>
+        <a
+          href="https://colab.research.google.com/drive/1v4pEo3a8OIhKaEok3PW-JQiMHeKpDtmm"
+          target="_blank"
+          rel="noreferrer"
+        >
+          Saving and restoring model in TensorFlow
+        </a>
       </Dropdown>
       <Dropdown title="1.5 Training and Optimization">
         <p>Test</p>
