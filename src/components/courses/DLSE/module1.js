@@ -11,7 +11,7 @@ export const Mod1 = () => {
           target="_blank"
           rel="noreferrer"
         >
-          Lab 1.2
+          A primer on Python and NumPy, SciPy and Matplotlib
         </a>
       </Dropdown>
       <Dropdown title="1.3 Deep Learning Networks">
@@ -20,7 +20,7 @@ export const Mod1 = () => {
           target="_blank"
           rel="noreferrer"
         >
-          Lab 1.3
+          Deep Neural Networks
         </a>
       </Dropdown>
       <Dropdown title="1.4 Primer PFT Jax">
