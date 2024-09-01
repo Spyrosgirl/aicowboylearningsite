@@ -2,12 +2,8 @@ import React from "react";
 import { NavLink } from "react-router-dom";
 
 export const CourseCodeSnippet = ({ title, desc, price, link }) => {
-  const handleClick = () => {
-    window.open(link, "_blank");
-  };
-
   return (
-   <NavLink
+    <NavLink
         to={path}
         end
         className={({ isActive }) =>
