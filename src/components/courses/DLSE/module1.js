@@ -9,14 +9,12 @@ export const Mod1 = () => {
         <a
           href="https://colab.research.google.com/drive/158mKtWkbrdZwxNoot1cta2d0Kr-eOjbt"
           target="_blank"
-          rel="noreferrer">
-            Lab 1.2
+          rel="noreferrer"
+        > Lab 1.2
         </a>
       </Dropdown>
       <Dropdown title="1.3 Deep Learning Networks">
-         <a href="https://colab.research.google.com/drive/1ZN7hePGouCijeWvwdpFFmPuuOKYEPbh7" target="_blank">
-          Lab 1.3
-        </a>
+         <p> test </p>
       </Dropdown>
       <Dropdown title="1.4 Primer PFT Jax">
         <p>Test</p>
