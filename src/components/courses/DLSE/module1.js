@@ -86,7 +86,14 @@ export const Mod1 = () => {
         </a>
       </Dropdown>
       <Dropdown title="1.6 Neural Network Architecture">
-        <p>Test</p>
+        <a
+          href="https://colab.research.google.com/drive/1owl9-lq75c4yjJ1TmoXAWTfZEYguSvOX"
+          target="_blank"
+          rel="noreferrer"
+          className="lab_links"
+        >
+          Neural Network Architectures
+        </a>
       </Dropdown>
       <h2>Homeworks</h2>
       <Dropdown title="1.2 Primer Python">
