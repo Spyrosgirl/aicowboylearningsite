@@ -68,7 +68,22 @@ export const Mod1 = () => {
         </a>
       </Dropdown>
       <Dropdown title="1.5 Training and Optimization">
-        <p>Test</p>
+        <a
+          href="https://colab.research.google.com/drive/1GEBAljEa1xjyAIRsVsfdL0Wm631s9GFW"
+          target="_blank"
+          rel="noreferrer"
+          className="lab_links"
+        >
+          Implementation of various learning rate scheduler
+        </a>
+        <a
+          href="https://colab.research.google.com/drive/136qJZob-SbYgHFVeXI_X-0WpC2x9izQg"
+          target="_blank"
+          rel="noreferrer"
+          className="lab_links"
+        >
+          Implementation of various Optimizers(various_losses_v_iteration)
+        </a>
       </Dropdown>
       <Dropdown title="1.6 Neural Network Architecture">
         <p>Test</p>
