@@ -10,7 +10,8 @@ export const Mod1 = () => {
           href="https://colab.research.google.com/drive/158mKtWkbrdZwxNoot1cta2d0Kr-eOjbt"
           target="_blank"
           rel="noreferrer"
-        > Lab 1.2
+        >
+          Lab 1.2
         </a>
       </Dropdown>
       <Dropdown title="1.3 Deep Learning Networks">
