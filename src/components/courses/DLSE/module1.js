@@ -15,7 +15,7 @@ export const Mod1 = () => {
         </a>
       </Dropdown>
       <Dropdown title="1.3 Deep Learning Networks">
-         <p> test </p>
+         <p>test</p>
       </Dropdown>
       <Dropdown title="1.4 Primer PFT Jax">
         <p>Test</p>
