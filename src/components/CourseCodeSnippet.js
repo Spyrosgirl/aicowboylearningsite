@@ -4,7 +4,7 @@ import { NavLink } from "react-router-dom";
 export const CourseCodeSnippet = ({ title, desc, price, link }) => {
   return (
     <NavLink
-        to={path}
+        to="/course"
         end
         className={({ isActive }) =>
           "nav-bar__tab " + (isActive ? "nav-bar__tab--active" : "")
