@@ -7,26 +7,6 @@ const courses = [
     title: "deep learning for science and engineering",
     link: "../components/courses/DLSE/prereq",
   },
-  {
-    courseID: 2,
-    title: "nvidia dli data science",
-    link: "https://drive.google.com/drive/folders/1bIQISTier9NlpXNSHlgm10TxCs8msA9n?usp=drive_link",
-  },
-  {
-    courseID: 3,
-    title: "nvidia dli deep",
-    link: "https://drive.google.com/drive/folders/1dgGK5ABHKBH9foCXDjnHW5dnICmCmYsM?usp=drive_link",
-  },
-  {
-    courseID: 4,
-    title: "nvidia dli deep 2",
-    link: "https://drive.google.com/drive/folders/1dgGK5ABHKBH9foCXDjnHW5dnICmCmYsM?usp=drive_link",
-  },
-  {
-    courseID: 5,
-    title: "nvidia dli deep 3",
-    link: "https://drive.google.com/drive/folders/1dgGK5ABHKBH9foCXDjnHW5dnICmCmYsM?usp=drive_link",
-  },
 ];
 console.log(courses);
 
