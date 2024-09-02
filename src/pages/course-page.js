@@ -1,6 +1,7 @@
 import React from "react";
 import { PageLayout } from "../components/page-layout";
 import { Dropdown } from "../components/buttons/dropdown";
+/* pull specific import*/
 import { Prereq } from "../components/courses/DLSE/prereq";
 import { Mod1 } from "../components/courses/DLSE/module1";
 
