@@ -41,6 +41,6 @@ export const Courses = () => {
         price: "$4.00",
         owned: false,
       },
-    ];
+    ],
   );
 };
