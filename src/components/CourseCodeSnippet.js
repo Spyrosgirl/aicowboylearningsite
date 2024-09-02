@@ -6,7 +6,7 @@ export const CourseCodeSnippet = ({ title, desc, price, link }) => {
     <NavLink
       to={{
         pathname: "/course",
-        state: { course: link }.
+        state: { course: link },
       }}
       end
       className="code-snippet"
