@@ -46,12 +46,7 @@ const Courses = [
 
 export const CourseCodeSnippet = ({ title, desc, price, link, ID }) => {
   return (
-    <NavLink
-      to="/course"
-      end
-      state={{ course: ID }}
-      className="code-snippet"
-    >
+    <NavLink to="/course" end state={{ course: ID }} className="code-snippet">
       <div className="code-snippet__title">
         <span>{title}</span>
         <span>{price}</span>
