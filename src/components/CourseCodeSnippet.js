@@ -3,7 +3,7 @@ import { NavLink } from "react-router-dom";
 
 export const CourseCodeSnippet = ({ title, desc, price, link }) => {
   return (
-    <NavLink to="/course" end state= {{ course: link }} className="code-snippet">
+    <NavLink to="/course"end state= {{ course: link }} className="code-snippet">
       <div className="code-snippet__title">
         <span>{title}</span>
         <span>{price}</span>
