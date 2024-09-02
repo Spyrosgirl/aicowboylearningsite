@@ -61,6 +61,7 @@ export const UserCoursesPage = () => {
                 desc={course.desc}
                 price={course.price}
                 link={course.link}
+                courseID={course.courseID}
               />
             ) : null
           )}
@@ -75,6 +76,7 @@ export const UserCoursesPage = () => {
                 desc={course.desc}
                 price={course.price}
                 link={course.link}
+                courseID={course.courseID}
               />
             ) : null
           )}
