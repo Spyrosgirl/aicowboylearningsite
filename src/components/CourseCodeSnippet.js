@@ -1,7 +1,7 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 
-const Courses = [
+const courses = [
   {
     courseID: 1,
     title: "deep learning for science and engineering",
@@ -43,7 +43,7 @@ const Courses = [
     owned: false,
   },
 ];
-
+console.log(courses);
 export const CourseCodeSnippet = ({ title, desc, price, link, ID }) => {
   return (
     <NavLink to="/course" end state={{ course: ID }} className="code-snippet">
