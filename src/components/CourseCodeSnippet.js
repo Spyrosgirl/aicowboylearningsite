@@ -12,7 +12,6 @@ export const CourseCodeSnippet = ({ title, desc, price, link }) => {
       className="code-snippet"
     >
       <div className="code-snippet__title">
-        <p>{link}</p>
         <span>{title}</span>
         <span>{price}</span>
       </div>
