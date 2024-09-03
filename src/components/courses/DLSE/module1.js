@@ -2,17 +2,13 @@ import React from "react";
 import { Dropdown } from "../../buttons/dropdown";
 
 const courses = [
-  [
+  {
     courseID: 1,
     labs: {
-      title: "1.2 Primer Python",
-      link: "../components/courses/DLSE/prereq",
+      title: "1.2 Primer Python", "1.3 Deep Learning Networks",
+      link: "../components/courses/DLSE/prereq", "../components/courses/DLSE/prereq",
     },
-    {
-      title: "1.3 Deep Learning Networks",
-      link: "../components/courses/DLSE/prereq",
-    },
-  ],
+  },
 ];
 console.log(courses[0].labs.title);
 
