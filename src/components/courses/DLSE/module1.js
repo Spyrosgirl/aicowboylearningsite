@@ -6,7 +6,10 @@ const courses = [
     courseID: 1,
     labs: {
       title: ["1.2 Primer Python", "1.3 Deep Learning Networks"],
-      link: ["../components/courses/DLSE/prereq", "../components/courses/DLSE/prereq"],
+      link: [
+        "../components/courses/DLSE/prereq",
+        "../components/courses/DLSE/prereq"
+      ],
     },
   },
 ];
