@@ -96,5 +96,23 @@ export const courses = [
         "This will bring you to a fun link",
       ],
     ],
+    workLink: [
+      ["https://puginarug.com/"],
+      ["https://puginarug.com/"],
+      [
+        "https://puginarug.com/",
+        "https://puginarug.com/",
+        "https://puginarug.com/",
+      ],
+    ],
+    workDesc: [
+      ["This will bring you to a fun link"],
+      ["This will bring you to a fun link"],
+      [
+        "This will bring you to a fun link",
+        "This will bring you to a fun link",
+        "This will bring you to a fun link",
+      ],
+    ]
   },
 ];
