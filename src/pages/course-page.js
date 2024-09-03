@@ -20,7 +20,7 @@ export const CoursePage = () => {
         <Prereq />
       </Dropdown>
       <Dropdown title="Module 1 - Basics">
-        <Mod1 />
+        <Mod1 id={course}/>
       </Dropdown>
       {/* Drop Downs for files */}
     </PageLayout>
