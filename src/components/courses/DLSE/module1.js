@@ -8,6 +8,10 @@ const courses = [
       title: "1.2 Primer Python",
       link: "../components/courses/DLSE/prereq",
     },
+    {
+      title: "1.3 Deep Learning Networks",
+      link: "../components/courses/DLSE/prereq",
+    },
   },
 ];
 console.log(courses[0].labs.title);
