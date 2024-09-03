@@ -9,7 +9,7 @@ export const Courses = [
   },
   {
     courseID: 2,
-    title: "nvidia dli data science",
+    title: "NVIDIA DLI Data Science",
     link: "https://drive.google.com/drive/folders/1bIQISTier9NlpXNSHlgm10TxCs8msA9n?usp=drive_link",
     desc: "Course Two Desc",
     price: "$5.00",
@@ -17,7 +17,7 @@ export const Courses = [
   },
   {
     courseID: 3,
-    title: "nvidia dli deep",
+    title: "NVIDIA DLI Deep",
     link: "https://drive.google.com/drive/folders/1dgGK5ABHKBH9foCXDjnHW5dnICmCmYsM?usp=drive_link",
     desc: "Course Three Desc",
     price: "$3.00",
@@ -33,7 +33,7 @@ export const Courses = [
   },
   {
     courseID: 5,
-    title: "nvidia dli deep 3",
+    title: "NVIDIA Dli Deep 3",
     link: "https://drive.google.com/drive/folders/1dgGK5ABHKBH9foCXDjnHW5dnICmCmYsM?usp=drive_link",
     desc: "This is another description",
     price: "$4.00",
