@@ -5,7 +5,7 @@ import { CourseCodeSnippet } from "../components/CourseCodeSnippet";
 const Courses = [
   {
     courseID: 1,
-    title: "deep learning for science and engineering",
+    title: "deep learning for science and engineering teaching kit",
     link: "../components/courses/DLSE/prereq",
     desc: "This is a long description to test how the CSS reacts. This is temporary and should be removed at a later date. Do not leave this there. This is not a real description.",
     price: "$2.00",
