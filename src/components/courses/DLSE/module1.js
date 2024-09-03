@@ -8,6 +8,8 @@ const courses = [
       "1.2 Primer Python",
       "1.3 Deep Learning Networks",
       "1.4 Primer PFT Jax",
+      "1.5 Training and Optimization",
+      "1.6 Neural Network Architecture",
     ],
     link: [
       [
@@ -23,6 +25,13 @@ const courses = [
         "https://colab.research.google.com/drive/1kE8a1awRagvrVEllJr2wVYxip8mL-UHI",
         "https://colab.research.google.com/drive/1v4pEo3a8OIhKaEok3PW-JQiMHeKpDtmm",
       ],
+      [
+        "https://colab.research.google.com/drive/1GEBAljEa1xjyAIRsVsfdL0Wm631s9GFW",
+        "https://colab.research.google.com/drive/136qJZob-SbYgHFVeXI_X-0WpC2x9izQg",
+      ],
+      [
+        "https://colab.research.google.com/drive/1owl9-lq75c4yjJ1TmoXAWTfZEYguSvOX",
+      ],
     ],
     desc: [
       ["A primer on Python and NumPy, SciPy and Matplotlib"],
@@ -33,6 +42,13 @@ const courses = [
         "PyTorch vs TensorFlow",
         "JAX Primer",
         "Saving and restoring model in TensorFlow",
+      ],
+      [
+        "Implementation of various learning rate scheduler",
+        "Implementation of various Optimizers(various_losses_v_iteration)",
+      ],
+      [
+        "Neural Network Architectures",
       ],
     ],
   },
@@ -59,34 +75,6 @@ export const Mod1 = () => {
             ))}
           </Dropdown>
         ))}
-      <Dropdown title="1.5 Training and Optimization">
-        <a
-          href="https://colab.research.google.com/drive/1GEBAljEa1xjyAIRsVsfdL0Wm631s9GFW"
-          target="_blank"
-          rel="noreferrer"
-          className="lab_links"
-        >
-          Implementation of various learning rate scheduler
-        </a>
-        <a
-          href="https://colab.research.google.com/drive/136qJZob-SbYgHFVeXI_X-0WpC2x9izQg"
-          target="_blank"
-          rel="noreferrer"
-          className="lab_links"
-        >
-          Implementation of various Optimizers(various_losses_v_iteration)
-        </a>
-      </Dropdown>
-      <Dropdown title="1.6 Neural Network Architecture">
-        <a
-          href="https://colab.research.google.com/drive/1owl9-lq75c4yjJ1TmoXAWTfZEYguSvOX"
-          target="_blank"
-          rel="noreferrer"
-          className="lab_links"
-        >
-          Neural Network Architectures
-        </a>
-      </Dropdown>
       <h2>Homeworks</h2>
       <Dropdown title="1.2 Primer Python">
         <p>Test</p>
