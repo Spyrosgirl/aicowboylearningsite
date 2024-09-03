@@ -1,6 +1,6 @@
 import React from "react";
 import { Dropdown } from "../../buttons/dropdown";
-import { courses } from "../courses_container";
+import { courses } from "../../courses_container";
 
 export const Mod1 = ({ id }) => {
   const savedCourse = courses.find((course) => course.courseID === id);
