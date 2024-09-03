@@ -52,18 +52,10 @@ const courses = [
   },
   {
     courseID: 4,
-    title: [
-      "Title One",
-      "Title Two",
-      "Title Three",
-    ],
+    title: ["Title One", "Title Two", "Title Three"],
     link: [
-      [
-        "https://puginarug.com/",
-      ],
-      [
-        "https://puginarug.com/",
-      ],
+      ["https://puginarug.com/"],
+      ["https://puginarug.com/"],
       [
         "https://puginarug.com/",
         "https://puginarug.com/",
