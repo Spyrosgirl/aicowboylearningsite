@@ -16,7 +16,7 @@ export const Mod1 = () => {
   return (
     <>
       <h2>Labs</h2>
-      <Dropdown title={courses[0]}>
+      <Dropdown title="temp title">
         <a
           href="https://colab.research.google.com/drive/158mKtWkbrdZwxNoot1cta2d0Kr-eOjbt"
           target="_blank"
