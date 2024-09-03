@@ -4,29 +4,41 @@ import { Dropdown } from "../../buttons/dropdown";
 const courses = [
   {
     courseID: 1,
-    labs: {
-      title: ["1.2 Primer Python", "1.3 Deep Learning Networks"],
-      link: [
-        "https://colab.research.google.com/drive/158mKtWkbrdZwxNoot1cta2d0Kr-eOjbt",
-        "https://colab.research.google.com/drive/1ZN7hePGouCijeWvwdpFFmPuuOKYEPbh7",
-      ],
-    },
+    title: ["1.2 Primer Python", "1.3 Deep Learning Networks"],
+    link: [
+      "https://colab.research.google.com/drive/158mKtWkbrdZwxNoot1cta2d0Kr-eOjbt",
+      "https://colab.research.google.com/drive/1ZN7hePGouCijeWvwdpFFmPuuOKYEPbh7",
+    ],
+    desc: [
+      "A primer on Python and NumPy, SciPy and Matplotlib",
+      "Deep Neural Networks",
+    ],
   },
 ];
-console.log(courses[0].labs.title[0]);
+console.log(courses[0].title[0]);
+// find which courseID fits
+// loop through and grab all data correlated with that course
 
 export const Mod1 = () => {
+  var index = 0;
+  let savedCourse = []
+  for (course in courses) {
+    if(course.courseID == 1){
+      savedCourse = course
+    }
+    index++
+  }
   return (
     <>
       <h2>Labs</h2>
-      <Dropdown title="temp title">
+      <Dropdown title={savedCourse.title[0]}>
         <a
-          href="https://colab.research.google.com/drive/158mKtWkbrdZwxNoot1cta2d0Kr-eOjbt"
+          href={savedCourse.link[0]}
           target="_blank"
           rel="noreferrer"
           className="lab_links"
         >
-          A primer on Python and NumPy, SciPy and Matplotlib
+            {savedCourse.desc[0]}
         </a>
       </Dropdown>
       <Dropdown title="1.3 Deep Learning Networks">
