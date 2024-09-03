@@ -13,7 +13,7 @@ export const CoursePage = () => {
     <PageLayout>
       {/* Pull ID from Prev Page */}
       <h1 className="CourseTitle">
-        {Courses.find((course) => course.courseID === id).title}
+        {Courses.find((course) => course.courseID === courseID).title}
       </h1>
       {/* Course PreReqs */}
       <Dropdown title="Course Prerequisites">
