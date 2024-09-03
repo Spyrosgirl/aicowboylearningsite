@@ -10,15 +10,19 @@ const courses = [
       "1.4 Primer PFT Jax",
     ],
     link: [
-      "https://colab.research.google.com/drive/158mKtWkbrdZwxNoot1cta2d0Kr-eOjbt",
-      "https://colab.research.google.com/drive/1ZN7hePGouCijeWvwdpFFmPuuOKYEPbh7",
+      [
+        "https://colab.research.google.com/drive/158mKtWkbrdZwxNoot1cta2d0Kr-eOjbt",
+      ],
+      [
+        "https://colab.research.google.com/drive/1ZN7hePGouCijeWvwdpFFmPuuOKYEPbh7",
+      ],
       [
         "https://colab.research.google.com/drive/1Bwrz13cEgYINzBo8XA8bq_ivx_fbG22d",
       ],
     ],
     desc: [
-      "A primer on Python and NumPy, SciPy and Matplotlib",
-      "Deep Neural Networks",
+      ["A primer on Python and NumPy, SciPy and Matplotlib"],
+      ["Deep Neural Networks"],
       ["Pytorch Primer"],
     ],
   },
