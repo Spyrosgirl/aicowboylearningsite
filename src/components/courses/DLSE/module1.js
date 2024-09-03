@@ -7,13 +7,13 @@ const courses = [
     labs: {
       title: ["1.2 Primer Python", "1.3 Deep Learning Networks"],
       link: [
-        "../components/courses/DLSE/prereq",
-        "../components/courses/DLSE/prereq",
+        "https://colab.research.google.com/drive/158mKtWkbrdZwxNoot1cta2d0Kr-eOjbt",
+        "https://colab.research.google.com/drive/1ZN7hePGouCijeWvwdpFFmPuuOKYEPbh7",
       ],
     },
   },
 ];
-console.log(courses[0].labs.title);
+console.log(courses[0].labs.title[0]);
 
 export const Mod1 = () => {
   return (
