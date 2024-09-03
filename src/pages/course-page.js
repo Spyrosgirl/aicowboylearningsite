@@ -4,6 +4,7 @@ import { PageLayout } from "../components/page-layout";
 import { Dropdown } from "../components/buttons/dropdown";
 import { Prereq } from "../components/courses/DLSE/prereq";
 import { Mod1 } from "../components/courses/DLSE/module1";
+import { Courses } from "../components/courses_list";
 
 export const CoursePage = () => {
   const location = useLocation();
@@ -12,7 +13,7 @@ export const CoursePage = () => {
     <PageLayout>
       {/* Pull ID from Prev Page */}
       <h1 className="CourseTitle">
-        Deep Learning for Science and Engineering Teaching Kit
+        {courses.find((course) => course.courseID === id).title}
       </h1>
       {/* Course PreReqs */}
       <Dropdown title="Course Prerequisites">
