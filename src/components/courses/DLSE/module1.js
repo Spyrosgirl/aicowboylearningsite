@@ -50,6 +50,36 @@ const courses = [
       ["Neural Network Architectures"],
     ],
   },
+  {
+    courseID: 4,
+    title: [
+      "Title One",
+      "Title Two",
+      "Title Three",
+    ],
+    link: [
+      [
+        "https://puginarug.com/",
+      ],
+      [
+        "https://puginarug.com/",
+      ],
+      [
+        "https://puginarug.com/",
+        "https://puginarug.com/",
+        "https://puginarug.com/",
+      ],
+    ],
+    desc: [
+      ["This will bring you to a fun link"],
+      ["This will bring you to a fun link"],
+      [
+        "This will bring you to a fun link",
+        "This will bring you to a fun link",
+        "This will bring you to a fun link",
+      ],
+    ],
+  },
 ];
 
 export const Mod1 = ({ id }) => {
