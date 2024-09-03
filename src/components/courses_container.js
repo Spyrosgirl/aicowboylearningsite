@@ -4,7 +4,7 @@ export const courses = [
     title: [
       "1.2 Primer Python",
       "1.3 Deep Learning Networks",
-      "1.4 Primer PFT Jax",
+      "1.4 Primer PYT Jax",
       "1.5 Training and Optimization",
       "1.6 Neural Network Architecture",
     ],
@@ -47,29 +47,50 @@ export const courses = [
       ["Neural Network Architectures"],
     ],
     workLink: [
-      ["https://puginarug.com/"],
-      ["https://puginarug.com/"],
       [
-        "https://puginarug.com/",
-        "https://puginarug.com/",
-        "https://puginarug.com/",
+        "https://colab.research.google.com/drive/1--ttY8iDUUC8iqjG3zkoWEg0wM17hICY",
+        "https://colab.research.google.com/drive/12U5rFwuMdYIKE3XAzwP0hWoBRosHnqor",
+        "https://colab.research.google.com/drive/1rOevSy6pOl24wLwipi9lQlaVXggsKe6A",
+        "https://colab.research.google.com/drive/1AU0AieY3Zk-mAl0WBYpdlZiMcX16bI9h",
       ],
-      ["https://puginarug.com/", "https://puginarug.com/"],
-      ["https://puginarug.com/"],
+      [
+        "https://colab.research.google.com/drive/1cBDgll4oyD9GJ3vybl30etkRZFjQAoi5",
+        "https://colab.research.google.com/drive/1r1-uyxlTMtq-YhAbcgMj3ZVOtHgIGwEt",
+        "https://colab.research.google.com/drive/1RUdRY5f8hRbYGfwk63Ntns8Pz5hmJ9O_",
+        "https://colab.research.google.com/drive/11RxvivF_ecixcMVG6VaTcbt-Cllty1cR",
+      ],
+      [
+        "https://colab.research.google.com/drive/1HBien8Rlj9zf7jtOgAGnawm_spfsoDft",
+        "https://colab.research.google.com/drive/1UDKTEQsMMmCtmXTbTwWZkYXnnK48Q201",
+      ],
+      [
+        "https://colab.research.google.com/drive/1rQoRxekcCzQxwq7-FvmI_fpjHlEE3T1M",
+        "https://colab.research.google.com/drive/1XqzkqHwTTIpsKW6UWEXzeXzAhdEmuy7-",
+      ],
+      ["https://drive.google.com/drive/folders/1UAslq2EY9pXiZ5tIHC6raSCKFCGrXUAX"],
     ],
     workDesc: [
-      ["This will bring you to a fun link"],
-      ["This will bring you to a fun link"],
       [
-        "This will bring you to a fun link",
-        "This will bring you to a fun link",
-        "This will bring you to a fun link",
+        "Installation guidelines for Anaconda",
+        "Gram-Schmidt Algorithm",
+        "lpnorm",
+        "SVD"
       ],
       [
-        "This will bring you to a fun link",
-        "This will bring you to a fun link",
+        "Oscilatory Function",
+        "Solution One",
+        "Solution Two",
+        "Solution Three",
       ],
-      ["This will bring you to a fun link"],
+      [
+        "Oscilatory Function Two",
+        "Solution",
+      ],
+      [
+        "Fourier Series",
+        "Runge function",
+      ],
+      ["Homework 1.6"],
     ],
   },
   {
