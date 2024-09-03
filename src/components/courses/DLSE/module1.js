@@ -19,23 +19,22 @@ const courses = [
 // loop through and grab all data correlated with that course
 
 export const Mod1 = () => {
-  var index = 0;
-  const savedCourse = courses.find(course => course.courseID === 1);
+  const savedCourse = courses.find((course) => course.courseID === 1);
   return (
     <>
       <h2>Labs</h2>
-      {savedCourse && savedCourse.title.map((_, idx) => (
-        <Dropdown title={savedCourse.title[idx]}>
-          <a
-            href={savedCourse.link[idx]}
-            target="_blank"
-            rel="noreferrer"
-            className="lab_links"
-          >
-            {savedCourse.desc[idx]}
-          </a>
-        </Dropdown>
-      ))}
+        {savedCourse && savedCourse.title.map((_, idx) => (
+          <Dropdown title={savedCourse.title[idx]}>
+            <a
+              href={savedCourse.link[idx]}
+              target="_blank"
+              rel="noreferrer"
+              className="lab_links"
+            >
+              {savedCourse.desc[idx]}
+            </a>
+          </Dropdown>
+        ))}
       <Dropdown title="1.3 Deep Learning Networks">
         <a
           href="https://colab.research.google.com/drive/1ZN7hePGouCijeWvwdpFFmPuuOKYEPbh7"
