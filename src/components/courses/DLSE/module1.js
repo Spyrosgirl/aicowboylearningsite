@@ -75,7 +75,7 @@ const courses = [
 ];
 
 export const Mod1 = ({ id }) => {
-  const savedCourse = courses.find((course) => course.courseID === 1);
+  const savedCourse = courses.find((course) => course.courseID === id);
   return (
     <>
       <h2>Labs</h2>
