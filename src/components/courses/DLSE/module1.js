@@ -23,8 +23,9 @@ export const Mod1 = () => {
   return (
     <>
       <h2>Labs</h2>
-        {savedCourse && savedCourse.title.map((_, idx) => (
-          <Dropdown title={savedCourse.title[idx]}>
+      {savedCourse &&
+        savedCourse.title.map((_, idx) => (
+          <Dropdown key={idx} title={savedCourse.title[idx]}>
             <a
               href={savedCourse.link[idx]}
               target="_blank"
