@@ -8,19 +8,19 @@ import { Courses } from "../components/courses_list";
 
 export const CoursePage = () => {
   const location = useLocation();
-  const { course } = location.state || {};
+  const { courseID } = location.state || {};
   return (
     <PageLayout>
       {/* Pull ID from Prev Page */}
       <h1 className="CourseTitle">
-        {courses.find((course) => course.courseID === id).title}
+        {Courses.find((course) => course.courseID === id).title}
       </h1>
       {/* Course PreReqs */}
       <Dropdown title="Course Prerequisites">
         <Prereq />
       </Dropdown>
       <Dropdown title="Module 1 - Basics">
-        <Mod1 id={course} />
+        <Mod1 id={courseID} />
       </Dropdown>
       {/* Drop Downs for files */}
     </PageLayout>
