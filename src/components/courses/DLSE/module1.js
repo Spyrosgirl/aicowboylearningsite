@@ -38,6 +38,7 @@ export const Mod1 = () => {
                 target="_blank"
                 rel="noreferrer"
                 className="lab_links"
+                key={idx2}
               >
                 {savedCourse.desc[idx][idx2]}
               </a>
