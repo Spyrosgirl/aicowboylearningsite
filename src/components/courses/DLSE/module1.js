@@ -4,8 +4,11 @@ import { Dropdown } from "../../buttons/dropdown";
 const courses = [
   {
     courseID: 1,
-    title: "deep learning for science and engineering",
-    link: "../components/courses/DLSE/prereq",
+    labs: 
+      {
+        title: "1.2 Primer Python",
+        link: "../components/courses/DLSE/prereq",
+      }
   },
 ];
 console.log(courses);
@@ -14,7 +17,7 @@ export const Mod1 = () => {
   return (
     <>
       <h2>Labs</h2>
-      <Dropdown title="1.2 Primer Python">
+      <Dropdown title={courses[0].labs[0].title}>
         <a
           href="https://colab.research.google.com/drive/158mKtWkbrdZwxNoot1cta2d0Kr-eOjbt"
           target="_blank"
