@@ -25,6 +25,7 @@ export const Mod1 = () => {
   courses.map((course) =>
     course.courseID == 1 ? (savedCourse = course) : index++
   );
+  console.log(savedCourse);
   return (
     <>
       <h2>Labs</h2>
