@@ -32,14 +32,16 @@ export const Mod1 = () => {
       {savedCourse &&
         savedCourse.title.map((_, idx) => (
           <Dropdown key={idx} title={savedCourse.title[idx]}>
-            <a
-              href={savedCourse.link[idx]}
-              target="_blank"
-              rel="noreferrer"
-              className="lab_links"
-            >
-              {savedCourse.desc[idx]}
-            </a>
+            {savedCourse.link[idx].map((_, idx2) => (
+              <a
+                href={savedCourse.link[idx][idx2]}
+                target="_blank"
+                rel="noreferrer"
+                className="lab_links"
+              >
+                {savedCourse.desc[idx][idx2]}
+              </a>
+            ))}
           </Dropdown>
         ))}
       <Dropdown title="1.4 Primer PFT Jax">
