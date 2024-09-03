@@ -93,7 +93,9 @@ export const courses = [
       "PyCuda MandelBrot",
     ],
     labLink: [
-      ["https://colab.research.google.com/drive/1nua7mKWxHNUIhrYs1opORSdVd2LfnDeU"],
+      [
+        "https://colab.research.google.com/drive/1nua7mKWxHNUIhrYs1opORSdVd2LfnDeU",
+      ],
       [
         "https://colab.research.google.com/drive/14--JFXHpsQOcGjiPhGNy3BdJEVabih-3",
         "https://colab.research.google.com/drive/1bdVwIhPPeN6nOvdAF3ujzwWLox-zofN1",
@@ -112,9 +114,7 @@ export const courses = [
       ["Pred Classification Lab"],
       ["PyCuda MandelBrot Lab"],
     ],
-    workLink: [
-    ],
-    workDesc: [
-    ],
+    workLink: [],
+    workDesc: [],
   },
 ];
