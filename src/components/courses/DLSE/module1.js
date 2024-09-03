@@ -4,19 +4,23 @@ import { Dropdown } from "../../buttons/dropdown";
 const courses = [
   {
     courseID: 1,
-    title: ["1.2 Primer Python", "1.3 Deep Learning Networks"],
+    title: [
+      "1.2 Primer Python",
+      "1.3 Deep Learning Networks",
+      "1.4 Primer PFT Jax",
+    ],
     link: [
       "https://colab.research.google.com/drive/158mKtWkbrdZwxNoot1cta2d0Kr-eOjbt",
       "https://colab.research.google.com/drive/1ZN7hePGouCijeWvwdpFFmPuuOKYEPbh7",
+      "https://colab.research.google.com/drive/1Bwrz13cEgYINzBo8XA8bq_ivx_fbG22d",
     ],
     desc: [
       "A primer on Python and NumPy, SciPy and Matplotlib",
       "Deep Neural Networks",
+      "Pytorch Primer",
     ],
   },
 ];
-// find which courseID fits
-// loop through and grab all data correlated with that course
 
 export const Mod1 = () => {
   const savedCourse = courses.find((course) => course.courseID === 1);
@@ -36,25 +40,7 @@ export const Mod1 = () => {
             </a>
           </Dropdown>
         ))}
-      <Dropdown title="1.3 Deep Learning Networks">
-        <a
-          href="https://colab.research.google.com/drive/1ZN7hePGouCijeWvwdpFFmPuuOKYEPbh7"
-          target="_blank"
-          rel="noreferrer"
-          className="lab_links"
-        >
-          Deep Neural Networks
-        </a>
-      </Dropdown>
       <Dropdown title="1.4 Primer PFT Jax">
-        <a
-          href="https://colab.research.google.com/drive/1Bwrz13cEgYINzBo8XA8bq_ivx_fbG22d"
-          target="_blank"
-          rel="noreferrer"
-          className="lab_links"
-        >
-          Pytorch Primer
-        </a>
         <a
           href="https://colab.research.google.com/drive/1uZzfCDal6tpBMAzb9rZ3WTn-0VOukQ3S"
           target="_blank"
