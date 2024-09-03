@@ -14,7 +14,6 @@ export const CoursePage = () => {
       <h1 className="CourseTitle">
         Deep Learning for Science and Engineering Teaching Kit
       </h1>
-      <p> ID: {course} </p>
       {/* Course PreReqs */}
       <Dropdown title="Course Prerequisites">
         <Prereq />
