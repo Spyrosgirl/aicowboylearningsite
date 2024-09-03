@@ -19,7 +19,7 @@ const courses = [
     desc: [
       "A primer on Python and NumPy, SciPy and Matplotlib",
       "Deep Neural Networks",
-      ["Pytorch Primer",],
+      ["Pytorch Primer"],
     ],
   },
 ];
