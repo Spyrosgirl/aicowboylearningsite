@@ -85,6 +85,16 @@ export const courses = [
     ],
   },
   {
+    courseID: 2,
+    title: ["Intro Rapids CUDF"],
+    labLink: [
+      ["https://colab.research.google.com/drive/1j88vVklKuc33kKc7nlfLpuxYtHL6xRM2"],
+    ],
+    labDesc: [["Introduction to RAPIDS"]],
+    workLink : [],
+    workDesk: [],
+  },
+  {
     courseID: 4,
     title: [
       "Video and Image",
