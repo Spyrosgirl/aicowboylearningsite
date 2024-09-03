@@ -54,10 +54,7 @@ export const courses = [
         "https://puginarug.com/",
         "https://puginarug.com/",
       ],
-      [
-        "https://puginarug.com/",
-        "https://puginarug.com/",
-      ],
+      ["https://puginarug.com/", "https://puginarug.com/"],
       ["https://puginarug.com/"],
     ],
     workDesc: [
@@ -70,10 +67,10 @@ export const courses = [
       ],
       [
         "This will bring you to a fun link",
-        "This will bring you to a fun link"
+        "This will bring you to a fun link",
       ],
       ["This will bring you to a fun link"],
-    ]
+    ],
   },
   {
     courseID: 4,
@@ -113,6 +110,6 @@ export const courses = [
         "This will bring you to a fun link",
         "This will bring you to a fun link",
       ],
-    ]
+    ],
   },
 ];
