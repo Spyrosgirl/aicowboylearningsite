@@ -12,12 +12,16 @@ const courses = [
     link: [
       "https://colab.research.google.com/drive/158mKtWkbrdZwxNoot1cta2d0Kr-eOjbt",
       "https://colab.research.google.com/drive/1ZN7hePGouCijeWvwdpFFmPuuOKYEPbh7",
-      "https://colab.research.google.com/drive/1Bwrz13cEgYINzBo8XA8bq_ivx_fbG22d",
+      [
+        "https://colab.research.google.com/drive/1Bwrz13cEgYINzBo8XA8bq_ivx_fbG22d",
+      ],
     ],
     desc: [
       "A primer on Python and NumPy, SciPy and Matplotlib",
       "Deep Neural Networks",
-      "Pytorch Primer",
+      [
+        "Pytorch Primer",
+      ],
     ],
   },
 ];
