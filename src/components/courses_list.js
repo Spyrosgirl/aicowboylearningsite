@@ -25,7 +25,7 @@ export const Courses = [
   },
   {
     courseID: 4,
-    title: "nvidia dli deep 2",
+    title: "NVIDIA DLI Deep 2",
     link: "https://drive.google.com/drive/folders/1dgGK5ABHKBH9foCXDjnHW5dnICmCmYsM?usp=drive_link",
     desc: "This is another long description just in case. I like testing things. I like to be thorough.",
     price: "$4.00",
