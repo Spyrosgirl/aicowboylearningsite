@@ -7,7 +7,7 @@ const courses = [
     labs: {
       title: "1.2 Primer Python",
       link: "../components/courses/DLSE/prereq",
-    }
+    },
   },
 ];
 console.log(courses);
