@@ -23,7 +23,7 @@ export const Mod1 = () => {
   var index = 0;
   let savedCourse = [];
   courses.map((course) =>
-    course.courseID == 1 ? ( savedCourse = course ) : index++
+    course.courseID == 1 ? (savedCourse = course) : index++
   );
   return (
     <>
@@ -35,7 +35,7 @@ export const Mod1 = () => {
           rel="noreferrer"
           className="lab_links"
         >
-        {savedCourse.desc[0]}
+          {savedCourse.desc[0]}
         </a>
       </Dropdown>
       <Dropdown title="1.3 Deep Learning Networks">
