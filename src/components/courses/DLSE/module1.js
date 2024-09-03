@@ -10,7 +10,7 @@ const courses = [
     },
   },
 ];
-console.log(courses[0].labs);
+console.log(courses[0].labs.title);
 
 export const Mod1 = () => {
   return (
