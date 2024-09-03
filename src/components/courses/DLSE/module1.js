@@ -10,15 +10,15 @@ export const Mod1 = ({ id }) => {
       {savedCourse &&
         savedCourse.title.map((_, idx) => (
           <Dropdown key={idx} title={savedCourse.title[idx]}>
-            {savedCourse.link[idx].map((_, idx2) => (
+            {savedCourse.labLink[idx].map((_, idx2) => (
               <a
-                href={savedCourse.link[idx][idx2]}
+                href={savedCourse.labLink[idx][idx2]}
                 target="_blank"
                 rel="noreferrer"
                 className="lab_links"
                 key={idx2}
               >
-                {savedCourse.desc[idx][idx2]}
+                {savedCourse.labDesc[idx][idx2]}
               </a>
             ))}
           </Dropdown>
