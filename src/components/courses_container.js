@@ -86,42 +86,35 @@ export const courses = [
   },
   {
     courseID: 4,
-    title: ["Title One", "Title Two", "Title Three"],
+    title: [
+      "Video and Image",
+      "Parallel Programming",
+      "Pred Classification",
+      "PyCuda MandelBrot",
+    ],
     labLink: [
-      ["https://puginarug.com/"],
-      ["https://puginarug.com/"],
+      ["https://colab.research.google.com/drive/1nua7mKWxHNUIhrYs1opORSdVd2LfnDeU"],
       [
-        "https://puginarug.com/",
-        "https://puginarug.com/",
-        "https://puginarug.com/",
+        "https://colab.research.google.com/drive/14--JFXHpsQOcGjiPhGNy3BdJEVabih-3",
+        "https://colab.research.google.com/drive/1bdVwIhPPeN6nOvdAF3ujzwWLox-zofN1",
+        "https://colab.research.google.com/drive/1bMsSxOsNHXL09wi6w3w3QJVgDrN_4ypf",
+      ],
+      [
+        "https://drive.google.com/drive/folders/1iMoyXSmAVaTwc1UJOCctguZ-pI22dxQq",
+      ],
+      [
+        "https://drive.google.com/drive/folders/1si2DbPRUzPude78TDwXMTr8aR0jlm9H1",
       ],
     ],
     labDesc: [
-      ["This will bring you to a fun link"],
-      ["This will bring you to a fun link"],
-      [
-        "This will bring you to a fun link",
-        "This will bring you to a fun link",
-        "This will bring you to a fun link",
-      ],
+      ["Video Optical Flow"],
+      ["NumPy", "PyCuda", "Numba Basics"],
+      ["Pred Classification Lab"],
+      ["PyCuda MandelBrot Lab"],
     ],
     workLink: [
-      ["https://puginarug.com/"],
-      ["https://puginarug.com/"],
-      [
-        "https://puginarug.com/",
-        "https://puginarug.com/",
-        "https://puginarug.com/",
-      ],
     ],
     workDesc: [
-      ["This will bring you to a fun link"],
-      ["This will bring you to a fun link"],
-      [
-        "This will bring you to a fun link",
-        "This will bring you to a fun link",
-        "This will bring you to a fun link",
-      ],
     ],
   },
 ];
