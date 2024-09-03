@@ -47,9 +47,7 @@ const courses = [
         "Implementation of various learning rate scheduler",
         "Implementation of various Optimizers(various_losses_v_iteration)",
       ],
-      [
-        "Neural Network Architectures",
-      ],
+      ["Neural Network Architectures"],
     ],
   },
 ];
