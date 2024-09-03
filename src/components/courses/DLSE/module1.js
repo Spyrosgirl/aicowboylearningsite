@@ -29,7 +29,6 @@ export const Mod1 = () => {
   console.log(size);
   return (
     <>
-      
       <h2>Labs</h2>
       <Dropdown title={savedCourse.title[0]}>
         <a
