@@ -18,12 +18,22 @@ const courses = [
       ],
       [
         "https://colab.research.google.com/drive/1Bwrz13cEgYINzBo8XA8bq_ivx_fbG22d",
+        "https://colab.research.google.com/drive/1uZzfCDal6tpBMAzb9rZ3WTn-0VOukQ3S",
+        "https://colab.research.google.com/drive/1MgfKGcUQmnkSaLqi_zepDVp4_HfkwWwl",
+        "https://colab.research.google.com/drive/1kE8a1awRagvrVEllJr2wVYxip8mL-UHI",
+        "https://colab.research.google.com/drive/1v4pEo3a8OIhKaEok3PW-JQiMHeKpDtmm",
       ],
     ],
     desc: [
       ["A primer on Python and NumPy, SciPy and Matplotlib"],
       ["Deep Neural Networks"],
-      ["Pytorch Primer"],
+      [
+        "Pytorch Primer",
+        "Tensorflow Primer",
+        "PyTorch vs TensorFlow",
+        "JAX Primer",
+        "Saving and restoring model in TensorFlow",
+      ],
     ],
   },
 ];
@@ -49,40 +59,6 @@ export const Mod1 = () => {
             ))}
           </Dropdown>
         ))}
-      <Dropdown title="1.4 Primer PFT Jax">
-        <a
-          href="https://colab.research.google.com/drive/1uZzfCDal6tpBMAzb9rZ3WTn-0VOukQ3S"
-          target="_blank"
-          rel="noreferrer"
-          className="lab_links"
-        >
-          Tensorflow Primer
-        </a>
-        <a
-          href="https://colab.research.google.com/drive/1MgfKGcUQmnkSaLqi_zepDVp4_HfkwWwl"
-          target="_blank"
-          rel="noreferrer"
-          className="lab_links"
-        >
-          PyTorch vs TensorFlow
-        </a>
-        <a
-          href="https://colab.research.google.com/drive/1kE8a1awRagvrVEllJr2wVYxip8mL-UHI"
-          target="_blank"
-          rel="noreferrer"
-          className="lab_links"
-        >
-          JAX Primer
-        </a>
-        <a
-          href="https://colab.research.google.com/drive/1v4pEo3a8OIhKaEok3PW-JQiMHeKpDtmm"
-          target="_blank"
-          rel="noreferrer"
-          className="lab_links"
-        >
-          Saving and restoring model in TensorFlow
-        </a>
-      </Dropdown>
       <Dropdown title="1.5 Training and Optimization">
         <a
           href="https://colab.research.google.com/drive/1GEBAljEa1xjyAIRsVsfdL0Wm631s9GFW"
