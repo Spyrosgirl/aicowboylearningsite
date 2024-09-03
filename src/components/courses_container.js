@@ -46,6 +46,34 @@ export const courses = [
       ],
       ["Neural Network Architectures"],
     ],
+    workLink: [
+      ["https://puginarug.com/"],
+      ["https://puginarug.com/"],
+      [
+        "https://puginarug.com/",
+        "https://puginarug.com/",
+        "https://puginarug.com/",
+      ],
+      [
+        "https://puginarug.com/",
+        "https://puginarug.com/",
+      ],
+      ["https://puginarug.com/"],
+    ],
+    workDesc: [
+      ["This will bring you to a fun link"],
+      ["This will bring you to a fun link"],
+      [
+        "This will bring you to a fun link",
+        "This will bring you to a fun link",
+        "This will bring you to a fun link",
+      ],
+      [
+        "This will bring you to a fun link",
+        "This will bring you to a fun link"
+      ],
+      ["This will bring you to a fun link"],
+    ]
   },
   {
     courseID: 4,
