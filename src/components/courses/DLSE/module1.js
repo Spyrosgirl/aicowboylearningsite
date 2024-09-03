@@ -52,7 +52,7 @@ const courses = [
   },
 ];
 
-export const Mod1 = ({id}) => {
+export const Mod1 = ({ id }) => {
   const savedCourse = courses.find((course) => course.courseID === 1);
   return (
     <>
