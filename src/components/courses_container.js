@@ -8,7 +8,7 @@ export const courses = [
       "1.5 Training and Optimization",
       "1.6 Neural Network Architecture",
     ],
-    link: [
+    labLink: [
       [
         "https://colab.research.google.com/drive/158mKtWkbrdZwxNoot1cta2d0Kr-eOjbt",
       ],
@@ -30,7 +30,7 @@ export const courses = [
         "https://colab.research.google.com/drive/1owl9-lq75c4yjJ1TmoXAWTfZEYguSvOX",
       ],
     ],
-    desc: [
+    labDesc: [
       ["A primer on Python and NumPy, SciPy and Matplotlib"],
       ["Deep Neural Networks"],
       [
@@ -50,7 +50,7 @@ export const courses = [
   {
     courseID: 4,
     title: ["Title One", "Title Two", "Title Three"],
-    link: [
+    labLink: [
       ["https://puginarug.com/"],
       ["https://puginarug.com/"],
       [
@@ -59,7 +59,7 @@ export const courses = [
         "https://puginarug.com/",
       ],
     ],
-    desc: [
+    labDesc: [
       ["This will bring you to a fun link"],
       ["This will bring you to a fun link"],
       [
