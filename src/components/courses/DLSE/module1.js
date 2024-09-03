@@ -4,11 +4,10 @@ import { Dropdown } from "../../buttons/dropdown";
 const courses = [
   {
     courseID: 1,
-    labs: 
-      {
-        title: "1.2 Primer Python",
-        link: "../components/courses/DLSE/prereq",
-      }
+    labs: {
+      title: "1.2 Primer Python",
+      link: "../components/courses/DLSE/prereq",
+    }
   },
 ];
 console.log(courses);
