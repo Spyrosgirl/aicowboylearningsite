@@ -21,13 +21,14 @@ console.log(courses[0].title[0]);
 
 export const Mod1 = () => {
   var index = 0;
-  let savedCourse = []
-  for (course in courses) {
-    if(course.courseID == 1){
+  let savedCourse = [];
+  
+  courses.map((course) =>
+    course.courseID == 1 ? (
       savedCourse = course
-    }
-    index++
-  }
+    ) : index++
+  )
+  
   return (
     <>
       <h2>Labs</h2>
