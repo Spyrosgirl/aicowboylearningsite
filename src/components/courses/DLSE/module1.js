@@ -15,31 +15,27 @@ const courses = [
     ],
   },
 ];
-console.log(courses[0].title[0]);
 // find which courseID fits
 // loop through and grab all data correlated with that course
 
 export const Mod1 = () => {
   var index = 0;
-  let savedCourse = [];
-  courses.map((course) =>
-    course.courseID == 1 ? (savedCourse = course) : index++
-  );
-  const size = savedCourse.title.length;
-  console.log(size);
+  const savedCourse = courses.find(course => course.courseID === 1);
   return (
     <>
       <h2>Labs</h2>
-      <Dropdown title={savedCourse.title[0]}>
-        <a
-          href={savedCourse.link[0]}
-          target="_blank"
-          rel="noreferrer"
-          className="lab_links"
-        >
-          {savedCourse.desc[0]}
-        </a>
-      </Dropdown>
+      {savedCourse && savedCourse.title.map((_, idx) => (
+        <Dropdown title={savedCourse.title[idx]}>
+          <a
+            href={savedCourse.link[idx]}
+            target="_blank"
+            rel="noreferrer"
+            className="lab_links"
+          >
+            {savedCourse.desc[idx]}
+          </a>
+        </Dropdown>
+      ))}
       <Dropdown title="1.3 Deep Learning Networks">
         <a
           href="https://colab.research.google.com/drive/1ZN7hePGouCijeWvwdpFFmPuuOKYEPbh7"
