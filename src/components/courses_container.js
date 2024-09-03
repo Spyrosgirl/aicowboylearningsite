@@ -67,29 +67,20 @@ export const courses = [
         "https://colab.research.google.com/drive/1rQoRxekcCzQxwq7-FvmI_fpjHlEE3T1M",
         "https://colab.research.google.com/drive/1XqzkqHwTTIpsKW6UWEXzeXzAhdEmuy7-",
       ],
-      ["https://drive.google.com/drive/folders/1UAslq2EY9pXiZ5tIHC6raSCKFCGrXUAX"],
+      [
+        "https://drive.google.com/drive/folders/1UAslq2EY9pXiZ5tIHC6raSCKFCGrXUAX",
+      ],
     ],
     workDesc: [
       [
         "Installation guidelines for Anaconda",
         "Gram-Schmidt Algorithm",
         "lpnorm",
-        "SVD"
+        "SVD",
       ],
-      [
-        "Oscilatory Function",
-        "Solution One",
-        "Solution Two",
-        "Solution Three",
-      ],
-      [
-        "Oscilatory Function Two",
-        "Solution",
-      ],
-      [
-        "Fourier Series",
-        "Runge function",
-      ],
+      ["Oscilatory Function", "Solution One", "Solution Two", "Solution Three"],
+      ["Oscilatory Function Two", "Solution"],
+      ["Fourier Series", "Runge function"],
       ["Homework 1.6"],
     ],
   },
