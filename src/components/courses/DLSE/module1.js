@@ -25,10 +25,11 @@ export const Mod1 = () => {
   courses.map((course) =>
     course.courseID == 1 ? (savedCourse = course) : index++
   );
-  console.log(savedCourse);
+  const size = savedCourse.title.length;
+  console.log(size);
   return (
     <>
-      const size = savedCourse.title.length; console.log(size);
+      
       <h2>Labs</h2>
       <Dropdown title={savedCourse.title[0]}>
         <a
