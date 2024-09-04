@@ -93,8 +93,8 @@ export const courses = [
       ],
     ],
     labDesc: [["Introduction to RAPIDS"]],
-    workLink: [],
-    workDesk: [],
+    workLink: [[]],
+    workDesk: [[]],
   },
   {
     courseID: 4,
