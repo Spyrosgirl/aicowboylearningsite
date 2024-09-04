@@ -126,14 +126,7 @@ export const courses = [
       ["Pred Classification Lab"],
       ["PyCuda MandelBrot Lab"],
     ],
-    workLink: [
-      [
-        "https://drive.google.com/drive/folders/1anoaPTpyCaX62KmfIfoqAm5WJFiLVgaJ",
-      ],
-      [],
-      [],
-      [],
-    ],
-    workDesc: [["Desc"], [], [], []],
+    workLink: [[], [], [], []],
+    workDesc: [[], [], [], []],
   },
 ];
