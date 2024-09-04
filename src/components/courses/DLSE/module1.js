@@ -24,7 +24,7 @@ export const Mod1 = ({ id }) => {
           </Dropdown>
         ))}
       <h2>Homeworks</h2>
-       {savedCourse &&
+      {savedCourse &&
         savedCourse.workLink[0] != "" &&
         savedCourse.title.map((_, idx) => (
           <Dropdown key={idx} title={savedCourse.title[idx]}>
