@@ -23,24 +23,27 @@ export const Mod1 = ({ id }) => {
             ))}
           </Dropdown>
         ))}
-      <h2>Homeworks</h2>
-      {savedCourse &&
-        savedCourse.workLink[0] != "" &&
-        savedCourse.title.map((_, idx) => (
-          <Dropdown key={idx} title={savedCourse.title[idx]}>
-            {savedCourse.labLink[idx].map((_, idx2) => (
-              <a
-                href={savedCourse.workLink[idx][idx2]}
-                target="_blank"
-                rel="noreferrer"
-                className="lab_links"
-                key={idx2}
-              >
-                {savedCourse.workDesc[idx][idx2]}
-              </a>
-            ))}
-          </Dropdown>
-        ))}
+
+      {savedCourse && savedCourse.workLink[0] !== "" && (
+        <>
+          <h2>Homeworks</h2>
+          {savedCourse.title.map((_, idx) => (
+              <Dropdown key={idx} title={savedCourse.title[idx]}>
+                {savedCourse.labLink[idx].map((_, idx2) => (
+                  <a
+                    href={savedCourse.workLink[idx][idx2]}
+                    target="_blank"
+                    rel="noreferrer"
+                    className="lab_links"
+                    key={idx2}
+                  >
+                    {savedCourse.workDesc[idx][idx2]}
+                  </a>
+                ))}
+              </Dropdown>
+            )}
+        </>
+      )}
     </>
   );
 };
