@@ -2,7 +2,7 @@ export const courses = [
   {
     courseID: 1,
     title: [
-      "1.2 Primer Python"
+      "1.2 Primer Python",
       "1.3 Deep Learning Networks",
       "1.4 Primer PYT Jax",
       "1.5 Training and Optimization",
