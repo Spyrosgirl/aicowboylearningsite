@@ -24,7 +24,7 @@ export const Mod1 = ({ id }) => {
           </Dropdown>
         ))}
 
-      {savedCourse && savedCourse.workLink[0] !== "" && (
+      {savedCourse && savedCourse.workLink[0] != "" && (
         <>
           <h2>Homeworks</h2>
           {savedCourse.title.map((_, idx) => (
