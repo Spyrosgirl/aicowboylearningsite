@@ -6,9 +6,10 @@ export const Mod1 = ({ id }) => {
   const savedCourse = courses.find((course) => course.courseID === id);
   return (
     <>
-      <h2>Labs</h2>
-      {savedCourse &&
-        savedCourse.title.map((_, idx) => (
+    {savedCourse && savedCourse.labLink[0] != "" && (
+      <>
+        <h2>Labs</h2>
+        {savedCourse.title.map((_, idx) => (
           <Dropdown key={idx} title={savedCourse.title[idx]}>
             {savedCourse.labLink[idx].map((_, idx2) => (
               <a
@@ -23,7 +24,8 @@ export const Mod1 = ({ id }) => {
             ))}
           </Dropdown>
         ))}
-
+      </>
+    )}
       {savedCourse && savedCourse.workLink[0] != "" && (
         <>
           <h2>Homeworks</h2>
