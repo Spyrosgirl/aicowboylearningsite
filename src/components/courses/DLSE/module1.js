@@ -41,7 +41,7 @@ export const Mod1 = ({ id }) => {
                   </a>
                 ))}
               </Dropdown>
-            )}
+            ))}
         </>
       )}
     </>
