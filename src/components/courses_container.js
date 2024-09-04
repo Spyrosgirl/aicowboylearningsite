@@ -126,7 +126,7 @@ export const courses = [
       ["Pred Classification Lab"],
       ["PyCuda MandelBrot Lab"],
     ],
-    workLink: [ [], [], [], []],
-    workDesc: [ [], [], [], []],
+    workLink: [[], [], [], []],
+    workDesc: [[], [], [], []],
   },
 ];
