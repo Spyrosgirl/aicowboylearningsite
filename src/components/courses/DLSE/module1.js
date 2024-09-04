@@ -31,7 +31,7 @@ export const Mod1 = ({ id }) => {
           <h2>Homeworks</h2>
           {savedCourse.title.map((_, idx) => (
             <Dropdown key={idx} title={savedCourse.title[idx]}>
-              {savedCourse.labLink[idx].map((_, idx2) => (
+              {savedCourse.workLink[idx].map((_, idx2) => (
                 <a
                   href={savedCourse.workLink[idx][idx2]}
                   target="_blank"
