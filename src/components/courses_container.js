@@ -127,10 +127,12 @@ export const courses = [
       ["PyCuda MandelBrot Lab"],
     ],
     workLink: [
-        ["https://drive.google.com/drive/folders/1anoaPTpyCaX62KmfIfoqAm5WJFiLVgaJ"],
-        [],
-        [],
-        [],
+      [
+        "https://drive.google.com/drive/folders/1anoaPTpyCaX62KmfIfoqAm5WJFiLVgaJ",
+      ],
+      [],
+      [],
+      [],
     ],
     workDesc: [["Desc"], [], [], []],
   },
