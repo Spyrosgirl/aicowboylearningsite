@@ -11,17 +11,17 @@ export const AdminPage = () => {
           Your Courses
         </h1>
         <div className="horizon">
-          {Courses.map((course) =>
-            (
-              <CourseCodeSnippet
-                key={course.courseID}
-                title={course.title}
-                desc={course.desc}
-                price={course.price}
-                link={course.link}
-                ID={course.courseID}
-              />
-            )
+        {Courses.map((course) =>
+          (
+            <CourseCodeSnippet
+              key={course.courseID}
+              title={course.title}
+              desc={course.desc}
+              price={course.price}
+              link={course.link}
+              ID={course.courseID}
+            />
+          )
           )}
         </div>
       </div>
