@@ -11,6 +11,7 @@ import { ProfilePage } from "./pages/profile-page";
 import { ProtectedPage } from "./pages/protected-page";
 import { UserCoursesPage } from "./pages/user-courses-page";
 import { CoursePage } from "./pages/course-page";
+import { EditCoursePage } from "./pages/edit-course-page";
 
 export const App = () => {
   const { isLoading } = useAuth0();
