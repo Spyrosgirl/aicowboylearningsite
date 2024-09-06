@@ -38,7 +38,8 @@ export const App = () => {
       />
       <Route
         path="/admin"
-        element={<AuthenticationGuard component={AdminPage} />}
+        element={<AdminPage> </>}
+        //element={<AuthenticationGuard component={AdminPage} />}
       />
       <Route path="/callback" element={<CallbackPage />} />
       <Route path="/course" element={<CoursePage />} />
