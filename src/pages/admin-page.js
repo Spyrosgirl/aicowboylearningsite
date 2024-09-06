@@ -25,6 +25,7 @@ export const AdminPage = () => {
             ) : null
           )}
         </div>
+      </div>
     </PageLayout>
   );
 };
