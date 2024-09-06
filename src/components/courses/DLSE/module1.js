@@ -2,7 +2,7 @@ import React from "react";
 import { Dropdown } from "../../buttons/dropdown";
 import { courses } from "../../courses_container";
 
-export const Mod1 = ({ id }) => {
+export const Mod1 = ({ id, edit }) => {
   const savedCourse = courses.find((course) => course.courseID === id);
   return (
     <>
