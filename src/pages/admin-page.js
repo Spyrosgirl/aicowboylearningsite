@@ -1,7 +1,6 @@
 import React from "react";
 import { CodeSnippet } from "../components/code-snippet";
 import { PageLayout } from "../components/page-layout";
-import { getAdminResource } from "../services/message.service";
 
 export const AdminPage = () => {
   return (
@@ -24,7 +23,7 @@ export const AdminPage = () => {
               </strong>
             </span>
           </p>
-          <CodeSnippet title="Admin Message" code={message} />
+          <CodeSnippet title="Admin Message" code="Message" />
         </div>
       </div>
     </PageLayout>
