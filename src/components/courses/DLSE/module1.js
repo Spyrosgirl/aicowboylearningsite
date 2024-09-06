@@ -33,7 +33,7 @@ export const Mod1 = ({ id, edit }) => {
         <>
           <div className="module-title">
             <h2 className="inner-module-title">Homeworks</h2>
-            <div className="inner-module-title"> Add New Homework </div>
+            {edit && <div className="inner-module-title">Add New Homework</div>}
           </div>
           {savedCourse.title.map((_, idx) => (
             <Dropdown key={idx} title={savedCourse.title[idx]}>
