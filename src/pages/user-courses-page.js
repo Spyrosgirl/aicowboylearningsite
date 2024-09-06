@@ -18,7 +18,7 @@ export const UserCoursesPage = () => {
                 title={course.title}
                 desc={course.desc}
                 price={course.price}
-                link={course.link}
+                link="/course"
                 ID={course.courseID}
               />
             ) : null
@@ -33,7 +33,7 @@ export const UserCoursesPage = () => {
                 title={course.title}
                 desc={course.desc}
                 price={course.price}
-                link={course.link}
+                link="/course"
                 ID={course.courseID}
               />
             ) : null
