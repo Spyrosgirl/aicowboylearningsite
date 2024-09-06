@@ -7,6 +7,7 @@
     display: flex;
 }
 
-.inner-module-title{
+.inner-module-title, 
+.inner-module-button{
     margin: auto;
 }
