@@ -11,8 +11,7 @@ export const AdminPage = () => {
           Your Courses
         </h1>
         <div className="horizon">
-        {Courses.map((course) =>
-          (
+          {Courses.map((course) =>(
             <CourseCodeSnippet
               key={course.courseID}
               title={course.title}
