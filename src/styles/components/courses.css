@@ -6,3 +6,7 @@
 .module-title{
     display: flex;
 }
+
+.inner-module-title{
+    display: auto;
+}
