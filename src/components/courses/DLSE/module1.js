@@ -14,7 +14,7 @@ export const Mod1 = ({ id, edit }) => {
           <div className="module-title">
             <h2 className="inner-module-title">Labs</h2>
             {edit && (
-              <div className="inner-module-title" className="module-button" onClick={handleNewLab}>
+              <div className="inner-module-button" onClick={handleNewLab}>
                 Add New Lab
               </div>
             )}
