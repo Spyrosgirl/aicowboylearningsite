@@ -6,7 +6,7 @@ import { Prereq } from "../components/courses/DLSE/prereq";
 import { Mod1 } from "../components/courses/DLSE/module1";
 import { Courses } from "../components/courses_list";
 
-export const EditCoursePage = () => {
+export const CoursePage = () => {
   const location = useLocation();
   const { courseID } = location.state || {};
   return (
@@ -17,10 +17,10 @@ export const EditCoursePage = () => {
       </h1>
       {/* Course PreReqs */}
       <Dropdown title="Course Prerequisites">
-        <Prereq />
+        <Prereq edit="true"/>
       </Dropdown>
       <Dropdown title="Module 1 - Basics">
-        <Mod1 id={courseID} />
+        <Mod1 id={courseID} edit="true"/>
       </Dropdown>
       {/* Drop Downs for files */}
     </PageLayout>
