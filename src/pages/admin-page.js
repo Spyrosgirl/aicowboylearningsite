@@ -1,5 +1,4 @@
 import React from "react";
-import { CodeSnippet } from "../components/code-snippet";
 import { PageLayout } from "../components/page-layout";
 import { CourseCodeSnippet } from "../components/CourseCodeSnippet";
 import { Courses } from "../components/courses_list";
