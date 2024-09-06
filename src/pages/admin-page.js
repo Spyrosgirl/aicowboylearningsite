@@ -17,7 +17,7 @@ export const AdminPage = () => {
               title={course.title}
               desc={course.desc}
               price={course.price}
-              link={course.link}
+              link="/editCourse"
               ID={course.courseID}
             />
           ))}
