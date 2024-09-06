@@ -9,8 +9,8 @@ export const Mod1 = ({ id, edit }) => {
       {savedCourse && savedCourse.labLink[0] != "" && (
         <>
           <div className="module-title">
-            <h2>Labs</h2>
-            <div> Add New Lab </div>
+            <h2 className="inner-module-title">Labs</h2>
+            <div className="inner-module-title">Add New Lab</div>
           </div>
           {savedCourse.title.map((_, idx) => (
             <Dropdown key={idx} title={savedCourse.title[idx]}>
@@ -32,8 +32,8 @@ export const Mod1 = ({ id, edit }) => {
       {savedCourse && savedCourse.workLink[0] != "" && (
         <>
           <div className="module-title">
-            <h2>Homeworks</h2>
-            <div> Add New Homework </div>
+            <h2 className="inner-module-title">Homeworks</h2>
+            <div className="inner-module-title"> Add New Homework </div>
           </div>
           {savedCourse.title.map((_, idx) => (
             <Dropdown key={idx} title={savedCourse.title[idx]}>
