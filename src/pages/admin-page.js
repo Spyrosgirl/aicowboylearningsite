@@ -20,8 +20,7 @@ export const AdminPage = () => {
               link={course.link}
               ID={course.courseID}
             />
-          )
-          )}
+          ))}
         </div>
       </div>
     </PageLayout>
