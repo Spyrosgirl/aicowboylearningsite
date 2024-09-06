@@ -15,4 +15,5 @@
 .inner-module-button{
     cursor: pointer;
     background-color: pink;
+    border-radius: 25px;
 }
