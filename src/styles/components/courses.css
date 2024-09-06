@@ -11,3 +11,8 @@
 .inner-module-button{
     margin: auto;
 }
+
+.module-button{
+    cursor: pointer;
+    background-color: black;
+}
