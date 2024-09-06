@@ -6,7 +6,7 @@ import { Prereq } from "../components/courses/DLSE/prereq";
 import { Mod1 } from "../components/courses/DLSE/module1";
 import { Courses } from "../components/courses_list";
 
-export const CoursePage = () => {
+export const EditCoursePage = () => {
   const location = useLocation();
   const { courseID } = location.state || {};
   return (
