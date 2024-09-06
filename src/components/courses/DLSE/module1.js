@@ -4,6 +4,10 @@ import { courses } from "../../courses_container";
 
 export const Mod1 = ({ id, edit }) => {
   const savedCourse = courses.find((course) => course.courseID === id);
+  const handleNewLab = () => {
+    console.log("new lab");
+  };
+  
   return (
     <>
       {savedCourse && savedCourse.labLink[0] != "" && (
@@ -11,7 +15,9 @@ export const Mod1 = ({ id, edit }) => {
           <div className="module-title">
             <h2 className="inner-module-title">Labs</h2>
             {edit && (
-              <div className="inner-module-title" onClick={handleNewLab}>Add New Lab</div>
+              <div className="inner-module-title" onClick={handleNewLab}>
+                Add New Lab
+              </div>
             )}
           </div>
           {savedCourse.title.map((_, idx) => (
