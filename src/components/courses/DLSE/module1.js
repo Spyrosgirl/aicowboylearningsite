@@ -31,7 +31,7 @@ export const Mod1 = ({ id, edit }) => {
       )}
       {savedCourse && savedCourse.workLink[0] != "" && (
         <>
-          <div className="module-title>
+          <div className="module-title">
             <h2>Homeworks</h2>
             <div> Add New Homework </div>
           </div>
