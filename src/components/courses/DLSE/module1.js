@@ -8,7 +8,7 @@ export const Mod1 = ({ id, edit }) => {
     <>
       {savedCourse && savedCourse.labLink[0] != "" && (
         <>
-          <div className="module-title>
+          <div className="module-title">
             <h2>Labs</h2>
             <div> Add New Lab </div>
           </div>
