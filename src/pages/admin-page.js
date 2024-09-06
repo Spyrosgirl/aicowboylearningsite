@@ -12,7 +12,7 @@ export const AdminPage = () => {
         </h1>
         <div className="horizon">
           {Courses.map((course) =>
-            course.owned ? (
+            (
               <CourseCodeSnippet
                 key={course.courseID}
                 title={course.title}
