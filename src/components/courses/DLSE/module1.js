@@ -8,7 +8,7 @@ export const Mod1 = ({ id, edit }) => {
     <>
       {savedCourse && savedCourse.labLink[0] != "" && (
         <>
-          console.log(edit)
+          {console.log(edit)}
           <h2>Labs</h2>
           {savedCourse.title.map((_, idx) => (
             <Dropdown key={idx} title={savedCourse.title[idx]}>
