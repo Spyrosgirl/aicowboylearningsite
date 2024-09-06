@@ -7,7 +7,6 @@ export const Mod1 = ({ id, edit }) => {
   const handleNewLab = () => {
     console.log("new lab");
   };
-  
   return (
     <>
       {savedCourse && savedCourse.labLink[0] != "" && (
