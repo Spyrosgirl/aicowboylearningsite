@@ -21,7 +21,7 @@ export const AdminPage = () => {
                 link={course.link}
                 ID={course.courseID}
               />
-            ) : null
+            )
           )}
         </div>
       </div>
