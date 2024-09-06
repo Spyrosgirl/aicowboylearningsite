@@ -17,10 +17,10 @@ export const EditCoursePage = () => {
       </h1>
       {/* Course PreReqs */}
       <Dropdown title="Course Prerequisites">
-        <Prereq edit="true"/>
+        <Prereq edit="true" />
       </Dropdown>
       <Dropdown title="Module 1 - Basics">
-        <Mod1 id={courseID} edit="true"/>
+        <Mod1 id={courseID} edit="true" />
       </Dropdown>
       {/* Drop Downs for files */}
     </PageLayout>
