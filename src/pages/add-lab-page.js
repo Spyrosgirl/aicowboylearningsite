@@ -19,7 +19,9 @@ export const AddLabPage = () => {
           <input type="text" id="labName" name="labName" />
         </div>
         {labElements}
-        <button class="addLabElemButton" onClick={addLabElem}> Add Another Lab </button>
+        <button class="addLabElemButton" onClick={addLabElem}>
+          Add Another Lab
+        </button>
       </div>
     </PageLayout>
   );
