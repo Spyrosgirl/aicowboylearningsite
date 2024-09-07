@@ -46,7 +46,7 @@ export const App = () => {
       <Route path="/callback" element={<CallbackPage />} />
       <Route path="/course" element={<CoursePage />} />
       <Route path="/editCourse" element={<EditCoursePage />} />    
-      <Route path="/addLab" element={<addLabPage />} />
+      <Route path="/addLab" element={<AddLabPage />} />
       <Route path="*" element={<NotFoundPage />} />
     </Routes>
   );
