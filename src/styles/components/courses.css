@@ -19,16 +19,12 @@
     padding: 1rem;
 }
 
-.lab-input-container{
-    margin: auto;
-    width: 48%;
-}
-
-.lab-input-container label{
-    white-space: nowrap;
-}
-
 .parent-lab-container{
     display: flex;
     flex-direction: column;
+}
+
+.lab-input-container{
+    display: flex;
+    width: 48%;
 }
