@@ -10,10 +10,10 @@ export const AdminPage = () => {
   return (
     <PageLayout>
       <div
-      className="inner-module-button"
-      onClick={() => navTo("/adminCourses")}>
+        className="inner-module-button"
+        onClick={() => navTo("/adminCourses")}>
           Manage Course
-      </div>
+        </div>
     </PageLayout>
   );
 };
