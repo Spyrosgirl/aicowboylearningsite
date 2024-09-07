@@ -3,6 +3,10 @@
   flex-direction: column;
 }
 
+.admin_header{
+  text-align: center;
+}
+
 .admin_button{
   margin: auto;
   border-radius: .5rem;
