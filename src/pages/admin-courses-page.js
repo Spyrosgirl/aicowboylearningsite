@@ -8,8 +8,11 @@ export const AdminCoursesPage = () => {
     <PageLayout>
       <div className="content-layout">
         <h1 id="page-title" className="content__title">
-          Your Courses
+          Courses
         </h1>
+        <h3>
+          Select a course to edit or add a new one
+        </h3>
         <div className="horizon">
           {Courses.map((course) => (
             <CourseCodeSnippet
