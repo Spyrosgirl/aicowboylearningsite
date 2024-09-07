@@ -3,7 +3,7 @@ import { PageLayout } from "../components/page-layout";
 import { CourseCodeSnippet } from "../components/CourseCodeSnippet";
 import { Courses } from "../components/courses_list";
 
-export const AdminPage = () => {
+export const AdminCoursesPage = () => {
   return (
     <PageLayout>
       <div className="content-layout">
