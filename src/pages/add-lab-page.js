@@ -3,13 +3,17 @@ import { PageLayout } from "../components/page-layout";
 import { LabElement } from "../components/lab-element";
 //import { Courses } from "../components/courses_list";
 export const AddLabPage = () => {
-  const [labElements, setLabElem] = useState([<LabElement key={0} />]);
+  const [labElements, setLabElem] = useState([0]);
 
   const addLabElem = () => {
     setLabElem((prevElem) => [
       ...prevElem,
-      <LabElement key={prevElem.length} />,
+      prevElem.length,
     ]);
+  };
+
+  const deleteLabElem = (index) => {
+    setLabElem((prevElem) => prevElem.filter((_, idx) => idx !== index));
   };
   return (
     <PageLayout>
