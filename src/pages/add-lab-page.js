@@ -7,8 +7,7 @@ export const AddLabPage = () => {
 
   const addLabElem = () => {
     setLabElem((prevElem) => [
-      ...prevElem,
-      { id: Date.now() },
+      ...prevElem, { id: Date.now() }
     ]);
   };
 
