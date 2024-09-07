@@ -9,7 +9,7 @@ export const LabElement = () => {
       </div>
       <div className="lab-input-container">
         <label htmlFor="labLink">Lab Link:</label>
-        <input type="labLink" id="labLink" name="labLink" />
+        <input type="text" id="labLink" name="labLink" />
       </div>
     </div>
   );
