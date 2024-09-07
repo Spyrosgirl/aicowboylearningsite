@@ -7,7 +7,6 @@ export const AddLabPage = () => {
       <label htmlFor="Lab">Lab Group Name:</label>
       <input type="text" id="labName" name="labName" />
       <br> </br>
-      
     </PageLayout>
   );
 };
