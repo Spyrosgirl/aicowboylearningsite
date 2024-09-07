@@ -6,9 +6,7 @@ export const AddLabPage = () => {
   const [labElements, setLabElem] = useState([{ id: Date.now() }]);
 
   const addLabElem = () => {
-    setLabElem((prevElem) => [
-      ...prevElem, { id: Date.now() }
-    ]);
+    setLabElem((prevElem) => [...prevElem, { id: Date.now() }]);
   };
 
   const deleteLabElem = (index) => {
