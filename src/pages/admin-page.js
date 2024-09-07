@@ -5,12 +5,12 @@ import { useNavigate } from "react-router-dom";
 export const AdminPage = () => {
   const navigate = useNavigate();
   const navTo = (location) => {
-    console.log(location)
+    console.log(location);
     navigate(location);
   };
   return (
     <PageLayout>
-      <div onClick={() => navTo("/adminCourses")}> Manage Course </div>
+      <div onClick={navTo("/adminCourses")}> Manage Course </div>
     </PageLayout>
   );
 };
