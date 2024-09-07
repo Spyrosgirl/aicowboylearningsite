@@ -22,7 +22,9 @@ export const AddLabPage = () => {
           <label htmlFor="labName">Lab Group Name</label>
           <input type="text" id="labName" name="labName" />
         </div>
-        {labElements}
+        {labElements.map((elem, idx) => (
+          <LabElement key={idx} index={idx} deleteLabElem={deleteLabElem} />
+        )}
         <div className="add-lab-elem-button" onClick={addLabElem}>
           Add Another Lab
         </div>
