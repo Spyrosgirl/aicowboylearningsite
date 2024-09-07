@@ -13,7 +13,7 @@ export const AddLabPage = () => {
   };
   return (
     <PageLayout>
-      <div className="new-lab-container>
+      <div className="new-lab-container">
         <div>
           <label htmlFor="labName">Lab Group Name:</label>
           <input type="text" id="labName" name="labName" />
