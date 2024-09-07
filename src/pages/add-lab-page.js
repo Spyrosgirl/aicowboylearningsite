@@ -8,10 +8,9 @@ export const AddLabPage = () => {
   const addLabElem = () => {
     setLabElem((prevElem) => [
       ...prevElem,
-      <LabElement key={prevElements.length} />
+      <LabElement key={prevElem.length} />,
     ]);
   };
-  
   return (
     <PageLayout>
       <div>
@@ -19,7 +18,7 @@ export const AddLabPage = () => {
         <input type="text" id="labName" name="labName" />
       </div>
       {labElements}
-      <button> Add Another Lab </button>
+      <button onClick={addLabElem}> Add Another Lab </button>
     </PageLayout>
   );
 };
