@@ -4,8 +4,8 @@ import { PageLayout } from "../components/page-layout";
 export const AddLabPage = () => {
   return (
     <PageLayout>
-      <label for="fname">First name:</label>
-      <input type="text" id="fname" name="fname"/>
+      <label htmlFor="fname">First name:</label>
+      <input type="text" id="fname" name="fname" />
     </PageLayout>
   );
 };
