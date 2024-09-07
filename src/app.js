@@ -12,6 +12,7 @@ import { ProtectedPage } from "./pages/protected-page";
 import { UserCoursesPage } from "./pages/user-courses-page";
 import { CoursePage } from "./pages/course-page";
 import { EditCoursePage } from "./pages/edit-course-page";
+import { AddLabPage } from "./pages/add-lab-page";
 
 export const App = () => {
   const { isLoading } = useAuth0();
@@ -44,7 +45,8 @@ export const App = () => {
       />
       <Route path="/callback" element={<CallbackPage />} />
       <Route path="/course" element={<CoursePage />} />
-      <Route path="/editCourse" element={<EditCoursePage />} />
+      <Route path="/editCourse" element={<EditCoursePage />} />    
+      <Route path="/addLab" element={<addLabPage />} />
       <Route path="*" element={<NotFoundPage />} />
     </Routes>
   );
