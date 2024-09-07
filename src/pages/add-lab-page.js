@@ -5,7 +5,7 @@ export const AddLabPage = () => {
   return (
     <PageLayout>
       <label for="fname">First name:</label>
-      <input type="text" id="fname" name="fname"/><br/><br/>
+      <input type="text" id="fname" name="fname"/>
     </PageLayout>
   );
 };
