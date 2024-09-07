@@ -11,7 +11,8 @@ export const AdminPage = () => {
     <PageLayout>
       <div
         className="inner-module-button"
-        onClick={() => navTo("/adminCourses")}>
+        onClick={() => navTo("/adminCourses")}
+      >
           Manage Course
       </div>
     </PageLayout>
