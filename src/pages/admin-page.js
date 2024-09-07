@@ -13,7 +13,7 @@ export const AdminPage = () => {
         className="inner-module-button"
         onClick={() => navTo("/adminCourses")}>
           Manage Course
-        </div>
+      </div>
     </PageLayout>
   );
 };
