@@ -31,7 +31,6 @@
   width: 48%;
 }
 
-.lab-input-container label {
-  margin-right: 10px;
-  white-space: nowrap;
+.lab-input-container input {
+  flex: 1;
 }
