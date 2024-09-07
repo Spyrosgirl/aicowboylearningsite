@@ -65,7 +65,10 @@ label {
 
 .add-lab-elem-button{
   width: 15%;
+  padding: .5rem;
   text-align: center;
   margin: auto;
   background-color: var(--aqua);
+  cursor: pointer;
+  border-radius: 10px;
 }
