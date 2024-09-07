@@ -19,10 +19,6 @@
     padding: 1rem;
 }
 
-.new-lab-container{
-    display: inline;
-}
-
 .lab-input-container{
     display: flex;
     align-items: center;
