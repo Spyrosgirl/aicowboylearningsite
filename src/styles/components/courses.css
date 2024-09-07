@@ -22,14 +22,14 @@
 .lab-input-container{
     display: flex;
     align-items: center;
-    margin: auto;
     width: 48%;
 }
 
 .lab-input-container input{
-    flex: 1;
+    margin-right:10px;
 }
 
 .parent-lab-container{
-    display: block;
+    display: flex;
+    flex-direction: column;
 }
