@@ -10,6 +10,7 @@ import { NotFoundPage } from "./pages/not-found-page";
 import { ProfilePage } from "./pages/profile-page";
 import { ProtectedPage } from "./pages/protected-page";
 import { UserCoursesPage } from "./pages/user-courses-page";
+import { AdminCoursesPage } from "./pages/admin-courses-page";
 import { CoursePage } from "./pages/course-page";
 import { EditCoursePage } from "./pages/edit-course-page";
 import { AddLabPage } from "./pages/add-lab-page";
@@ -47,6 +48,7 @@ export const App = () => {
       <Route path="/course" element={<CoursePage />} />
       <Route path="/editCourse" element={<EditCoursePage />} />
       <Route path="/addLab" element={<AddLabPage />} />
+      <Route path="/adminCourses" element={<AdminCoursesPage />} />
       <Route path="*" element={<NotFoundPage />} />
     </Routes>
   );
