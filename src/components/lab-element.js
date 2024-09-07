@@ -2,7 +2,7 @@ import React from "react";
 
 export const LabElement = () => {
   return (
-    <div>
+    <div className="parent-lab-container">
       <div className="lab-input-container">
         <label htmlFor="labTitle">Lab Title:</label>
         <input type="text" id="labTitle" name="labTitle" />
