@@ -10,6 +10,7 @@ export const AddLabPage = () => {
         <input type="text" id="labName" name="labName" />
       </div>
       <LabElement> </LabElement>
+      <button> Add Another Lab </button>
     </PageLayout>
   );
 };
