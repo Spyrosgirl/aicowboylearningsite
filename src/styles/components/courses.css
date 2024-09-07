@@ -43,6 +43,7 @@ label {
 
 .lab-input-container input {
   flex: 1;
+  margin-bottom: 1rem;
 }
 
 .lab-input-header {
