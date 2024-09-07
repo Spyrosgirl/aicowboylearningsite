@@ -9,6 +9,11 @@ label {
 
 .module-title{
     display: flex;
+    margin-top: 1.2rem;
+}
+
+.module-title:first-of-type{
+  margin-top: 0rem;
 }
 
 .inner-module-title, 
