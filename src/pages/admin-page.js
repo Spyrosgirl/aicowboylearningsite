@@ -5,6 +5,7 @@ import { useNavigate } from "react-router-dom";
 export const AdminPage = () => {
   const navigate = useNavigate();
   const navTo = (location) => {
+    console.log(location)
     navigate(location);
   };
   return (
