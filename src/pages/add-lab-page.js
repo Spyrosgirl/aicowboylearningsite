@@ -3,17 +3,17 @@ import { PageLayout } from "../components/page-layout";
 import { LabElement } from "../components/lab-element";
 //import { Courses } from "../components/courses_list";
 export const AddLabPage = () => {
-  const [labElements, setLabElem] = useState([0]);
+  const [labElements, setLabElem] = useState([{ id: Date.now() }]);
 
   const addLabElem = () => {
     setLabElem((prevElem) => [
       ...prevElem,
-      prevElem.length,
+      { id: Date.now() },
     ]);
   };
 
   const deleteLabElem = (index) => {
-    setLabElem((prevElem) => prevElem.filter((_, idx) => idx !== index));
+    setLabElem((prevElem) => prevElem.filter((elem) => elem.id !== index));
   };
   return (
     <PageLayout>
@@ -22,8 +22,8 @@ export const AddLabPage = () => {
           <label htmlFor="labName">Lab Group Name</label>
           <input type="text" id="labName" name="labName" />
         </div>
-        {labElements.map((elem, idx) => (
-          <LabElement key={idx} index={idx} deleteLabElem={deleteLabElem} />
+        {labElements.map((elem) => (
+          <LabElement key={elem.id} index={elem.id} deleteLabElem={deleteLabElem} />
         ))}
         <div className="add-lab-elem-button" onClick={addLabElem}>
           Add Another Lab
