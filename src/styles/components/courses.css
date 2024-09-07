@@ -74,3 +74,7 @@ label {
   border-radius: 10px;
   font-size: 15px;
 }
+
+.del-lab-button{
+  cursor: pointer;
+}
