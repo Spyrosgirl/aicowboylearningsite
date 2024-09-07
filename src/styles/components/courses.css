@@ -20,22 +20,22 @@
 }
 
 .parent-lab-container {
-  display: flex; /* Align children horizontally */
-  flex-wrap: wrap; /* Allow wrapping if there isn't enough space */
-  gap: 10px; /* Space between items */
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
 }
 
 .lab-input-container {
   display: flex;
   align-items: center;
-  width: 48%; /* Adjust as needed for spacing and alignment */
+  width: 48%;
 }
 
 .lab-input-container label {
-  margin-right: 10px; /* Space between label and input */
-  white-space: nowrap; /* Prevent label from wrapping */
+  margin-right: 10px;
+  white-space: nowrap;
 }
 
 .lab-input-container input {
-  flex: 1; /* Allow input to take up the remaining space */
+  flex: 1;
 }
