@@ -56,6 +56,6 @@ label {
 }
 
 .add-lab-elem-button{
+  width: 25%;
   text-align: center;
-  margin: auto;
 }
