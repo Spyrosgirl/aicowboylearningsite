@@ -27,6 +27,7 @@ label {
     display: flex;
     flex-direction: column;
     text-align: center;
+    margin-top: 2rem;
 }
 
 .parent-lab-container {
