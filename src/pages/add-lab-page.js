@@ -1,11 +1,15 @@
 import React from "react";
 import { PageLayout } from "../components/page-layout";
+import { LabElement } from "../components/lab-element";
 //import { Courses } from "../components/courses_list";
 export const AddLabPage = () => {
   return (
     <PageLayout>
-      <label htmlFor="Lab">Lab Group Name:</label>
-      <input type="text" id="labName" name="labName" />
+      <div>
+        <label htmlFor="labName">Lab Group Name:</label>
+        <input type="text" id="labName" name="labName" />
+      </div>
+      
     </PageLayout>
   );
 };
