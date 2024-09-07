@@ -47,10 +47,7 @@ label {
   display: flex;           
   justify-content: center;  
   align-items: center;      
+  flex-direction: column;
   margin: auto;            
   width: 50%;               
-}
-
-.lab-input-header input {
-  width: 100%;
 }
