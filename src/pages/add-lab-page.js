@@ -13,12 +13,14 @@ export const AddLabPage = () => {
   };
   return (
     <PageLayout>
-      <div>
-        <label htmlFor="labName">Lab Group Name:</label>
-        <input type="text" id="labName" name="labName" />
+      <div className="new-lab-container>
+        <div>
+          <label htmlFor="labName">Lab Group Name:</label>
+          <input type="text" id="labName" name="labName" />
+        </div>
+        {labElements}
+        <button onClick={addLabElem}> Add Another Lab </button>
       </div>
-      {labElements}
-      <button onClick={addLabElem}> Add Another Lab </button>
     </PageLayout>
   );
 };
