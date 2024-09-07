@@ -15,6 +15,7 @@ export const LabElement = () => {
         </label>
         <input type="text" id="labLink" name="labLink" />
       </div>
+      <div className="del-lab-button"> X </div>
     </div>
   );
 };
