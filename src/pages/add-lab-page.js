@@ -24,7 +24,7 @@ export const AddLabPage = () => {
         </div>
         {labElements.map((elem, idx) => (
           <LabElement key={idx} index={idx} deleteLabElem={deleteLabElem} />
-        )}
+        ))}
         <div className="add-lab-elem-button" onClick={addLabElem}>
           Add Another Lab
         </div>
