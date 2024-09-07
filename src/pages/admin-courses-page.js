@@ -10,9 +10,7 @@ export const AdminCoursesPage = () => {
         <h1 id="page-title" className="content__title">
           Courses
         </h1>
-        <h3>
-          Select a course to edit or add a new one
-        </h3>
+        <h3> Select a course to edit or add a new one</h3>
         <div className="horizon">
           {Courses.map((course) => (
             <CourseCodeSnippet
