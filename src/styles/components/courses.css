@@ -25,6 +25,7 @@ label {
 
 .new-lab-container {
     text-display: center;
+    text-align: center;
 }
 
 .parent-lab-container {
@@ -51,4 +52,9 @@ label {
   margin: auto;            
   width: 50%;   
   margin-bottom: 1rem;
+}
+
+.add-lab-elem-button{
+  text-align: center;
+  margin: auto;
 }
