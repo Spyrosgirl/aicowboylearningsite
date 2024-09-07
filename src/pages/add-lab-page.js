@@ -3,7 +3,7 @@ import { PageLayout } from "../components/page-layout";
 import { LabElement } from "../components/lab-element";
 //import { Courses } from "../components/courses_list";
 export const AddLabPage = () => {
-  const [labElements, setLabElements] = useState([<LabElement key={0} />]);
+  const [labElements, setLabElem] = useState([<LabElement key={0} />]);
 
   const addLabElem = () => {
     setLabElem((prevElem) => [
