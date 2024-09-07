@@ -1,3 +1,7 @@
+label {
+  font-size: 18px;
+}
+
 .lab_links{
     position: relative;
     display: flex;
