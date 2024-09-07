@@ -13,3 +13,7 @@
   background-color: var(--aqua);
   padding: 1rem;
 }
+
+.admin_button:hover{
+  background-color: var(--blue);
+}
