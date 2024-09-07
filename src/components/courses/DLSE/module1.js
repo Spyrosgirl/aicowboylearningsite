@@ -1,14 +1,17 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 import { Dropdown } from "../../buttons/dropdown";
 import { courses } from "../../courses_container";
 
 export const Mod1 = ({ id, edit }) => {
   const savedCourse = courses.find((course) => course.courseID === id);
+  const navigate = useNavigate();
+  
   const handleNewLab = () => {
     console.log("new lab");
   };
   const handleNewWork = () => {
-    console.log("new work");
+    navigate("/addLab");
   };
   return (
     <>
