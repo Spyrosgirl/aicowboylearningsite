@@ -38,3 +38,12 @@
 .lab-input-container input {
   flex: 1;
 }
+
+.lab-input-header {
+  display: flex;           /* Enable flexbox */
+  justify-content: center;  /* Center horizontally */
+  align-items: center;      /* Center vertically */
+  flex-direction: column;   /* Arrange label and input in a column (optional, for vertical stacking) */
+  margin: auto;             /* Ensure centering within its parent */
+  width: 50%;               /* Set an appropriate width */
+}
