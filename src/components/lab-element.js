@@ -1,6 +1,6 @@
 import React from "react";
 
-export const LabElement = ({index, deleteLabElem}) => {
+export const LabElement = ({ index, deleteLabElem }) => {
   return (
     <div className="parent-lab-container">
       <div className="lab-input-container">
@@ -15,7 +15,9 @@ export const LabElement = ({index, deleteLabElem}) => {
         </label>
         <input type="text" id="labLink" name="labLink" />
       </div>
-      <div className="del-lab-button" onClick={() => deleteLabElem(index)}> X </div>
+      <div className="del-lab-button" onClick={() => deleteLabElem(index)}>
+        X
+      </div>
     </div>
   );
 };
