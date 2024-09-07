@@ -50,3 +50,7 @@ label {
   margin: auto;            
   width: 50%;               
 }
+
+.lab-input-header input {
+  width: 100%;
+}
