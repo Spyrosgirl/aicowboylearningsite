@@ -5,6 +5,7 @@
 
 .admin_button{
   margin: auto;
-  border-radius: 10px;
+  border-radius: .5rem;
   background-color: var(--aqua);
+  padding: 1rem;
 }
