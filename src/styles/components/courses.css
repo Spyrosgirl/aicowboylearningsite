@@ -19,10 +19,14 @@
     padding: 1rem;
 }
 
+.lab-input-header {
+    text-display: center;
+}
+
 .parent-lab-container {
   display: flex;
   flex-wrap: wrap;
-  gap: 10px;
+  gap: 10rem;
 }
 
 .lab-input-container {
