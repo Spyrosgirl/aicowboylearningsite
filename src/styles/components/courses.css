@@ -16,13 +16,6 @@ label {
   margin-top: 0rem;
 }
 
-.inner-module-title, 
-.inner-module-button,
-.new-course-button,
-.add-lab-button{
-    margin: auto;
-}
-
 .inner-module-button{
     border-radius: 10px;
     padding-left: .5rem;
@@ -39,20 +32,20 @@ label {
   display: flex;
 }
 
-.new-course-button {
+.new-course-button,
+.add-lab-button,
+.add-lab-elem-button {
   width: 15%;
   padding: .5rem;
-  text-align: center;
   border-radius: 10px;
   font-size: 12px;
 }
 
-.add-lab-button {
+{
   width: 15%;
   padding: .5rem;
-  text-align: center;
   border-radius: 10px;
-  font-size: 12px;
+  font-size: 15px;
 }
 
 .new-lab-container {
@@ -89,20 +82,13 @@ label {
   margin-bottom: 1rem;
 }
 
-.add-lab-elem-button{
-  width: 15%;
-  padding: .5rem;
-  text-align: center;
-  margin: auto;
-  border-radius: 10px;
-  font-size: 15px;
-}
-
 .del-lab-button{
   cursor: pointer;
 }
 
 .blueButton{
+  margin: auto;
+  text-align: center;
   background-color: var(--aqua);
   cursor: pointer;
 }
