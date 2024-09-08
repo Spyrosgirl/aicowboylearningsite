@@ -7,7 +7,7 @@ export const Mod1 = ({ id, edit }) => {
   const savedCourse = courses.find((course) => course.courseID === id);
   const navigate = useNavigate();
   const handleNewLab = () => {
-    navigate("/addLab", {state: { hideHeader: true});
+    navigate("/addLab", {state: { hideHeader: true}});
   };
 
   const handleNewWork = () => {
