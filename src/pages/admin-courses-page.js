@@ -11,7 +11,9 @@ export const AdminCoursesPage = () => {
           Courses
         </h1>
         <div className="content__sub">
-          <h3 id="admin-subheader"> Select a course to edit or add a new one</h3>
+          <h3 id="admin-subheader">
+            Select a course to edit or add a new one
+          </h3>
           <div className="new-course-button"> New Course </div>
         </div>
         <div className="horizon">
