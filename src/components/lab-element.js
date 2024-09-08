@@ -15,7 +15,6 @@ export const LabElement = ({ index, deleteLabElem }) => {
         </label>
         <input type="text" id="labLink" name="labLink" />
       </div>
-      <div className="add-lab-button"> ADD </div>
       <div className="del-lab-button" onClick={() => deleteLabElem(index)}>
         X
       </div>
