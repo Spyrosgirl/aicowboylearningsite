@@ -6,8 +6,8 @@ import { courses } from "../../courses_container";
 export const Mod1 = ({ id, edit }) => {
   const savedCourse = courses.find((course) => course.courseID === id);
   const navigate = useNavigate();
-  const handleNewLab = () => {
-    navigate("/addLab", { state: { hideHeader: true } });
+  const handleNewLab = (headerBool) => {
+    navigate("/addLab", { state: { hideHeader: headerBool } });
   };
 
   const handleNewWork = () => {
@@ -23,7 +23,7 @@ export const Mod1 = ({ id, edit }) => {
             {edit && (
               <div
                 className="inner-module-button blueButton"
-                onClick={handleNewLab}
+                onClick={handleNewLab(false)}
               >
                 Add New Lab
               </div>
@@ -45,7 +45,7 @@ export const Mod1 = ({ id, edit }) => {
                   {edit && (
                     <div
                       className="inner-dropdown-button blueButton"
-                      onClick={handleNewLab}
+                      onClick={handleNewLab(true)}
                     >
                       Add New Link
                     </div>
