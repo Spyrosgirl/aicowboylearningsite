@@ -10,7 +10,7 @@ export const Mod1 = ({ id, edit }) => {
     navigate("/addLab");
   };
   const handleNewWork = () => {
-    navigate("/addLab");
+    navigate("/addWork");
   };
   return (
     <>
