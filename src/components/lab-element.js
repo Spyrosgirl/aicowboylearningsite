@@ -16,7 +16,7 @@ export const LabElement = ({ index, deleteLabElem }) => {
         <input type="text" id="labLink" name="labLink" />
       </div>
       <div className="del-lab-button" onClick={() => deleteLabElem(index)}>
-        X
+        &times;
       </div>
     </div>
   );
