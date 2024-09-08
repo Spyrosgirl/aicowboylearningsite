@@ -21,6 +21,7 @@ export const Mod1 = ({ id, edit }) => {
         <LabElement
           key={`new-${idx}-${updatedElements[idx].length}`}
           index={updatedElements[idx].length}
+          single="True"
           deleteLabElem={() =>
             handleDeleteLab(idx, updatedElements[idx].length)
           }
