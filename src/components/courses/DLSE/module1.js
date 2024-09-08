@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { Dropdown } from "../../buttons/dropdown";
 import { courses } from "../../courses_container";
-import { LabElement } from "../lab-element"; // Adjust the import path
+import { LabElement } from "../../lab-element"; // Adjust the import path
 
 export const Mod1 = ({ id, edit }) => {
   const savedCourse = courses.find((course) => course.courseID === id);
