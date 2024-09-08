@@ -112,3 +112,7 @@ label {
   background-color: var(--aqua);
   cursor: pointer;
 }
+
+.blueButton:hover{
+  background-color: var(--blue);
+}
