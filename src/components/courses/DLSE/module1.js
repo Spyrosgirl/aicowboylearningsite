@@ -20,7 +20,7 @@ export const Mod1 = ({ id, edit }) => {
             <h2 className="inner-module-title">Labs</h2>
             {edit && (
               <div
-                className="inner-module-button blueButton"
+                className="inner-dropdown-button blueButton"
                 onClick={handleNewLab}
               >
                 Add New Lab
