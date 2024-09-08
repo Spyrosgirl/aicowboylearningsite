@@ -18,6 +18,7 @@ export const AddLabPage = () => {
         <div className="lab-input-header">
           <label htmlFor="labName">Lab Group Name</label>
           <input type="text" id="labName" name="labName" />
+          <div className="add-lab-button"> Add Lab </div>
         </div>
         {labElements.map((elem) => (
           <LabElement
