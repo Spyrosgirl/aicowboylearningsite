@@ -1,7 +1,7 @@
 import React, { useState } from "react";
+import { useLocation } from "react-router-dom";
 import { PageLayout } from "../components/page-layout";
 import { LabElement } from "../components/lab-element";
-//import { Courses } from "../components/courses_list";
 export const AddLabPage = () => {
   const [labElements, setLabElem] = useState([{ id: Date.now() }]);
 
