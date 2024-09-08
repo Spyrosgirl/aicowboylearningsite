@@ -1,6 +1,6 @@
 import React from "react";
 
-export const LabElement = ({ index, deleteLabElem }) => {
+export const LabElement = ({ index, deleteLabElem, single }) => {
   return (
     <div className="parent-lab-container">
       <div className="lab-input-container">
