@@ -15,9 +15,17 @@ export const LabElement = ({ index, deleteLabElem, single }) => {
         </label>
         <input type="text" id="labLink" name="labLink" />
       </div>
-      <div className="del-lab-button" onClick={() => deleteLabElem(index)}>
-        X
-      </div>
+
+      {/* Conditionally render either the add-lab-button or del-lab-button */}
+      {single ? (
+        <div className="add-lab-button">
+          ADD
+        </div>
+      ) : (
+        <div className="del-lab-button" onClick={() => deleteLabElem(index)}>
+          X
+        </div>
+      )}
     </div>
   );
 };
