@@ -9,8 +9,8 @@ export const AddLabPage = () => {
     setLabElem((prevElem) => [...prevElem, { id: Date.now() }]);
   };
 
-  const deleteLabElem = (index) => {
-    setLabElem((prevElem) => prevElem.filter((elem) => elem.id !== index));
+  const deleteLabElem = (id) => {
+    setLabElem((prevElem) => prevElem.filter((elem) => elem.id !== id));
   };
   return (
     <PageLayout>
