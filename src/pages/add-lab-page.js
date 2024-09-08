@@ -19,10 +19,12 @@ export const AddLabPage = () => {
     <PageLayout>
       <div className="new-lab-container">
         <div className="lab-header">
-          <div className="lab-input-header">
-            <label htmlFor="labName">Lab Group Name</label>
-            <input type="text" id="labName" name="labName" />
-          </div>
+          {!hideHeader && (
+            <div className="lab-input-header">
+              <label htmlFor="labName">Lab Group Name</label>
+              <input type="text" id="labName" name="labName" />
+            </div>
+          )}
           <div className="add-lab-button blueButton">Add Lab Group</div>
         </div>
         {labElements.map((elem) => (
