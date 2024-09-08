@@ -9,14 +9,21 @@ export const Mod1 = ({ id, edit }) => {
   const navigate = useNavigate();
 
   // State to store additional LabElements for each course
-  const [labElements, setLabElements] = useState(savedCourse.labLink.map(() => []));
+  const [labElements, setLabElements] = useState(
+    savedCourse.labLink.map(() => [])
+  );
 
   const handleNewLab = (idx) => {
     setLabElements((prevElements) => {
       const updatedElements = [...prevElements];
       updatedElements[idx] = [
         ...updatedElements[idx],
-        <LabElement key={`new-${idx}-${updatedElements[idx].length}`} index={updatedElements[idx].length} deleteLabElem={() => handleDeleteLab(idx, updatedElements[idx].length)} />
+        <LabElement
+          key={`new-${idx}-${updatedElements[idx].length}`}
+          index={updatedElements[idx].length}
+          deleteLabElem={() =>
+            handleDeleteLab(idx, updatedElements[idx].length)
+          } />
       ];
       return updatedElements;
     });
@@ -25,7 +32,9 @@ export const Mod1 = ({ id, edit }) => {
   const handleDeleteLab = (courseIdx, elemIdx) => {
     setLabElements((prevElements) => {
       const updatedElements = [...prevElements];
-      updatedElements[courseIdx] = updatedElements[courseIdx].filter((_, i) => i !== elemIdx);
+      updatedElements[courseIdx] = updatedElements[courseIdx].filter(
+        (_, i) => i !== elemIdx
+      );
       return updatedElements;
     });
   };
