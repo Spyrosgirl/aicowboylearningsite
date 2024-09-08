@@ -33,16 +33,18 @@ export const Mod1 = ({ id, edit }) => {
             <Dropdown key={idx} title={savedCourse.title[idx]} edit={edit}>
               {savedCourse.labLink[idx].map((_, idx2) => (
                 <React.Fragment key={idx2}>
-                  <a
-                    href={savedCourse.labLink[idx][idx2]}
-                    target="_blank"
-                    rel="noreferrer"
-                    className="lab_links"
-                    key={idx2}
-                  >
-                    {savedCourse.labDesc[idx][idx2]}
-                  </a>
-                  <div> X </div>
+                  <div>
+                    <a
+                      href={savedCourse.labLink[idx][idx2]}
+                      target="_blank"
+                      rel="noreferrer"
+                      className="lab_links"
+                      key={idx2}
+                    >
+                      {savedCourse.labDesc[idx][idx2]}
+                    </a>
+                    <div> X </div>
+                  </div>
                   {edit && (
                     <div
                       className="inner-dropdown-button blueButton"
