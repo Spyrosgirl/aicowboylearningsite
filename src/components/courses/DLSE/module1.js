@@ -13,7 +13,7 @@ export const Mod1 = ({ id, edit }) => {
   const handleNewWork = () => {
     navigate("/addWork");
   };
-  
+
  const deleteLink = () => {
     console.log("Delete");
   };
@@ -47,7 +47,11 @@ export const Mod1 = ({ id, edit }) => {
                     >
                       {savedCourse.labDesc[idx][idx2]}
                     </a>
-                    {edit && <div className="deleteLink" onClick={deleteLink}> X </div>}
+                    {edit && (
+                      <div className="deleteLink" onClick={deleteLink}>
+                        X
+                      </div>
+                    )}
                   </div>
                   {edit && (
                     <div
