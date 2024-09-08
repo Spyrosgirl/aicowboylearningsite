@@ -22,7 +22,7 @@ export const AddLabPage = () => {
           <div className="lab-input-header">
             <label htmlFor="labName">Lab Group Name</label>
             <input type="text" id="labName" name="labName" />
-          </div> 
+          </div>
           <div className="add-lab-button blueButton">Add Lab Group</div>
         </div>
         {labElements.map((elem) => (
