@@ -7,11 +7,15 @@ export const Dropdown = ({ title, children }) => {
     setIsOpen(!isOpen);
   };
 
+  const deleteDropdown = () => {
+    console.log("Delete");
+  }
+
   return (
     <div className="dropdown">
       <button onClick={toggleDropdown} className="dropdown__button">
         {title}
-        <div> X </div>
+        <div onClick={deleteDropdown}> X </div>
       </button>
       {isOpen && <div className="dropdown__content">{children}</div>}
     </div>
