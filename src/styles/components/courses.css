@@ -100,12 +100,15 @@ label {
   padding: .5rem;
   text-align: center;
   margin: auto;
-  background-color: var(--aqua);
-  cursor: pointer;
   border-radius: 10px;
   font-size: 15px;
 }
 
 .del-lab-button{
+  cursor: pointer;
+}
+
+.blueButton{
+  background-color: var(--aqua);
   cursor: pointer;
 }
