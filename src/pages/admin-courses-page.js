@@ -4,6 +4,9 @@ import { CourseCodeSnippet } from "../components/CourseCodeSnippet";
 import { Courses } from "../components/courses_list";
 
 export const AdminCoursesPage = () => {
+  const handleNewCourse = () => {
+    console.log("Add New");
+  }
   return (
     <PageLayout>
       <div className="content-layout">
