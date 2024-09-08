@@ -5,6 +5,7 @@ label {
 .lab_links{
     position: relative;
     display: flex;
+    flex-grow: 1;
 }
 
 .module-title{
@@ -36,11 +37,7 @@ label {
 .linkLine {
   display: flex;
   align-items: center;
-}
-
-.deleteLink {
-  right:0;
-  position: absolute;
+  justify-content: space-between;
 }
 
 
