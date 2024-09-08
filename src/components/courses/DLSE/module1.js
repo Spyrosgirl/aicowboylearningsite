@@ -31,14 +31,6 @@ export const Mod1 = ({ id, edit }) => {
             <Dropdown key={idx} title={savedCourse.title[idx]}>
               {savedCourse.labLink[idx].map((_, idx2) => (
                 <React.Fragment key={idx2}>
-                  {edit && (
-                    <div
-                      className="inner-dropdown-button blueButton"
-                      onClick={handleNewLab}
-                    >
-                      Add New Link
-                    </div>
-                  )}
                   <a
                     href={savedCourse.labLink[idx][idx2]}
                     target="_blank"
@@ -48,6 +40,14 @@ export const Mod1 = ({ id, edit }) => {
                   >
                     {savedCourse.labDesc[idx][idx2]}
                   </a>
+                  {edit && (
+                    <div
+                      className="inner-dropdown-button blueButton"
+                      onClick={handleNewLab}
+                    >
+                      Add New Link
+                    </div>
+                  )}
                 </React.Fragment>
               ))}
             </Dropdown>
