@@ -16,10 +16,10 @@ export const EditCoursePage = () => {
         {Courses.find((course) => course.courseID === courseID).title}
       </h1>
       {/* Course PreReqs */}
-      <Dropdown title="Course Prerequisites">
+      <Dropdown title="Course Prerequisites" edit="true">
         <Prereq edit="true" />
       </Dropdown>
-      <Dropdown title="Module 1 - Basics">
+      <Dropdown title="Module 1 - Basics" edit="true">
         <Mod1 id={courseID} edit="true" />
       </Dropdown>
       {/* Drop Downs for files */}
