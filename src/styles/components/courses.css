@@ -24,8 +24,6 @@ label {
 }
 
 .inner-module-button{
-    cursor: pointer;
-    background-color: var(--aqua);
     border-radius: 10px;
     padding-left: .5rem;
     padding-right: .5rem;
