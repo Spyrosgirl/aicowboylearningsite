@@ -14,10 +14,9 @@ export const Mod1 = ({ id, edit }) => {
     navigate("/addWork");
   };
 
- const deleteLink = () => {
+  const deleteLink = () => {
     console.log("Delete");
   };
-  
   return (
     <>
       {savedCourse && savedCourse.labLink[0] != "" && (
