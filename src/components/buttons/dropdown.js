@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-export const Dropdown = ({ title, children }) => {
+export const Dropdown = ({ title, children, edit }) => {
   const [isOpen, setIsOpen] = useState(false);
 
   const toggleDropdown = () => {
@@ -15,7 +15,7 @@ export const Dropdown = ({ title, children }) => {
     <div className="dropdown">
       <button onClick={toggleDropdown} className="dropdown__button">
         {title}
-        <div onClick={deleteDropdown}> X </div>
+        {edit &&<div onClick={deleteDropdown}> X </div>}
       </button>
       {isOpen && <div className="dropdown__content">{children}</div>}
     </div>
