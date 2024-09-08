@@ -30,7 +30,7 @@ export const Mod1 = ({ id, edit }) => {
             )}
           </div>
           {savedCourse.title.map((_, idx) => (
-            <Dropdown key={idx} title={savedCourse.title[idx] edit={edit}>
+            <Dropdown key={idx} title={savedCourse.title[idx]} edit={edit}>
               {savedCourse.labLink[idx].map((_, idx2) => (
                 <React.Fragment key={idx2}>
                   <a
