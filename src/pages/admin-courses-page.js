@@ -10,8 +10,10 @@ export const AdminCoursesPage = () => {
         <h1 id="page-title" className="content__title">
           Courses
         </h1>
-        <h3 id="admin-subheader"> Select a course to edit or add a new one</h3>
-        <div className="new-course-button"> New Course </div>
+        <div className="content__sub">
+          <h3 id="admin-subheader"> Select a course to edit or add a new one</h3>
+          <div className="new-course-button"> New Course </div>
+        </div>
         <div className="horizon">
           {Courses.map((course) => (
             <CourseCodeSnippet
