@@ -23,7 +23,7 @@ export const Mod1 = ({ id, edit }) => {
             {edit && (
               <div
                 className="inner-module-button blueButton"
-                onClick={handleNewLab(false)}
+                onClick={() => handleNewLab(false)}
               >
                 Add New Lab
               </div>
@@ -45,7 +45,7 @@ export const Mod1 = ({ id, edit }) => {
                   {edit && (
                     <div
                       className="inner-dropdown-button blueButton"
-                      onClick={handleNewLab(true)}
+                      onClick={() => handleNewLab(true)}
                     >
                       Add New Link
                     </div>
