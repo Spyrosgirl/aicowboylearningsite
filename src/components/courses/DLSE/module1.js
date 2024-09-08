@@ -30,23 +30,25 @@ export const Mod1 = ({ id, edit }) => {
           {savedCourse.title.map((_, idx) => (
             <Dropdown key={idx} title={savedCourse.title[idx]}>
               {savedCourse.labLink[idx].map((_, idx2) => (
-                {edit && (
-                  <div
-                    className="inner-module-button blueButton"
-                    onClick={handleNewLab}
+                <React.Fragment key={idx2}>
+                  {edit && (
+                    <div
+                      className="inner-module-button blueButton"
+                      onClick={handleNewLab}
+                    >
+                      Add New Link
+                    </div>
+                  )}
+                  <a
+                    href={savedCourse.labLink[idx][idx2]}
+                    target="_blank"
+                    rel="noreferrer"
+                    className="lab_links"
+                    key={idx2}
                   >
-                    Add New Link
-                  </div>
-                )}
-                <a
-                  href={savedCourse.labLink[idx][idx2]}
-                  target="_blank"
-                  rel="noreferrer"
-                  className="lab_links"
-                  key={idx2}
-                >
-                  {savedCourse.labDesc[idx][idx2]}
-                </a>
+                    {savedCourse.labDesc[idx][idx2]}
+                  </a>
+                </React.Fragment>
               ))}
             </Dropdown>
           ))}
