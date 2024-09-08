@@ -33,6 +33,11 @@ label {
     max-width: 11rem;
 }
 
+.linkLine {
+  display: flex;
+  align-items: center; /* Vertically center elements */
+}
+
 #admin-subheader {
   padding: 0px;
   margin: 0px;
