@@ -80,22 +80,19 @@ label {
   margin: auto;            
   width: 50%;   
   margin-bottom: 1rem;
+  text-align: center;
 }
 
 .lab-header {
   display: flex;
-  align-items: center; /* Aligns items vertically in the center */
-  justify-content: center; /* Centers the lab-input-header */
-  position: relative; /* Allows absolute positioning of the button */
-}
-
-.lab-input-header {
-  text-align: center; /* Ensures the label and input are centered */
+  align-items: center;
+  justify-content: center;
+  position: relative;
 }
 
 .add-lab-button {
   position: absolute;
-  right: 0; /* Aligns the button to the right side of the container */
+  right: 1rem;
 }
 
 .del-lab-button{
