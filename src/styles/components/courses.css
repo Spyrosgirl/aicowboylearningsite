@@ -83,7 +83,17 @@ label {
 }
 
 .lab-header {
-  display: inline-block;
+  display: flex;
+  align-items: center; /* Ensures both items are aligned vertically in the center */
+  justify-content: space-between; /* Optional: Adds space between the input and button */
+}
+
+.lab-input-header {
+  flex: 1; /* Takes up remaining space */
+}
+
+.add-lab-button {
+  margin-left: 10px; /* Adds space between the input and button */
 }
 
 .del-lab-button{
