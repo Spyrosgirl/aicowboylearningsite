@@ -9,6 +9,7 @@ export const AddLabPage = () => {
 
   const addLabElem = () => {
     setLabElem((prevElem) => [...prevElem, { id: Date.now() }]);
+    console.log(hideHeader);
   };
 
   const deleteLabElem = (index) => {
@@ -18,12 +19,10 @@ export const AddLabPage = () => {
     <PageLayout>
       <div className="new-lab-container">
         <div className="lab-header">
-          {!hideHeader && (
-            <div className="lab-input-header">
-              <label htmlFor="labName">Lab Group Name</label>
-              <input type="text" id="labName" name="labName" />
-            </div> 
-          )}
+          <div className="lab-input-header">
+            <label htmlFor="labName">Lab Group Name</label>
+            <input type="text" id="labName" name="labName" />
+          </div> 
           <div className="add-lab-button blueButton"> Add Lab Group </div>
         </div>
         {labElements.map((elem) => (
