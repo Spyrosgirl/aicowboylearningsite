@@ -18,7 +18,8 @@ label {
 
 .inner-module-title, 
 .inner-module-button,
-.new-course-button{
+.new-course-button,
+.add-lab-button{
     margin: auto;
 }
 
@@ -44,7 +45,16 @@ label {
   width: 15%;
   padding: .5rem;
   text-align: center;
-  margin: auto;
+  background-color: var(--aqua);
+  cursor: pointer;
+  border-radius: 10px;
+  font-size: 12px;
+}
+
+.add-lab-button {
+  width: 15%;
+  padding: .5rem;
+  text-align: center;
   background-color: var(--aqua);
   cursor: pointer;
   border-radius: 10px;
