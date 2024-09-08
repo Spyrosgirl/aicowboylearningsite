@@ -11,8 +11,8 @@ export const Dropdown = ({ title, children }) => {
     <div className="dropdown">
       <button onClick={toggleDropdown} className="dropdown__button">
         {title}
+        <div> X </div>
       </button>
-      <div> X </div>
       {isOpen && <div className="dropdown__content">{children}</div>}
     </div>
   );
