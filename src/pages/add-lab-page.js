@@ -5,7 +5,7 @@ import { LabElement } from "../components/lab-element";
 export const AddLabPage = () => {
   const [labElements, setLabElem] = useState([{ id: Date.now() }]);
   const location = useLocation();
-  const hideHeader = location.state ? .hideHeader || false;
+  const hideHeader = location.state?hideHeader || false;
 
   const addLabElem = () => {
     setLabElem((prevElem) => [...prevElem, { id: Date.now() }]);
