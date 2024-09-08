@@ -17,7 +17,8 @@ label {
 }
 
 .inner-module-title, 
-.inner-module-button{
+.inner-module-button,
+.new-course-button{
     margin: auto;
 }
 
@@ -33,6 +34,17 @@ label {
 #admin-subheader {
   padding: 0px;
   margin: 0px;
+}
+
+.new-course-button {
+  width: 15%;
+  padding: .5rem;
+  text-align: center;
+  margin: auto;
+  background-color: var(--aqua);
+  cursor: pointer;
+  border-radius: 10px;
+  font-size: 15px;
 }
 
 .new-lab-container {
