@@ -36,6 +36,10 @@ label {
   margin: 0px;
 }
 
+.content__sub {
+  display: flex;
+}
+
 .new-course-button {
   width: 15%;
   padding: .5rem;
