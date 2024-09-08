@@ -12,9 +12,7 @@ export const AdminCoursesPage = () => {
         </h1>
         <div className="content__sub">
           <h3 id="admin-subheader">Select a course to edit or add a new one</h3>
-          <div className="new-course-button blueButton">
-            New Course
-          </div>
+          <div className="new-course-button blueButton"> New Course </div>
         </div>
         <div className="horizon">
           {Courses.map((course) => (
