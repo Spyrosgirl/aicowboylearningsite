@@ -2,13 +2,12 @@ import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { Dropdown } from "../../buttons/dropdown";
 import { courses } from "../../courses_container";
-import { LabElement } from "../../lab-element"; // Adjust the import path
+import { LabElement } from "../../lab-element";
 
 export const Mod1 = ({ id, edit }) => {
   const savedCourse = courses.find((course) => course.courseID === id);
   const navigate = useNavigate();
 
-  // State to store additional LabElements for each course
   const [labElements, setLabElements] = useState(
     savedCourse.labLink.map(() => [])
   );
@@ -21,7 +20,7 @@ export const Mod1 = ({ id, edit }) => {
         <LabElement
           key={`new-${idx}-${updatedElements[idx].length}`}
           index={updatedElements[idx].length}
-          single="True"
+          single
           deleteLabElem={() =>
             handleDeleteLab(idx, updatedElements[idx].length)
           }
