@@ -23,7 +23,8 @@ export const Mod1 = ({ id, edit }) => {
           index={updatedElements[idx].length}
           deleteLabElem={() =>
             handleDeleteLab(idx, updatedElements[idx].length)
-          } />
+          }
+        />
       ];
       return updatedElements;
     });
