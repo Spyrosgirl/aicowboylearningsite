@@ -14,6 +14,7 @@ import { AdminCoursesPage } from "./pages/admin-courses-page";
 import { CoursePage } from "./pages/course-page";
 import { EditCoursePage } from "./pages/edit-course-page";
 import { AddLabPage } from "./pages/add-lab-page";
+import { AddWorkPage } from "./pages/add-work-page";
 
 export const App = () => {
   const { isLoading } = useAuth0();
@@ -48,6 +49,7 @@ export const App = () => {
       <Route path="/course" element={<CoursePage />} />
       <Route path="/editCourse" element={<EditCoursePage />} />
       <Route path="/addLab" element={<AddLabPage />} />
+      <Route path="/addWork" element={<AddWorkPage />} />
       <Route path="/adminCourses" element={<AdminCoursesPage />} />
       <Route path="*" element={<NotFoundPage />} />
     </Routes>
