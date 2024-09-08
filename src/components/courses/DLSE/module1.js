@@ -6,7 +6,6 @@ import { courses } from "../../courses_container";
 export const Mod1 = ({ id, edit }) => {
   const savedCourse = courses.find((course) => course.courseID === id);
   const navigate = useNavigate();
-  
   const handleNewLab = () => {
     navigate("/addLab");
   };
