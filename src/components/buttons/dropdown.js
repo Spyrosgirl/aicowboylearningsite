@@ -9,7 +9,7 @@ export const Dropdown = ({ title, children }) => {
 
   const deleteDropdown = () => {
     console.log("Delete");
-    toggleDropdown();
+    setIsOpen(!isOpen);
   };
 
   return (
