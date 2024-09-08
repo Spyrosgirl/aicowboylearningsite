@@ -43,7 +43,7 @@ export const Mod1 = ({ id, edit }) => {
                     >
                       {savedCourse.labDesc[idx][idx2]}
                     </a>
-                    {edit && <div> X </div>}
+                    {edit && <div className="deleteLink"> X </div>}
                   </div>
                   {edit && (
                     <div
