@@ -1,43 +1,14 @@
-import React, { useState } from "react";
+import React from "react";
 import { useNavigate } from "react-router-dom";
 import { Dropdown } from "../../buttons/dropdown";
 import { courses } from "../../courses_container";
-import { LabElement } from "../../lab-element";
 
 export const Mod1 = ({ id, edit }) => {
   const savedCourse = courses.find((course) => course.courseID === id);
   const navigate = useNavigate();
-
-  const [labElements, setLabElements] = useState(
-    savedCourse.labLink.map(() => [])
-  );
-
-  const handleNewLab = (idx) => {
-    setLabElements((prevElements) => {
-      const updatedElements = [...prevElements];
-      updatedElements[idx] = [
-        ...updatedElements[idx],
-        <LabElement
-          key={`new-${idx}-${updatedElements[idx].length}`}
-          index={updatedElements[idx].length}
-          single={idx !== undefined}
-          deleteLabElem={() =>
-            handleDeleteLab(idx, updatedElements[idx].length)
-          }
-        />,
-      ];
-      return updatedElements;
-    });
-  };
-
-  const handleDeleteLab = (courseIdx, elemIdx) => {
-    setLabElements((prevElements) => {
-      const updatedElements = [...prevElements];
-      updatedElements[courseIdx] = updatedElements[courseIdx].filter(
-        (_, i) => i !== elemIdx
-      );
-      return updatedElements;
-    });
+  
+  const handleNewLab = () => {
+    navigate("/addLab");
   };
 
   const handleNewWork = () => {
@@ -46,14 +17,14 @@ export const Mod1 = ({ id, edit }) => {
 
   return (
     <>
-      {savedCourse && savedCourse.labLink[0] !== "" && (
+      {savedCourse && savedCourse.labLink[0] != "" && (
         <>
           <div className="module-title">
             <h2 className="inner-module-title">Labs</h2>
             {edit && (
               <div
                 className="inner-module-button blueButton"
-                onClick={() => handleNewLab()}
+                onClick={handleNewLab}
               >
                 Add New Lab
               </div>
@@ -68,31 +39,25 @@ export const Mod1 = ({ id, edit }) => {
                     target="_blank"
                     rel="noreferrer"
                     className="lab_links"
+                    key={idx2}
                   >
                     {savedCourse.labDesc[idx][idx2]}
                   </a>
+                  {edit && (
+                    <div
+                      className="inner-dropdown-button blueButton"
+                      onClick={handleNewLab}
+                    >
+                      Add New Link
+                    </div>
+                  )}
                 </React.Fragment>
               ))}
-
-              {labElements[idx].map((labElem, newLabIdx) => (
-                <React.Fragment key={`new-${idx}-${newLabIdx}`}>
-                  {labElem}
-                </React.Fragment>
-              ))}
-
-              {edit && (
-                <div
-                  className="inner-dropdown-button blueButton"
-                  onClick={() => handleNewLab(idx)}
-                >
-                  Add New Link
-                </div>
-              )}
             </Dropdown>
           ))}
         </>
       )}
-      {savedCourse && savedCourse.workLink[0] !== "" && (
+      {savedCourse && savedCourse.workLink[0] != "" && (
         <>
           <div className="module-title">
             <h2 className="inner-module-title">Homeworks</h2>
