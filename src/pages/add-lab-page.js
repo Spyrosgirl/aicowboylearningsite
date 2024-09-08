@@ -27,6 +27,7 @@ export const AddLabPage = () => {
             key={elem.id}
             index={elem.id}
             deleteLabElem={deleteLabElem}
+            single={false} // or conditionally set to true based on your logic
           />
         ))}
         <div className="add-lab-elem-button blueButton" onClick={addLabElem}>
