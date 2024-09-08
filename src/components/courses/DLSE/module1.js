@@ -20,7 +20,7 @@ export const Mod1 = ({ id, edit }) => {
         <LabElement
           key={`new-${idx}-${updatedElements[idx].length}`}
           index={updatedElements[idx].length}
-          single
+          single={idx !== undefined}
           deleteLabElem={() =>
             handleDeleteLab(idx, updatedElements[idx].length)
           }
@@ -74,7 +74,6 @@ export const Mod1 = ({ id, edit }) => {
                 </React.Fragment>
               ))}
 
-              {/* Render newly added LabElements */}
               {labElements[idx].map((labElem, newLabIdx) => (
                 <React.Fragment key={`new-${idx}-${newLabIdx}`}>
                   {labElem}
