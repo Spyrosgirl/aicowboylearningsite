@@ -35,8 +35,14 @@ label {
 
 .linkLine {
   display: flex;
-  align-items: center; /* Vertically center elements */
+  align-items: center;
 }
+
+.deleteLink {
+  right:0;
+  position: absolute;
+}
+
 
 #admin-subheader {
   padding: 0px;
@@ -110,7 +116,8 @@ label {
   right: 1rem;
 }
 
-.del-lab-button{
+.del-lab-button,
+.deleteLink{
   cursor: pointer;
 }
 
