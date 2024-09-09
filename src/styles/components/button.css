@@ -125,6 +125,7 @@
   line-height: 3.2rem;
   padding: 38px;
   text-align: left;
+  position: relative;
 }
 
 .button__sign-up {
