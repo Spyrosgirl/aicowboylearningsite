@@ -16,6 +16,9 @@ export const AdminPage = () => {
         <div className="admin_button" onClick={() => navTo("/adminCourses")}>
           Manage Courses
         </div>
+        <div className="admin_button"> Button Two </div>
+        <div className="admin_button"> Button Three </div>
+        <div className="admin_button"> Button Four </div>
       </div>
     </PageLayout>
   );
