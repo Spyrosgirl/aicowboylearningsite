@@ -8,7 +8,7 @@ export const NavBar = () => {
     <>
       <link
         rel="icon"
-        href="https://media.geeksforgeeks.org/wp-content/cdn-uploads/gfg_200X200.png"
+        href="https://raw.githubusercontent.com/Spyrosgirl/aicowboylearningsite/main/src/components/navigation/desktop/IMG_4078.png"
         type="image/x-icon"
       />
       <div className="nav-bar__container">
