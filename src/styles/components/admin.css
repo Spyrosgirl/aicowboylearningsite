@@ -9,6 +9,7 @@
 
 .admin_button{
   margin: auto;
+  margin-bottom: .2rem;
   border-radius: .5rem;
   background-color: var(--aqua);
   padding: 1rem;
