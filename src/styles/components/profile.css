@@ -1,0 +1,16 @@
+.profile__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.profile__button {
+  margin: auto;
+  margin-bottom: .2rem;
+  border-radius: .5rem;
+  background-color: var(--aqua);
+  padding: 1rem;
+  font-size: 2rem;
+  width: 20rem;
+  text-align: center;
+}
