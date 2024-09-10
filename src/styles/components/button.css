@@ -46,6 +46,29 @@
   background: rgba(255, 255, 255, 0.85);
 }
 
+.blueButton,
+.orangeButton {
+  margin: auto;
+  text-align: center;
+  cursor: pointer;
+}
+
+.blueButton{
+  background-color: var(--aqua);
+}
+
+.orangeButton {
+  background-color: var(--mandarine);
+}
+
+.orangeButton:hover {
+  background-color: var(--brandyellow);
+}
+
+.blueButton:hover{
+  background-color: var(--blue);
+}
+
 @media only screen and (max-width: 480px) {
   .button {
     /* responsive */
