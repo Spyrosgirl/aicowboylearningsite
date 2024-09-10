@@ -34,10 +34,9 @@ export const ProfilePage = () => {
               </div>
             </div>
             <div className="profile__details">
-              <CodeSnippet
-                title="Decoded ID Token"
-                code="test"}
-              />
+              <p>
+                  This is the profile details section.
+              </p>
             </div>
           </div>
         </div>
