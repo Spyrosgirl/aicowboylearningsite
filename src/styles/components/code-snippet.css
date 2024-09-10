@@ -1,7 +1,6 @@
 .code-snippet {
   display: flex;
   flex-direction: column;
-  width: 48%;
   border-radius: 0.8rem;
   margin-top: 0.5rem;
   margin-left: 0.5rem;
