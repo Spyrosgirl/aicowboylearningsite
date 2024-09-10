@@ -4,11 +4,6 @@ import { CodeSnippet } from "../components/code-snippet";
 import { PageLayout } from "../components/page-layout";
 
 export const ProfilePage = () => {
-  /*const { user } = useAuth0();
-
-  if (!user) {
-    return null;
-  }*/
 
   return (
     <PageLayout>
@@ -29,20 +24,20 @@ export const ProfilePage = () => {
           <div className="profile-grid">
             <div className="profile__header">
               <img
-                src=//{user.picture}
+                src=https://cdn.discordapp.com/attachments/669938270767153158/1266150062875082762/image.png?ex=66e0bea2&is=66df6d22&hm=00a283c2194b8c2eadfd76fc9f75ea2df0ee9e85b1191b7faaaadf689146c486&
                 alt="Profile"
                 className="profile__avatar"
               />
               <div className="profile__headline">
-                <h2 className="profile__title">UserName/*{user.name}*/</h2>
-                <span className="profile__description">UserEmail/*{user.email}*/</span>
+                <h2 className="profile__title">UserName</h2>
+                <span className="profile__description">UserEmail</span>
               </div>
             </div>
             <div className="profile__details">
-              /*<CodeSnippet
+              <CodeSnippet
                 title="Decoded ID Token"
-                code={JSON.stringify(user, null, 2)}
-              />*/
+                code="test"}
+              />
             </div>
           </div>
         </div>
