@@ -8,7 +8,7 @@ import { Courses } from "../components/courses_list";
 
 export const EditCoursePage = () => {
   const location = useLocation();
-  const { courseID } = location.state || {}
+  const { courseID } = location.state || {};
   return (
     <PageLayout>
       {/* Pull ID from Prev Page */}
