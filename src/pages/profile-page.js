@@ -1,12 +1,10 @@
-import { useAuth0 } from "@auth0/auth0-react";
 import React from "react";
-import { CodeSnippet } from "../components/code-snippet";
 import { PageLayout } from "../components/page-layout";
 
 export const ProfilePage = () => {
 
   return (
-    <PageLayout>
+  <PageLayout>
       <div className="content-layout">
         <h1 id="page-title" className="content__title">
           Profile Page
@@ -34,9 +32,7 @@ export const ProfilePage = () => {
               </div>
             </div>
             <div className="profile__details">
-              <p>
-                  This is the profile details section.
-              </p>
+              <p>This is the profile details section.</p>
             </div>
           </div>
         </div>
