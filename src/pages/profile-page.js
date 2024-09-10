@@ -6,10 +6,12 @@ export const ProfilePage = () => {
   return (
     <PageLayout>
       <div className="content-layout">
-        <h1 id="page-title" className="content__title">
-          Profile Page
-        </h1>
-        <AdminButton className="content__button" />
+        <div className="profileHeader">
+          <h1 id="page-title" className="content__title">
+            Profile Page
+          </h1>
+          <AdminButton className="profile__button" />
+        </div>
         <div className="content__body">
           <p id="page-description">
             <span>
