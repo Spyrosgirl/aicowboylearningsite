@@ -49,7 +49,7 @@
 
 .horizon {
   display: grid;
-  grid-template-columns: repeat(2, 48%);
+  grid-template-columns: repeat(2, 1fr);
 
   font-size: 1.6rem;
   line-height: 2.4rem;
