@@ -117,26 +117,3 @@ label {
 .deleteLink{
   cursor: pointer;
 }
-
-.blueButton,
-.orangeButton {
-  margin: auto;
-  text-align: center;
-  cursor: pointer;
-}
-
-.blueButton{
-  background-color: var(--aqua);
-}
-
-.orangeButton {
-  background-color: var(--mandarine);
-}
-
-.orangeButton:hover {
-  background-color: var(--brandyellow);
-}
-
-.blueButton:hover{
-  background-color: var(--blue);
-}
