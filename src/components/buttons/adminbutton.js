@@ -1,7 +1,7 @@
 import React from "react";
 import { useNavigate } from 'react-router-dom';
 
-function AdminButton() {
+export const AdminButton = () => {
     const navigate = useNavigate();
 
     const handleClick = () => {
@@ -15,5 +15,4 @@ function AdminButton() {
   );
 }
 
-export default AdminButton;
 
