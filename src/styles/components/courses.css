@@ -118,11 +118,19 @@ label {
   cursor: pointer;
 }
 
-.blueButton{
+.blueButton,
+.orangeButton {
   margin: auto;
   text-align: center;
-  background-color: var(--aqua);
   cursor: pointer;
+}
+
+.blueButton{
+  background-color: var(--aqua);
+}
+
+.orangeButton {
+  background-color: var(--mandarine);
 }
 
 .blueButton:hover{
