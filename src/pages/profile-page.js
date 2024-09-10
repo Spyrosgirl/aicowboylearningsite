@@ -9,7 +9,7 @@ export const ProfilePage = () => {
         <h1 id="page-title" className="content__title">
           Profile Page
         </h1>
-        <AdminButton />
+        <AdminButton className="content__button" />
         <div className="content__body">
           <p id="page-description">
             <span>
