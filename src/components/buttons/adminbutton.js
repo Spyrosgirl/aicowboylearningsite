@@ -13,6 +13,6 @@ export const AdminButton = () => {
       Go to Admin Page
     </button>
   );
-}
+};
 
 
