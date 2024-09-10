@@ -25,6 +25,11 @@
   line-height: 2.4rem;
 }
 
+.content__button {
+  display: flex;
+  flex-direction: column;
+}
+
 #page-description {
   display: flex;
   flex-direction: column;
