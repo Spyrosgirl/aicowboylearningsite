@@ -6,7 +6,7 @@ export const ProfilePage = () => {
   return (
     <PageLayout>
       <div className="content-layout">
-        <div className="profileHeader">
+        <div className="profile__header">
           <h1 id="page-title" className="content__title">
             Profile Page
           </h1>
