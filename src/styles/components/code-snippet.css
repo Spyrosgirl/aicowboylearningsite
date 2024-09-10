@@ -5,6 +5,7 @@
   margin-top: 0.5rem;
   margin-left: 0.5rem;
   overflow: hidden;
+  min-height: 15rem;
 }
 
 .code-snippet__title {
