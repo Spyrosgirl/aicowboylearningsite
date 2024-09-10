@@ -2,11 +2,13 @@ import React from "react";
 
 import { useNavigate } from 'react-router-dom';
 
-function AdminButton() {
-  const navigate = useNavigate();
+export const AdminButton = () => {
+  function Home() {
+    const navigate = useNavigate();
 
-  const handleClick = () => {
-    navigate('/admin');
+    const handleClick = () => {
+      navigate('/admin');
+    };
   };
   
   return (
