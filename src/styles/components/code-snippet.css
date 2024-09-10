@@ -2,10 +2,13 @@
   display: flex;
   flex-direction: column;
   border-radius: 0.8rem;
+  
   margin-top: 0.5rem;
   margin-left: 0.5rem;
+  
   overflow: hidden;
   min-height: 15rem;
+  height: 100%;
 }
 
 .code-snippet__title {
@@ -35,6 +38,7 @@
   /* border-style: solid; */
   /* border-size: 0.8rem; */
   overflow-x: auto;
+  flex: 1;
 }
 
 .code-snippet__body {
@@ -50,7 +54,8 @@
 .horizon {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-
+  gap: 1rem;
+  
   font-size: 1.6rem;
   line-height: 2.4rem;
 }
