@@ -4,11 +4,11 @@ import { CodeSnippet } from "../components/code-snippet";
 import { PageLayout } from "../components/page-layout";
 
 export const ProfilePage = () => {
-  const { user } = useAuth0();
+  /*const { user } = useAuth0();
 
   if (!user) {
     return null;
-  }
+  }*/
 
   return (
     <PageLayout>
@@ -29,20 +29,20 @@ export const ProfilePage = () => {
           <div className="profile-grid">
             <div className="profile__header">
               <img
-                src={user.picture}
+                src=//{user.picture}
                 alt="Profile"
                 className="profile__avatar"
               />
               <div className="profile__headline">
-                <h2 className="profile__title">{user.name}</h2>
-                <span className="profile__description">{user.email}</span>
+                <h2 className="profile__title">UserName/*{user.name}*/</h2>
+                <span className="profile__description">UserEmail/*{user.email}*/</span>
               </div>
             </div>
             <div className="profile__details">
-              <CodeSnippet
+              /*<CodeSnippet
                 title="Decoded ID Token"
                 code={JSON.stringify(user, null, 2)}
-              />
+              />*/
             </div>
           </div>
         </div>
