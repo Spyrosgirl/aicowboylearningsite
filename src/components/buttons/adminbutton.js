@@ -1,12 +1,12 @@
 import React from "react";
-import { useNavigate } from 'react-router-dom';
+import { useNavigate } from "react-router-dom";
 
 export const AdminButton = () => {
-    const navigate = useNavigate();
+  const navigate = useNavigate();
 
-    const handleClick = () => {
-      navigate('/admin');
-    };
+  const handleClick = () => {
+    navigate("/admin");
+  };
 
   return (
     <button className="blueButton" onClick={handleClick}>
@@ -14,5 +14,3 @@ export const AdminButton = () => {
     </button>
   );
 };
-
-
