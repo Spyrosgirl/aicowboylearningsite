@@ -9,7 +9,7 @@ export const AdminButton = () => {
   };
 
   return (
-    <button className="profile__button blueButton" onClick={handleClick}>
+    <button className="profile__button" onClick={handleClick}>
       Go to Admin Page
     </button>
   );
