@@ -24,7 +24,7 @@ export const ProfilePage = () => {
           <div className="profile-grid">
             <div className="profile__header">
               <img
-                src=https://cdn.discordapp.com/attachments/669938270767153158/1266150062875082762/image.png?ex=66e0bea2&is=66df6d22&hm=00a283c2194b8c2eadfd76fc9f75ea2df0ee9e85b1191b7faaaadf689146c486&
+                src="https://cdn.discordapp.com/attachments/669938270767153158/1266150062875082762/image.png?ex=66e0bea2&is=66df6d22&hm=00a283c2194b8c2eadfd76fc9f75ea2df0ee9e85b1191b7faaaadf689146c486&"
                 alt="Profile"
                 className="profile__avatar"
               />
