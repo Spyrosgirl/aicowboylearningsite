@@ -59,6 +59,10 @@ label {
   font-size: 12px;
 }
 
+.new-course-button {
+  margin-left: auto;
+}
+
 .parent-lab-container {
   display: flex;
   flex-wrap: wrap;
