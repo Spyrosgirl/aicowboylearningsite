@@ -17,8 +17,9 @@ export const AdminCoursesPage = () => {
           <h3 id="admin-subheader">Select a course to edit or add a new one</h3>
           <div
             className="orange-button new-course-button"
-            onClick={handleNewCourse}>
-              New Course
+            onClick={handleNewCourse}
+          >
+            New Course
           </div>
         </div>
         <div className="horizon">
