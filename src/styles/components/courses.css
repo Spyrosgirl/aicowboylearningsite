@@ -59,11 +59,8 @@ label {
   font-size: 12px;
 }
 
-{
-  width: 15%;
-  padding: .5rem;
-  border-radius: 10px;
-  font-size: 15px;
+.new-course-button {
+  text-align: right;
 }
 
 .parent-lab-container {
