@@ -60,7 +60,7 @@ label {
 }
 
 .new-course-button {
-  text-align: right;
+  align-items: right;
 }
 
 .parent-lab-container {
