@@ -57,6 +57,9 @@ label {
   padding: .5rem;
   border-radius: 10px;
   font-size: 12px;
+  text-align: center;
+  cursor: pointer;
+  margin: auto;
 }
 
 .new-course-button {
