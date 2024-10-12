@@ -54,6 +54,7 @@
 
 .blueButton{
   background-color: var(--aqua);
+  margin: auto;
 }
 
 .orangeButton {
