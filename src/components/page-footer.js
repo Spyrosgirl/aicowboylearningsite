@@ -64,7 +64,7 @@ export const PageFooter = () => {
               height="22.22"
             />
             <PageFooterHyperlink path="https://theaicowboys.com/about-us">
-              AI Cowboy © {getYear()}
+              AI Cowboy © {getYear}
             </PageFooterHyperlink>
           </div>
         </div>
