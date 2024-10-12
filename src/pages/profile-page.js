@@ -5,7 +5,7 @@ import { AdminButton } from "../components/buttons/adminbutton";
 
 export const ProfilePage = () => {
   const { user } = useAuth0();
-  
+
   if (!user) {
     return null;
   }
