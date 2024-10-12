@@ -21,8 +21,6 @@ export const PageFooter = () => {
     },
   ];
 
-  const getYear = Date().getFullYear();
-
   return (
     <footer className="page-footer">
       <div className="page-footer-grid">
@@ -64,7 +62,7 @@ export const PageFooter = () => {
               height="22.22"
             />
             <PageFooterHyperlink path="https://theaicowboys.com/about-us">
-              AI Cowboy © {getYear}
+              AI Cowboy
             </PageFooterHyperlink>
           </div>
         </div>
