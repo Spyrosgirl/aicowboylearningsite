@@ -1,8 +1,15 @@
+import { useAuth0 } from "@auth0/auth0-react";
 import React from "react";
 import { PageLayout } from "../components/page-layout";
 import { AdminButton } from "../components/buttons/adminbutton";
 
 export const ProfilePage = () => {
+  const { user } = useAuth0();
+  
+  if (!user) {
+    return null;
+  }
+
   return (
     <PageLayout>
       <div className="content-layout">
@@ -25,13 +32,13 @@ export const ProfilePage = () => {
           <div className="profile-grid">
             <div className="profile__header">
               <img
-                src="https://cdn.discordapp.com/attachments/669938270767153158/1266150062875082762/image.png?ex=66e0bea2&is=66df6d22&hm=00a283c2194b8c2eadfd76fc9f75ea2df0ee9e85b1191b7faaaadf689146c486&"
+                src={user.picture}
                 alt="Profile"
                 className="profile__avatar"
               />
               <div className="profile__headline">
-                <h2 className="profile__title">UserName</h2>
-                <span className="profile__description">UserEmail</span>
+                <h2 className="profile__title">{user.name}</h2>
+                <span className="profile__description">{user.email}</span>
               </div>
             </div>
             <div className="profile__details">
