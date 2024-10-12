@@ -21,7 +21,7 @@ export const PageFooter = () => {
     },
   ];
 
-  const getYear() {
+  getYear() {
     return new Date().getFullYear();
   }
 
