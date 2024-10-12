@@ -62,7 +62,7 @@ export const PageFooter = () => {
               height="22.22"
             />
             <PageFooterHyperlink path="https://theaicowboys.com/about-us">
-              AI Cowboy
+              AI Cowboy © 2024
             </PageFooterHyperlink>
           </div>
         </div>
